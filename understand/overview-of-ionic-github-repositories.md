@@ -104,13 +104,16 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 * https://github.com/driftyco/platform-client-node - Node.js library implementing the [Push Endpoints](https://docs.ionic.io/api/endpoints/push.html) of the Ionic Service HTTP API
 
 ## Cordova Plugins
-* https://github.com/driftyco/ionic-plugin-keyboard
-* https://github.com/driftyco/cordova-plugin-wkwebview-engine
-    * https://github.com/driftyco/wkwebview-test-app
-* https://github.com/driftyco/ionic-plugin-deeplinks
-* https://github.com/driftyco/cordova-plugin-ios-keychain
-* https://github.com/driftyco/cordova-camera-roll
-* https://github.com/driftyco/cordova-plugin-localstorage-backup
+
+Ionic also offers and creates some Cordova plugins for use in all Cordova projects, not only Ionic. 
+
+* https://github.com/driftyco/ionic-plugin-keyboard - Interacting with the keyboards and get events fire on keyboard changes
+* https://github.com/driftyco/ionic-plugin-deeplinks - "Handle deeplinks into your Ionic/Cordova apps from Universal Links, App Links, and Custom URL schemes."
+* https://github.com/driftyco/cordova-plugin-wkwebview-engine - "This plugin makes Cordova use the `WKWebView` component instead of the default `UIWebView` component"
+    * https://github.com/driftyco/wkwebview-test-app - ... and a Ionic app testing this
+* https://github.com/driftyco/cordova-plugin-ios-keychain - Access the iOS keychain
+* https://github.com/driftyco/cordova-camera-roll - "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll."
+* https://github.com/driftyco/cordova-plugin-localstorage-backup - Backup your local storage to the device
 
 ## Ionic Creator
 * https://github.com/driftyco/creator-weekly-workshops
