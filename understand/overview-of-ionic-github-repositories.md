@@ -40,7 +40,7 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 * https://github.com/driftyco/ionic-starter-super - Different kind of pages
 * https://github.com/driftyco/ionic2-starter-aws - Connects Ionic with AWS Mobile Hub
 
-### Ionic 2+ Example Apps
+### Ionic Example Apps
 * https://github.com/driftyco/ionic-conference-app
 * https://github.com/driftyco/ionic-unit-testing-example
 * https://github.com/driftyco/ionic-preview-app
@@ -52,17 +52,19 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 * https://github.com/driftyco/ionic2-deeplinks-demo
 * https://github.com/driftyco/ionic-camera-component-demo
 
+### Ionic Other
+
+* https://github.com/driftyco/ionic-themer - Super simple [Ionic Theme Generator](https://ionic-theme-creator.herokuapp.com/)
+
 
 ## Ionic v1
-* https://github.com/driftyco/ionic-v1
-* https://github.com/driftyco/ionic-app-base
-* https://github.com/driftyco/ng-cordova
-* https://github.com/driftyco/ionic-code 
-* https://github.com/driftyco/ionic-bower
-* https://github.com/driftyco/ionic-themer
-* https://github.com/driftyco/ionic-third-party-lib-example
-* https://github.com/driftyco/ionic-native-bower
-* https://github.com/driftyco/ionic-typescript-example
+* https://github.com/driftyco/ionic-v1 - Here Ionic moved the "old" code of Ionic v1 when they released Ionic "2".
+* https://github.com/driftyco/ionic-app-base - Similar to the ionic2-app-base this is the base project template downloaded by the CLI when you `ionic start` a v1 project.
+* https://github.com/driftyco/ng-cordova - ng-cordova is Ionic Native for Ionic v1
+* https://github.com/driftyco/ionic-code - Ionic has a CDN for Ionic v1 files at http://code.ionicframework.com
+* https://github.com/driftyco/ionic-bower- Ionic v1 is/was available on [Bower](https://bower.io/)
+* https://github.com/driftyco/ionic-native-bower - Makes Ionic Native available via bower for Ionic v1
+* https://github.com/driftyco/ionic-typescript-example - Use TypeScript with Ionic v1 (includes Screencast)
 
 ### Ionic v1 Starter Templates
 * https://github.com/driftyco/ionic-starter-tabs
@@ -76,6 +78,7 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 * https://github.com/driftyco/ionic-weather
 * https://github.com/driftyco/ionic1-deeplinks-demo
 * https://github.com/driftyco/ionic-push-tutorial-app
+* https://github.com/driftyco/ionic-third-party-lib-example - "An example App showing how to use third party libs in Ionic"
 
 ### Migrate Ionic v1 to Ionic
 * https://github.com/driftyco/ionic-migration-demo-v1
@@ -90,15 +93,15 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 * https://github.com/driftyco/ionic-contrib-frosted-glass
 
 
-## Ionic Services / Cloud
-* https://github.com/driftyco/ionic-package-hooks
-* https://github.com/driftyco/ionic-view-issues
-* https://github.com/driftyco/ionic-cloud-angular
-* https://github.com/driftyco/ionic-cloud
-* https://github.com/driftyco/ionic-cloud-issues
-* https://github.com/driftyco/ionic-plugin-deploy
-* https://github.com/driftyco/custom-auth-examples
-* https://github.com/driftyco/platform-client-node
+## Ionic Services / Cloud / Platform
+* https://github.com/driftyco/ionic-cloud-angular - Use Ionic Services in Ionic/Angular
+* https://github.com/driftyco/ionic-cloud - Use Ionic Services in Ionic v1/AngularJS
+* https://github.com/driftyco/ionic-plugin-deploy - Cordova Plugin for Ionic Deploy / Live Updates
+* https://github.com/driftyco/ionic-package-hooks - "Cordova hooks that you can run in Ionic Package"
+* https://github.com/driftyco/ionic-view-issues - Ionic View is the app to show and test apps you `ionic upload`ed to apps.ionic.io. That source code is not open source, but here you can create issues for bugs or feature requests.
+* https://github.com/driftyco/ionic-cloud-issues # deprecated
+* https://github.com/driftyco/custom-auth-examples - ['Custom Auth'](http://docs.ionic.io/services/auth/custom-auth.html) Examples for Ionic Auth
+* https://github.com/driftyco/platform-client-node - Node.js library implementing the [Push Endpoints](https://docs.ionic.io/api/endpoints/push.html) of the Ionic Service HTTP API
 
 ## Cordova Plugins
 * https://github.com/driftyco/ionic-plugin-keyboard
