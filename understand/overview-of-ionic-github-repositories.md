@@ -7,172 +7,172 @@ But [Ionic, or better Driftyco](https://github.com/driftyco), the Github organiz
 This post gives you an overview of all these repositories. For that, I went through all of them, grouped them and added some description and explanation of their use - on non-use for older and obsolete ones.
 
 ## General Ionic
-https://github.com/driftyco/ionic-cli - The Ionic Command Line Interface (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is the base that enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` to build them into Cordova wrapped native apps for mobile - and so much more.
+* https://github.com/driftyco/ionic-cli - The Ionic Command Line Interface (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is the base that enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` to build them into Cordova wrapped native apps for mobile - and so much more.
 
-https://github.com/driftyco/ionic-site - If you visit [ionicframework.com](https://ionicframework.com) you see the contents and results of this repository. It's a Jekyll site that grew out of the humble beginnings when the Ionic website was still hosted on Github Pages. The content is pulled in from the different repositories (ionic, ionicv1, ionic-native and others) to create this one big documentation.
+* https://github.com/driftyco/ionic-site - If you visit [ionicframework.com](https://ionicframework.com) you see the contents and results of this repository. It's a Jekyll site that grew out of the humble beginnings when the Ionic website was still hosted on Github Pages. The content is pulled in from the different repositories (ionic, ionicv1, ionic-native and others) to create this one big documentation.
 
-https://github.com/driftyco/ionicons - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
+* https://github.com/driftyco/ionicons - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 
 Note: What I call just "Ionic" in the following paragraphs and lists was formerly known as Ionic 2. But Ionic quickly followed up with Ionic 3 and is working hard on the next iterations - so it makes more sense to call is just Ionic. The older iteration of the Framework that was built on AngularJS (instead of Angular for the current Ionic) is now known as "Ionic v1" and referred as such here.
 
 ## Ionic
 
-https://github.com/driftyco/ionic - This is the main Ionic Framework repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects.
+* https://github.com/driftyco/ionic - This is the main Ionic Framework repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects.
 
-https://github.com/driftyco/ionic-app-scripts
-https://github.com/driftyco/ionic2-app-base
-https://github.com/driftyco/ionic-native
-https://github.com/driftyco/ionic-storage
+* https://github.com/driftyco/ionic-app-scripts
+* https://github.com/driftyco/ionic2-app-base
+* https://github.com/driftyco/ionic-native
+* https://github.com/driftyco/ionic-storage
 
-https://github.com/driftyco/learn-angular2
-https://github.com/driftyco/ionic-module-template
+* https://github.com/driftyco/learn-angular2
+* https://github.com/driftyco/ionic-module-template
 
 ### Ionic Starter Templates
-https://github.com/driftyco/ionic2-starter-blank
-https://github.com/driftyco/ionic2-starter-tabs
-https://github.com/driftyco/ionic2-starter-sidemenu
-https://github.com/driftyco/ionic-starter-super
-https://github.com/driftyco/ionic2-starter-tutorial
+* https://github.com/driftyco/ionic2-starter-blank
+* https://github.com/driftyco/ionic2-starter-tabs
+* https://github.com/driftyco/ionic2-starter-sidemenu
+* https://github.com/driftyco/ionic-starter-super
+* https://github.com/driftyco/ionic2-starter-tutorial
 
 ### Ionic 2+ Example Apps
-https://github.com/driftyco/ionic-unit-testing-example
-https://github.com/driftyco/ionic-conference-app
-https://github.com/driftyco/ionic-preview-app
-https://github.com/driftyco/ionic-pwa-demos
-https://github.com/driftyco/ionic-image-gallery-app
-https://github.com/driftyco/ionic-tinder-app
-https://github.com/driftyco/ionic-mailbox-app
-https://github.com/driftyco/ionic-paging-animation-app
-https://github.com/driftyco/ionic2-deeplinks-demo
-https://github.com/driftyco/ionic-camera-component-demo
+* https://github.com/driftyco/ionic-unit-testing-example
+* https://github.com/driftyco/ionic-conference-app
+* https://github.com/driftyco/ionic-preview-app
+* https://github.com/driftyco/ionic-pwa-demos
+* https://github.com/driftyco/ionic-image-gallery-app
+* https://github.com/driftyco/ionic-tinder-app
+* https://github.com/driftyco/ionic-mailbox-app
+* https://github.com/driftyco/ionic-paging-animation-app
+* https://github.com/driftyco/ionic2-deeplinks-demo
+* https://github.com/driftyco/ionic-camera-component-demo
 
 
 ## Ionic v1
-https://github.com/driftyco/ionic-v1
-https://github.com/driftyco/ionic-app-base
-https://github.com/driftyco/ng-cordova
-https://github.com/driftyco/ionic-code 
-https://github.com/driftyco/ionic-bower
-https://github.com/driftyco/ionic-themer
-https://github.com/driftyco/ionic-third-party-lib-example
-https://github.com/driftyco/ionic-native-bower
-https://github.com/driftyco/ionic-typescript-example
+* https://github.com/driftyco/ionic-v1
+* https://github.com/driftyco/ionic-app-base
+* https://github.com/driftyco/ng-cordova
+* https://github.com/driftyco/ionic-code 
+* https://github.com/driftyco/ionic-bower
+* https://github.com/driftyco/ionic-themer
+* https://github.com/driftyco/ionic-third-party-lib-example
+* https://github.com/driftyco/ionic-native-bower
+* https://github.com/driftyco/ionic-typescript-example
 
 ### Ionic v1 Starter Templates
-https://github.com/driftyco/ionic-starter-tabs
-https://github.com/driftyco/ionic-hello-world
-https://github.com/driftyco/ionic-starter-sidemenu
-https://github.com/driftyco/ionic-starter-blank
-https://github.com/driftyco/ionic-starter-salesforce
-https://github.com/driftyco/ionic-starter-maps
+* https://github.com/driftyco/ionic-starter-tabs
+* https://github.com/driftyco/ionic-hello-world
+* https://github.com/driftyco/ionic-starter-sidemenu
+* https://github.com/driftyco/ionic-starter-blank
+* https://github.com/driftyco/ionic-starter-salesforce
+* https://github.com/driftyco/ionic-starter-maps
 
 ### Ionic v1 Example Apps
-https://github.com/driftyco/ionic-weather
-https://github.com/driftyco/ionic1-deeplinks-demo
-https://github.com/driftyco/ionic-push-tutorial-app
+* https://github.com/driftyco/ionic-weather
+* https://github.com/driftyco/ionic1-deeplinks-demo
+* https://github.com/driftyco/ionic-push-tutorial-app
 
 ### Migrate Ionic v1 to Ionic
-https://github.com/driftyco/ionic-migration-demo-v1
-https://github.com/driftyco/ionic-migration-demo-v2
+* https://github.com/driftyco/ionic-migration-demo-v1
+* https://github.com/driftyco/ionic-migration-demo-v2
 
 ### Ionic v1 Contrib / Ion
-https://github.com/driftyco/ionic-ion-drawer
-https://github.com/driftyco/ionic-ion-tinder-cards
-https://github.com/driftyco/ionic-ion-swipe-cards
-https://github.com/driftyco/ionic-ion-frost
-https://github.com/driftyco/ionic-ion-header-shrink
-https://github.com/driftyco/ionic-contrib-frosted-glass
+* https://github.com/driftyco/ionic-ion-drawer
+* https://github.com/driftyco/ionic-ion-tinder-cards
+* https://github.com/driftyco/ionic-ion-swipe-cards
+* https://github.com/driftyco/ionic-ion-frost
+* https://github.com/driftyco/ionic-ion-header-shrink
+* https://github.com/driftyco/ionic-contrib-frosted-glass
 
 
 ## Ionic Services / Cloud
-https://github.com/driftyco/ionic-package-hooks
-https://github.com/driftyco/ionic-view-issues
-https://github.com/driftyco/ionic-cloud-angular
-https://github.com/driftyco/ionic-cloud
-https://github.com/driftyco/ionic-cloud-issues
-https://github.com/driftyco/ionic-plugin-deploy
-https://github.com/driftyco/custom-auth-examples
-https://github.com/driftyco/platform-client-node
+* https://github.com/driftyco/ionic-package-hooks
+* https://github.com/driftyco/ionic-view-issues
+* https://github.com/driftyco/ionic-cloud-angular
+* https://github.com/driftyco/ionic-cloud
+* https://github.com/driftyco/ionic-cloud-issues
+* https://github.com/driftyco/ionic-plugin-deploy
+* https://github.com/driftyco/custom-auth-examples
+* https://github.com/driftyco/platform-client-node
 
 ## Cordova Plugins
-https://github.com/driftyco/ionic-plugin-keyboard
-https://github.com/driftyco/cordova-plugin-wkwebview-engine
-    https://github.com/driftyco/wkwebview-test-app
-https://github.com/driftyco/ionic-plugin-deeplinks
-https://github.com/driftyco/cordova-plugin-ios-keychain
-https://github.com/driftyco/cordova-camera-roll
-https://github.com/driftyco/cordova-plugin-localstorage-backup
+* https://github.com/driftyco/ionic-plugin-keyboard
+* https://github.com/driftyco/cordova-plugin-wkwebview-engine
+    * https://github.com/driftyco/wkwebview-test-app
+* https://github.com/driftyco/ionic-plugin-deeplinks
+* https://github.com/driftyco/cordova-plugin-ios-keychain
+* https://github.com/driftyco/cordova-camera-roll
+* https://github.com/driftyco/cordova-plugin-localstorage-backup
 
 ## Ionic Creator
-https://github.com/driftyco/creator-weekly-workshops
-https://github.com/driftyco/creator-code-todo-demo
+* https://github.com/driftyco/creator-weekly-workshops
+* https://github.com/driftyco/creator-code-todo-demo
 
 ## Deprecated
 
 ### CLI v2
 With the release of Ionic CLI v3 these two repositories are not needed any more as a rewrite of them is now part of the CLI itself:
-https://github.com/driftyco/ionic-app-lib
-https://github.com/driftyco/ionic-app-generators
+* https://github.com/driftyco/ionic-app-lib
+* https://github.com/driftyco/ionic-app-generators
 
 
 ## Internal / Unrelated / Abandoned / Not Relevant / Very Old
-https://github.com/driftyco/ionicate = Internal Survey for apps.ionic.io
-https://github.com/driftyco/ionic2 = Former home of Ionic 2
-https://github.com/driftyco/ionic-closure = Closure Experiment
-https://github.com/driftyco/repool
-https://github.com/driftyco/ionic-box
-https://github.com/driftyco/ionic-web-analytics
-https://github.com/driftyco/ionic-precommit-hooks
-https://github.com/driftyco/cordova-plugin-inapppurchase
-https://github.com/driftyco/ionic-gulp-tasks
-https://github.com/driftyco/tslint-ionic-rules
-https://github.com/driftyco/ionic-heroku-button
-https://github.com/driftyco/localForage-cordovaSQLiteDriver
-https://github.com/driftyco/ionic-scripts
-https://github.com/driftyco/ionic-platform-web-client
-https://github.com/driftyco/reactionic
-https://github.com/driftyco/cordova-plugin-statusbar
-https://github.com/driftyco/ionic-bootstrap-theme-generator
-https://github.com/driftyco/cordova-plugin-template
-https://github.com/driftyco/eslint-config-ionic
-https://github.com/driftyco/ionic-learn
-https://github.com/driftyco/ionic-present
-https://github.com/driftyco/cordova-lib
-https://github.com/driftyco/ionitron-issues
-https://github.com/driftyco/ionic-service-analytics
-https://github.com/driftyco/ionic-cz-conventional-changelog
-https://github.com/driftyco/ionic-issue-submit
-https://github.com/driftyco/ionic-push-issues
-https://github.com/driftyco/storm
-https://github.com/driftyco/heroku-buildpack-sphinx
-https://github.com/driftyco/heroku-buildpack-python
-https://github.com/driftyco/jetstrap-docs
-https://github.com/driftyco/ionitron-lingo
-https://github.com/driftyco/gulp-angular-seed
-https://github.com/driftyco/ionic2-starter
-https://github.com/driftyco/nginx-buildpack
-https://github.com/driftyco/ionicons-wp
-https://github.com/driftyco/ionic-starter-cardboard
-https://github.com/driftyco/ionic-workshop-london
-https://github.com/driftyco/ionic-service-push-client
-https://github.com/driftyco/ionic-starter-push
-https://github.com/driftyco/ionic-service-core
-https://github.com/driftyco/ionic-service-deploy
-https://github.com/driftyco/heroku-buildpack-multi
-https://github.com/driftyco/ionic-workshop
-https://github.com/driftyco/deploy-tutorial
-https://github.com/driftyco/appcamp-issues
-https://github.com/driftyco/electron-builder
-https://github.com/driftyco/ionic-angular-cordova-seed
-https://github.com/driftyco/usemin-lib
-https://github.com/driftyco/node-xcode
-https://github.com/driftyco/ionic-lab-issues
-https://github.com/driftyco/heroku-buildpack-nodejs-gulp
-https://github.com/driftyco/collide
-https://github.com/driftyco/api-tester
-https://github.com/driftyco/node-js-getting-started
-https://github.com/driftyco/gulp-electron
-https://github.com/driftyco/ionic-starter-analytics
+* https://github.com/driftyco/ionicate = Internal Survey for apps.ionic.io
+* https://github.com/driftyco/ionic2 = Former home of Ionic 2
+* https://github.com/driftyco/ionic-closure = Closure Experiment
+* https://github.com/driftyco/repool
+* https://github.com/driftyco/ionic-box
+* https://github.com/driftyco/ionic-web-analytics
+* https://github.com/driftyco/ionic-precommit-hooks
+* https://github.com/driftyco/cordova-plugin-inapppurchase
+* https://github.com/driftyco/ionic-gulp-tasks
+* https://github.com/driftyco/tslint-ionic-rules
+* https://github.com/driftyco/ionic-heroku-button
+* https://github.com/driftyco/localForage-cordovaSQLiteDriver
+* https://github.com/driftyco/ionic-scripts
+* https://github.com/driftyco/ionic-platform-web-client
+* https://github.com/driftyco/reactionic
+* https://github.com/driftyco/cordova-plugin-statusbar
+* https://github.com/driftyco/ionic-bootstrap-theme-generator
+* https://github.com/driftyco/cordova-plugin-template
+* https://github.com/driftyco/eslint-config-ionic
+* https://github.com/driftyco/ionic-learn
+* https://github.com/driftyco/ionic-present
+* https://github.com/driftyco/cordova-lib
+* https://github.com/driftyco/ionitron-issues
+* https://github.com/driftyco/ionic-service-analytics
+* https://github.com/driftyco/ionic-cz-conventional-changelog
+* https://github.com/driftyco/ionic-issue-submit
+* https://github.com/driftyco/ionic-push-issues
+* https://github.com/driftyco/storm
+* https://github.com/driftyco/heroku-buildpack-sphinx
+* https://github.com/driftyco/heroku-buildpack-python
+* https://github.com/driftyco/jetstrap-docs
+* https://github.com/driftyco/ionitron-lingo
+* https://github.com/driftyco/gulp-angular-seed
+* https://github.com/driftyco/ionic2-starter
+* https://github.com/driftyco/nginx-buildpack
+* https://github.com/driftyco/ionicons-wp
+* https://github.com/driftyco/ionic-starter-cardboard
+* https://github.com/driftyco/ionic-workshop-london
+* https://github.com/driftyco/ionic-service-push-client
+* https://github.com/driftyco/ionic-starter-push
+* https://github.com/driftyco/ionic-service-core
+* https://github.com/driftyco/ionic-service-deploy
+* https://github.com/driftyco/heroku-buildpack-multi
+* https://github.com/driftyco/ionic-workshop
+* https://github.com/driftyco/deploy-tutorial
+* https://github.com/driftyco/appcamp-issues
+* https://github.com/driftyco/electron-builder
+* https://github.com/driftyco/ionic-angular-cordova-seed
+* https://github.com/driftyco/usemin-lib
+* https://github.com/driftyco/node-xcode
+* https://github.com/driftyco/ionic-lab-issues
+* https://github.com/driftyco/heroku-buildpack-nodejs-gulp
+* https://github.com/driftyco/collide
+* https://github.com/driftyco/api-tester
+* https://github.com/driftyco/node-js-getting-started
+* https://github.com/driftyco/gulp-electron
+* https://github.com/driftyco/ionic-starter-analytics
 
 
 ## Unsorted
