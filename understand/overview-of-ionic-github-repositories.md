@@ -17,14 +17,16 @@ Note: What I call just "Ionic" in the following paragraphs and lists was formerl
 
 ## Ionic
 
-* https://github.com/driftyco/ionic - This is the main Ionic Framework repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects.
+* https://github.com/driftyco/ionic - This is the main Ionic Framework repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects. It includes... TODO
 
-* https://github.com/driftyco/ionic-app-scripts
-* https://github.com/driftyco/ionic2-app-base
-* https://github.com/driftyco/ionic-native
-* https://github.com/driftyco/ionic-storage
+* https://github.com/driftyco/ionic-app-scripts - Ionic App Scripts are "App Build Scripts for Ionic Projects". They are used by the Ionic CLI to do everything that is required to go from a simple `/src` where you type your code in Typescript files to the processed `/www` where you only have a few optimized `.js` files (meaning these tasks: build, clean, cleancss, copy, lint, minify, sass, watch and more).
 
-* https://github.com/driftyco/learn-angular2
+* https://github.com/driftyco/ionic2-app-base - Pure base project for Ionic projects. It includes the stuff that when you start a new Ionic apps is identical in all of them, no matter what starter template (see below) is used. This includes the definition which version of `ionic-angular` is actually used in the project, but also all the other dependencies in `package.json`. It adds the default `config.xml` for Cordova projects, the `src/index.html` that loads all the JS, and the `src/app/main.ts` that is the "entry" point of all the code that gets executed. In `/resources` you also get the default app icons and splash screens. 
+
+* https://github.com/driftyco/ionic-native - Ionic Native bridges all the Cordova plugins out there into the Ionic and Angular world. It adds a wrapper around the plugin codes that offers Promises and Observables you can use in your code. Additionally it adds Runtime Diagnostics and Browser Usage support, so you can write mocks for the plugins that work during browser testing.
+
+* https://github.com/driftyco/ionic-storage - Ionic Storage is a simple key value store made for Ionic, solving many of the storage requirements in common projects. In the background it uses IndexedDB, WebSQL, and LocalStorage and also can use SQLite on native environments where the SQLite Cordova plugin is installed. It uses the excellent [localForage](https://github.com/localForage/localForage) in the background.  
+
 * https://github.com/driftyco/ionic-module-template
 
 ### Ionic Starter Templates
@@ -106,6 +108,10 @@ Note: What I call just "Ionic" in the following paragraphs and lists was formerl
 ## Ionic Creator
 * https://github.com/driftyco/creator-weekly-workshops
 * https://github.com/driftyco/creator-code-todo-demo
+
+## Other
+* https://github.com/driftyco/learn-angular2 - Ionic 2 switched from AngularJS to Angular, back then still known as Angular2. This repo contains the code for the website http://learnangular2.com/ that can help you get comfortable with Angular and learn all the stuff that changed.
+
 
 ## Deprecated
 
