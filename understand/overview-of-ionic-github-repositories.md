@@ -27,18 +27,22 @@ Note: What I call just "Ionic" in the following paragraphs and lists was formerl
 
 * https://github.com/driftyco/ionic-storage - Ionic Storage is a simple key value store made for Ionic, solving many of the storage requirements in common projects. In the background it uses IndexedDB, WebSQL, and LocalStorage and also can use SQLite on native environments where the SQLite Cordova plugin is installed. It uses the excellent [localForage](https://github.com/localForage/localForage) in the background.  
 
-* https://github.com/driftyco/ionic-module-template
+* https://github.com/driftyco/ionic-module-template - This template could be the base if you decide to build and distribute a reusable module for Ionic.
 
 ### Ionic Starter Templates
-* https://github.com/driftyco/ionic2-starter-blank
-* https://github.com/driftyco/ionic2-starter-tabs
-* https://github.com/driftyco/ionic2-starter-sidemenu
-* https://github.com/driftyco/ionic-starter-super
-* https://github.com/driftyco/ionic2-starter-tutorial
+
+These templates are downloaded and applied on top of the app-base by the CLI when you `ionic start` a project. They only contain the code for the pages (`/src/app` and `/src/pages`), sometimes additional things (like assets, a `package.json` with additional dependencies, providers etc.).
+
+* https://github.com/driftyco/ionic2-starter-blank - Blank page with some text
+* https://github.com/driftyco/ionic2-starter-tabs - 3 Tabs with some text
+* https://github.com/driftyco/ionic2-starter-sidemenu - Sidemenu and some text
+* https://github.com/driftyco/ionic2-starter-tutorial - Template that is used in the [Ionic Tutorial in the docs](https://ionicframework.com/docs/intro/tutorial/)
+* https://github.com/driftyco/ionic-starter-super - Different kind of pages
+* https://github.com/driftyco/ionic2-starter-aws - Connects Ionic with AWS Mobile Hub
 
 ### Ionic 2+ Example Apps
-* https://github.com/driftyco/ionic-unit-testing-example
 * https://github.com/driftyco/ionic-conference-app
+* https://github.com/driftyco/ionic-unit-testing-example
 * https://github.com/driftyco/ionic-preview-app
 * https://github.com/driftyco/ionic-pwa-demos
 * https://github.com/driftyco/ionic-image-gallery-app
