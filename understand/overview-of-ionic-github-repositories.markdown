@@ -1,3 +1,8 @@
++---
++title: An Overview of Ionic's Github Repositories
++date: 2017-05-12 17:15:00 Z
++---
+
 # An Overview of Ionic's Github Repositories
 
 If you develop applications using Ionic Framework you will - sooner or later - come into contact with one of its Github repositories. When looking for how to do something, it is sometimes easier to look into and search the code directly on Github where it is versioned and easily searchable, than to limit yourself to what you have available locally. Fortunately, all components of Ionic are developed in the open. At the latest when something doesn't work as expected and it really isn't user error, you end up at the issue's of the project or even submitting a Pull Request fixing the bug you encountered.
