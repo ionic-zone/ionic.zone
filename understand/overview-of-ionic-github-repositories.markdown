@@ -1,7 +1,7 @@
-+---
-+title: An Overview of Ionic's Github Repositories
-+date: 2017-05-12 17:15:00 Z
-+---
+---
+title: An Overview of Ionic's Github Repositories
+date: 2017-05-12 17:15:00 Z
+---
 
 # An Overview of Ionic's Github Repositories
 
