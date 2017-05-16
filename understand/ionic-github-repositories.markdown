@@ -98,15 +98,10 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 ### Ionic v1 Starter Templates
 
 * [https://github.com/driftyco/ionic-starter-tabs](https://github.com/driftyco/ionic-starter-tabs) - 
-
 * [https://github.com/driftyco/ionic-hello-world](https://github.com/driftyco/ionic-hello-world) - 
-
 * [https://github.com/driftyco/ionic-starter-sidemenu](https://github.com/driftyco/ionic-starter-sidemenu) - 
-
 * [https://github.com/driftyco/ionic-starter-blank](https://github.com/driftyco/ionic-starter-blank) - 
-
 * [https://github.com/driftyco/ionic-starter-salesforce](https://github.com/driftyco/ionic-starter-salesforce) - 
-
 * [https://github.com/driftyco/ionic-starter-maps](https://github.com/driftyco/ionic-starter-maps) - 
 
 ### Ionic v1 Example Apps
