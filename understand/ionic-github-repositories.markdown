@@ -1,7 +1,8 @@
 ---
 title: An Overview of Ionic's Github Repositories
-date: 2017-05-12 17:15:00 Z
+date: '2017-05-12T17:15:00.000+00:00'
 ---
+
 
 # An Overview of Ionic's Github Repositories
 
@@ -15,9 +16,7 @@ This post gives you an overview of all these repositories. For that, I went thro
 
 * [https://github.com/driftyco/ionic-cli](https://github.com/driftyco/ionic-cli) - The Ionic Command Line Interface (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is the base that enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` to build them into Cordova wrapped native apps for mobile - and so much more.
 
-* [https://github.com/driftyco/ionic-site](https://github.com/driftyco/ionic-site) - If you visit [ionicframework.com](https://ionicframework.com) you see the contents and results of this repository. It's a Jekyll site that grew out of the humble beginnings when the Ionic website was still hosted on Github Pages. The content is pulled in from the different repositories (ionic, ionicv1, ionic-native and others) to create this one big documentation.
-
-  * [https://github.com/driftyco/ionic-preview-app](https://github.com/driftyco/ionic-preview-app) - One other repository pulled in is the `ionic-preview-app` that is used to create the live previews of how different UI components actually look on [http://ionicframework.com/docs/components/](http://ionicframework.com/docs/components/)
+*
 
 * [https://github.com/driftyco/ionicons](https://github.com/driftyco/ionicons) - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 
@@ -57,23 +56,23 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 
 ### Ionic Example Apps
 
-* [https://github.com/driftyco/ionic-conference-app](https://github.com/driftyco/ionic-conference-app) - 
+* [https://github.com/driftyco/ionic-conference-app](https://github.com/driftyco/ionic-conference-app) -
 
-* [https://github.com/driftyco/ionic-unit-testing-example](https://github.com/driftyco/ionic-unit-testing-example) - You should test your apps. 
+* [https://github.com/driftyco/ionic-unit-testing-example](https://github.com/driftyco/ionic-unit-testing-example) - You should test your apps.
 
-* [https://github.com/driftyco/ionic-pwa-demos](https://github.com/driftyco/ionic-pwa-demos) - 
+* [https://github.com/driftyco/ionic-pwa-demos](https://github.com/driftyco/ionic-pwa-demos) -
 
-* [https://github.com/driftyco/ionic-image-gallery-app](https://github.com/driftyco/ionic-image-gallery-app) - 
+* [https://github.com/driftyco/ionic-image-gallery-app](https://github.com/driftyco/ionic-image-gallery-app) -
 
-* [https://github.com/driftyco/ionic-tinder-app](https://github.com/driftyco/ionic-tinder-app) - 
+* [https://github.com/driftyco/ionic-tinder-app](https://github.com/driftyco/ionic-tinder-app) -
 
-* [https://github.com/driftyco/ionic-mailbox-app](https://github.com/driftyco/ionic-mailbox-app) - 
+* [https://github.com/driftyco/ionic-mailbox-app](https://github.com/driftyco/ionic-mailbox-app) -
 
-* [https://github.com/driftyco/ionic-paging-animation-app](https://github.com/driftyco/ionic-paging-animation-app) - 
+* [https://github.com/driftyco/ionic-paging-animation-app](https://github.com/driftyco/ionic-paging-animation-app) -
 
-* [https://github.com/driftyco/ionic2-deeplinks-demo](https://github.com/driftyco/ionic2-deeplinks-demo) - 
+* [https://github.com/driftyco/ionic2-deeplinks-demo](https://github.com/driftyco/ionic2-deeplinks-demo) -
 
-* [https://github.com/driftyco/ionic-camera-component-demo](https://github.com/driftyco/ionic-camera-component-demo) - 
+* [https://github.com/driftyco/ionic-camera-component-demo](https://github.com/driftyco/ionic-camera-component-demo) -
 
 ### Ionic Other
 
@@ -97,42 +96,47 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 
 ### Ionic v1 Starter Templates
 
-* [https://github.com/driftyco/ionic-starter-tabs](https://github.com/driftyco/ionic-starter-tabs) - 
-* [https://github.com/driftyco/ionic-hello-world](https://github.com/driftyco/ionic-hello-world) - 
-* [https://github.com/driftyco/ionic-starter-sidemenu](https://github.com/driftyco/ionic-starter-sidemenu) - 
-* [https://github.com/driftyco/ionic-starter-blank](https://github.com/driftyco/ionic-starter-blank) - 
-* [https://github.com/driftyco/ionic-starter-salesforce](https://github.com/driftyco/ionic-starter-salesforce) - 
-* [https://github.com/driftyco/ionic-starter-maps](https://github.com/driftyco/ionic-starter-maps) - 
+* [https://github.com/driftyco/ionic-starter-tabs](https://github.com/driftyco/ionic-starter-tabs) -
+
+* [https://github.com/driftyco/ionic-hello-world](https://github.com/driftyco/ionic-hello-world) -
+
+* [https://github.com/driftyco/ionic-starter-sidemenu](https://github.com/driftyco/ionic-starter-sidemenu) -
+
+* [https://github.com/driftyco/ionic-starter-blank](https://github.com/driftyco/ionic-starter-blank) -
+
+* [https://github.com/driftyco/ionic-starter-salesforce](https://github.com/driftyco/ionic-starter-salesforce) -
+
+* [https://github.com/driftyco/ionic-starter-maps](https://github.com/driftyco/ionic-starter-maps) -
 
 ### Ionic v1 Example Apps
 
-* [https://github.com/driftyco/ionic-weather](https://github.com/driftyco/ionic-weather) - 
+* [https://github.com/driftyco/ionic-weather](https://github.com/driftyco/ionic-weather) -
 
-* [https://github.com/driftyco/ionic1-deeplinks-demo](https://github.com/driftyco/ionic1-deeplinks-demo) - 
+* [https://github.com/driftyco/ionic1-deeplinks-demo](https://github.com/driftyco/ionic1-deeplinks-demo) -
 
-* [https://github.com/driftyco/ionic-push-tutorial-app](https://github.com/driftyco/ionic-push-tutorial-app) - 
+* [https://github.com/driftyco/ionic-push-tutorial-app](https://github.com/driftyco/ionic-push-tutorial-app) -
 
 * [https://github.com/driftyco/ionic-third-party-lib-example](https://github.com/driftyco/ionic-third-party-lib-example) - "An example App showing how to use third party libs in Ionic"
 
 ### Migrate Ionic v1 to Ionic
 
-* [https://github.com/driftyco/ionic-migration-demo-v1](https://github.com/driftyco/ionic-migration-demo-v1) - 
+* [https://github.com/driftyco/ionic-migration-demo-v1](https://github.com/driftyco/ionic-migration-demo-v1) -
 
-* [https://github.com/driftyco/ionic-migration-demo-v2](https://github.com/driftyco/ionic-migration-demo-v2) - 
+* [https://github.com/driftyco/ionic-migration-demo-v2](https://github.com/driftyco/ionic-migration-demo-v2) -
 
 ### Ionic v1 Contrib / Ion
 
-* [https://github.com/driftyco/ionic-ion-drawer](https://github.com/driftyco/ionic-ion-drawer) - 
+* [https://github.com/driftyco/ionic-ion-drawer](https://github.com/driftyco/ionic-ion-drawer) -
 
-* [https://github.com/driftyco/ionic-ion-tinder-cards](https://github.com/driftyco/ionic-ion-tinder-cards) - 
+* [https://github.com/driftyco/ionic-ion-tinder-cards](https://github.com/driftyco/ionic-ion-tinder-cards) -
 
-* [https://github.com/driftyco/ionic-ion-swipe-cards](https://github.com/driftyco/ionic-ion-swipe-cards) - 
+* [https://github.com/driftyco/ionic-ion-swipe-cards](https://github.com/driftyco/ionic-ion-swipe-cards) -
 
-* [https://github.com/driftyco/ionic-ion-frost](https://github.com/driftyco/ionic-ion-frost) - 
+* [https://github.com/driftyco/ionic-ion-frost](https://github.com/driftyco/ionic-ion-frost) -
 
-* [https://github.com/driftyco/ionic-ion-header-shrink](https://github.com/driftyco/ionic-ion-header-shrink) - 
+* [https://github.com/driftyco/ionic-ion-header-shrink](https://github.com/driftyco/ionic-ion-header-shrink) -
 
-* [https://github.com/driftyco/ionic-contrib-frosted-glass](https://github.com/driftyco/ionic-contrib-frosted-glass) - 
+* [https://github.com/driftyco/ionic-contrib-frosted-glass](https://github.com/driftyco/ionic-contrib-frosted-glass) -
 
 ## Ionic Services / Cloud / Platform
 
@@ -160,9 +164,7 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 
 * [https://github.com/driftyco/ionic-plugin-deeplinks](https://github.com/driftyco/ionic-plugin-deeplinks) - "Handle deeplinks into your Ionic/Cordova apps from Universal Links, App Links, and Custom URL schemes."
 
-* [https://github.com/driftyco/cordova-plugin-wkwebview-engine](https://github.com/driftyco/cordova-plugin-wkwebview-engine) - "This plugin makes Cordova use the `WKWebView` component instead of the default `UIWebView` component"
-
-  * [https://github.com/driftyco/wkwebview-test-app](https://github.com/driftyco/wkwebview-test-app) - ... and a Ionic app testing this
+*
 
 * [https://github.com/driftyco/cordova-plugin-ios-keychain](https://github.com/driftyco/cordova-plugin-ios-keychain) - Access the iOS keychain
 
@@ -174,9 +176,9 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 
 Ionic Creator is a nifty WYSIWYG editor for Ionic v1 that you can use to click your interface and then back it with code.
 
-* [https://github.com/driftyco/creator-weekly-workshops](https://github.com/driftyco/creator-weekly-workshops) - 
+* [https://github.com/driftyco/creator-weekly-workshops](https://github.com/driftyco/creator-weekly-workshops) -
 
-* [https://github.com/driftyco/creator-code-todo-demo](https://github.com/driftyco/creator-code-todo-demo) - 
+* [https://github.com/driftyco/creator-code-todo-demo](https://github.com/driftyco/creator-code-todo-demo) -
 
 ## Other
 
@@ -188,9 +190,9 @@ Ionic Creator is a nifty WYSIWYG editor for Ionic v1 that you can use to click y
 
 With the release of Ionic CLI v3 these two repositories are not needed any more as a rewrite of them is now part of the CLI itself:
 
-* [https://github.com/driftyco/ionic-app-lib](https://github.com/driftyco/ionic-app-lib) - 
+* [https://github.com/driftyco/ionic-app-lib](https://github.com/driftyco/ionic-app-lib) -
 
-* [https://github.com/driftyco/ionic-app-generators](https://github.com/driftyco/ionic-app-generators) - 
+* [https://github.com/driftyco/ionic-app-generators](https://github.com/driftyco/ionic-app-generators) -
 
 ## Internal / Unrelated / Abandoned / Not Relevant / Very Old
 
