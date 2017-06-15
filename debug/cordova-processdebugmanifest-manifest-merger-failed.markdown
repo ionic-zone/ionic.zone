@@ -1,5 +1,5 @@
 ---
-title: An Overview of Ionic's Github Repositories
+title: Cordova: Execution failed for task ':processDebugManifest'. Manifest merger failed : Attribute X is also present at Y
 date: 2017-05-12 17:15:00 Z
 ---
 
