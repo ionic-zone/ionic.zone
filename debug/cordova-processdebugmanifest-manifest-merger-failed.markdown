@@ -1,6 +1,3 @@
----
----
-
 # Cordova: Execution failed for task ':processDebugManifest'. Manifest merger failed : Attribute X is also present at Y
 
 Text
