@@ -13,6 +13,8 @@ But [Ionic, or better ionic-team](https://github.com/ionic-team), the Github org
 
 This post gives you an overview of all these repositories. For that, I went through all of them, grouped them and added some description and explanation of their use - on non-use for older and obsolete ones.
 
+{:toc}
+
 ## `ionic`
 
 * [https://github.com/ionic-team/ionic-cli](https://github.com/ionic-team/ionic-cli) - The Ionic Command Line Interface (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is the base that enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` to build them into Cordova wrapped native apps for mobile - and so much more.
@@ -163,8 +165,6 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 
 * [https://github.com/ionic-team/ionic-plugin-deeplinks](https://github.com/ionic-team/ionic-plugin-deeplinks) - "Handle deeplinks into your Ionic/Cordova apps from Universal Links, App Links, and Custom URL schemes."
 
-*
-
 * [https://github.com/ionic-team/cordova-plugin-ios-keychain](https://github.com/ionic-team/cordova-plugin-ios-keychain) - Access the iOS keychain
 
 * [https://github.com/ionic-team/cordova-camera-roll](https://github.com/ionic-team/cordova-camera-roll) - "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll."
@@ -306,12 +306,14 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/node-js-getting-started
 
 * https://github.com/ionic-team/gulp-electron
+
 * https://github.com/ionic-team/ionic-starter-analytics
+
 *
 
 ## Unsorted
 
-https://github.com/ionic-team/ionic-example-cordova-camera 
+https://github.com/ionic-team/ionic-example-cordova-camera
 https://github.com/ionic-team/ionic-starter-io
 
 https://github.com/ionic-team/ionic-starter-deploy
