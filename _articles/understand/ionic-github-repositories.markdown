@@ -1,6 +1,7 @@
 ---
 title: An Overview of Ionic's Github Repositories
 date: '2017-05-12T17:15:00.000+00:00'
+layout: page
 ---
 # An Overview of Ionic's Github Repositories
 
@@ -13,7 +14,6 @@ This post gives you an overview of all these repositories. For that, I went thro
 ## General Ionic
 
 * [https://github.com/ionic-team/ionic-cli](https://github.com/ionic-team/ionic-cli) - The Ionic Command Line Interface (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is the base that enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` to build them into Cordova wrapped native apps for mobile - and so much more.
-
 * [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 
 <div class="message">
