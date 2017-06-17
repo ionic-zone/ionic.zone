@@ -3,7 +3,10 @@ title: An Overview of Ionic's Github Repositories
 date: '2017-05-12T17:15:00.000+00:00'
 last_updated: '2017-06-17T17:24:41.317Z'
 ---
+
+
 # An Overview of Ionic's Github Repositories
+
 {:.no_toc}
 
 If you develop applications using Ionic Framework you will - sooner or later - come into contact with one of its Github repositories. When looking for how to do something, it is sometimes easier to look into and search the code directly on Github where it is versioned and easily searchable, than to limit yourself to what you have available locally. Fortunately, all components of Ionic are developed in the open. At the latest when something doesn't work as expected and it really isn't user error, you end up at the issue's of the project or even submitting a Pull Request fixing the bug you encountered.
@@ -12,14 +15,15 @@ But Ionic (or better [ionic-team](https://github.com/ionic-team), the Github org
 
 This post gives you an overview of all these repositories. For that, I went through all of them, grouped them and added some description and explanation:
 
-* toc
-{:toc}
+*
 
 Let's start with the most important ones:
 
-## `ionic`
+## General
 
 * [https://github.com/ionic-team/ionic-cli](https://github.com/ionic-team/ionic-cli) - The Ionic Command Line Interface (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is the base that enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` to build them into Cordova wrapped native apps for mobile - and so much more.
+
+* [https://github.com/ionic-team/ionic-site](https://github.com/ionic-team/ionic-site) - ionicframework.com
 
 ## Ionic
 
@@ -57,6 +61,8 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 
 ### Ionic Example Apps
 
+* https://github.com/ionic-team/ionic-preview-app - embedded in docs
+
 * [https://github.com/ionic-team/ionic-conference-app](https://github.com/ionic-team/ionic-conference-app) -
 
 * [https://github.com/ionic-team/ionic-unit-testing-example](https://github.com/ionic-team/ionic-unit-testing-example) - You should test your apps.
@@ -74,6 +80,7 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 * [https://github.com/ionic-team/ionic2-deeplinks-demo](https://github.com/ionic-team/ionic2-deeplinks-demo) -
 
 * [https://github.com/ionic-team/ionic-camera-component-demo](https://github.com/ionic-team/ionic-camera-component-demo) -
+* https://github.com/ionic-team/wkwebview-test-app
 
 ### Ionic Other
 
@@ -172,6 +179,7 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 * [https://github.com/ionic-team/cordova-camera-roll](https://github.com/ionic-team/cordova-camera-roll) - "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll."
 
 * [https://github.com/ionic-team/cordova-plugin-localstorage-backup](https://github.com/ionic-team/cordova-plugin-localstorage-backup) - Backup your local storage to the device
+* https://github.com/ionic-team/cordova-plugin-wkwebview-engine
 
 ## Ionic Creator
 
@@ -195,7 +203,7 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 
 * [https://github.com/ionic-team/ionic-app-generators](https://github.com/ionic-team/ionic-app-generators) -
 
-## Internal / Unrelated / Abandoned / Not Relevant / Very Old
+## Internal / Unrelated / Abandoned / Not Relevant / Very Old / Unkown
 
 * https://github.com/ionic-team/ionicate = Internal Survey for apps.ionic.io
 
@@ -311,11 +319,19 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 
 * https://github.com/ionic-team/ionic-starter-analytics
 
+* https://github.com/ionic-team/lazy-loading-poc
 *
 
 ## Unsorted
 
+https://github.com/ionic-team/bonjour = Internal fork
+
+https://github.com/ionic-team/cordova-plugin-keyboard =
+
+https://github.com/ionic-team/ionic-error-tracking/ = "Internal" error tracking tool
+
 https://github.com/ionic-team/ionic-example-cordova-camera
+
 https://github.com/ionic-team/ionic-starter-io
 
 https://github.com/ionic-team/ionic-starter-deploy
