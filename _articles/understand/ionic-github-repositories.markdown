@@ -1,7 +1,6 @@
 ---
 title: An Overview of Ionic's Github Repositories
 date: '2017-05-12T17:15:00.000+00:00'
-layout: page
 ---
 # An Overview of Ionic's Github Repositories
 
