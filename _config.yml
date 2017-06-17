@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  articles:
+    output: true
+    permalink: /:path
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
