@@ -11,6 +11,12 @@ collections:
   articles:
     output: true
     permalink: /:path
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: page
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
