@@ -1,8 +1,11 @@
 ---
 title: An Overview of Ionic's Github Repositories
 date: '2017-05-12T17:15:00.000+00:00'
+layout: ''
 last_updated: '2017-06-17T17:24:41.317Z'
 ---
+
+
 # An Overview of Ionic's Github Repositories
 
 If you develop applications using Ionic Framework you will - sooner or later - come into contact with one of its Github repositories. When looking for how to do something, it is sometimes easier to look into and search the code directly on Github where it is versioned and easily searchable, than to limit yourself to what you have available locally. Fortunately, all components of Ionic are developed in the open. At the latest when something doesn't work as expected and it really isn't user error, you end up at the issue's of the project or even submitting a Pull Request fixing the bug you encountered.
@@ -72,6 +75,7 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 ### Ionic Other
 
 * [https://github.com/ionic-team/ionic-themer](https://github.com/ionic-team/ionic-themer) - Super simple [Ionic Theme Generator](https://ionic-theme-creator.herokuapp.com/)
+
 * [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 
 ## Ionic v1
@@ -303,45 +307,80 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/node-js-getting-started
 
 * https://github.com/ionic-team/gulp-electron
-
 * https://github.com/ionic-team/ionic-starter-analytics
+*
 
 ## Unsorted
 
-https://github.com/ionic-team/ionic-example-cordova-camera
+https://github.com/ionic-team/ionic-example-cordova-camera 
 https://github.com/ionic-team/ionic-starter-io
+
 https://github.com/ionic-team/ionic-starter-deploy
+
 https://github.com/ionic-team/ionic-io-docs
+
 https://github.com/ionic-team/cordova-android
+
 https://github.com/ionic-team/cordova-crosswalk-engine
+
 https://github.com/ionic-team/ionic-io-testers
+
 https://github.com/ionic-team/ionic-default-resources
+
 https://github.com/ionic-team/standard
+
 https://github.com/ionic-team/tiny-lr
+
 https://github.com/ionic-team/InstagramPlugin
+
 https://github.com/ionic-team/ionic-proxy-example
+
 https://github.com/ionic-team/opbeat-node
+
 https://github.com/ionic-team/front-page
+
 https://github.com/ionic-team/ionic-starter-tests
+
 https://github.com/ionic-team/ionic-starter-complex-list
+
 https://github.com/ionic-team/docker-consul
+
 https://github.com/ionic-team/ionic-ion-ios-buttons
+
 https://github.com/ionic-team/ionic-theme-server
+
 https://github.com/ionic-team/gosass
+
 https://github.com/ionic-team/go-utils
+
 https://github.com/ionic-team/cordova-plugin-discovery
+
 https://github.com/ionic-team/ionic-cordova-wrapper
+
 https://github.com/ionic-team/ionic-contrib-firebase-login
+
 https://github.com/ionic-team/ngMad
+
 https://github.com/ionic-team/ionic-todo
+
 https://github.com/ionic-team/ionic-firebase-buses
+
 https://github.com/ionic-team/chatroom-cordova-ionic-angularjs-firebase
+
 https://github.com/ionic-team/django-template
+
 https://github.com/ionic-team/cordova-splash-generator
+
 https://github.com/ionic-team/ionic-intro
+
 https://github.com/ionic-team/ionic-tutorial-status-fade
+
 https://github.com/ionic-team/discourse
+
 https://github.com/ionic-team/jqm-neue
+
 https://github.com/ionic-team/graphite
+
 https://github.com/ionic-team/jquerymobile-tabbar
+
 https://github.com/ionic-team/jqm-plain
