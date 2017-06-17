@@ -46,7 +46,7 @@ Note: What I call just "Ionic" in the following paragraphs and lists was formerl
 
 These templates are downloaded and applied on top of the ionic2-app-base by the CLI when you `ionic start` a project. They contain only the code for the pages (`/src/app` and `/src/pages`), sometimes additional things (like assets, a `package.json` with additional dependencies, providers etc.).
 
-* [https://github.com/ionic-team/ionic2-starter-blank](https://github.com/ionic-team/ionic2-starter-blank) - Blank page with some text
+* [https://github.com/ionic-team/ionic2-starter-blank](https://github.com/ionic-team/ionic2-starter-blank)<br> Blank page with some text
 * [https://github.com/ionic-team/ionic2-starter-tabs](https://github.com/ionic-team/ionic2-starter-tabs) - 3 Tabs with some text
 * [https://github.com/ionic-team/ionic2-starter-sidemenu](https://github.com/ionic-team/ionic2-starter-sidemenu) - Sidemenu and some text
 * [https://github.com/ionic-team/ionic2-starter-tutorial](https://github.com/ionic-team/ionic2-starter-tutorial) - Template that is used in the [Ionic Tutorial in the docs](https://ionicframework.com/docs/intro/tutorial/)
