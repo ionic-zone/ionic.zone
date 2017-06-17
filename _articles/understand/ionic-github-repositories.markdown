@@ -3,7 +3,10 @@ title: An Overview of Ionic's Github Repositories
 date: '2017-05-12T17:15:00.000+00:00'
 last_updated: '2017-06-17T17:24:41.317Z'
 ---
+
+
 # An Overview of Ionic's Github Repositories
+
 {:.no_toc}
 
 If you develop applications using Ionic Framework you will - sooner or later - come into contact with one of its Github repositories. When looking for how to do something, it is sometimes easier to look into and search the code directly on Github where it is versioned and easily searchable, than to limit yourself to what you have available locally. Fortunately, all components of Ionic are developed in the open. At the latest when something doesn't work as expected and it really isn't user error, you end up at the issue's of the project or even submitting a Pull Request fixing the bug you encountered.
@@ -12,9 +15,7 @@ But Ionic (or better [ionic-team](https://github.com/ionic-team), the Github org
 
 This post gives you an overview of all these repositories. For that, I went through all of them, grouped them and added some description and explanation:
 
-* toc
-{:toc}
-
+*
 
 Let's start with the most important ones:
 
@@ -46,82 +47,126 @@ Note: What I call just "Ionic" in the following paragraphs and lists was formerl
 
 These templates are downloaded and applied on top of the ionic2-app-base by the CLI when you `ionic start` a project. They contain only the code for the pages (`/src/app` and `/src/pages`), sometimes additional things (like assets, a `package.json` with additional dependencies, providers etc.).
 
-* [https://github.com/ionic-team/ionic2-starter-blank](https://github.com/ionic-team/ionic2-starter-blank)<br> Blank page with some text
+* [https://github.com/ionic-team/ionic2-starter-blank](https://github.com/ionic-team/ionic2-starter-blank) - Blank page with some text
+
 * [https://github.com/ionic-team/ionic2-starter-tabs](https://github.com/ionic-team/ionic2-starter-tabs) - 3 Tabs with some text
+
 * [https://github.com/ionic-team/ionic2-starter-sidemenu](https://github.com/ionic-team/ionic2-starter-sidemenu) - Sidemenu and some text
+
 * [https://github.com/ionic-team/ionic2-starter-tutorial](https://github.com/ionic-team/ionic2-starter-tutorial) - Template that is used in the [Ionic Tutorial in the docs](https://ionicframework.com/docs/intro/tutorial/)
+
 * [https://github.com/ionic-team/ionic-starter-super](https://github.com/ionic-team/ionic-starter-super) - Different kind of pages
+
 * [https://github.com/ionic-team/ionic2-starter-aws](https://github.com/ionic-team/ionic2-starter-aws) - Connects Ionic with AWS Mobile Hub
 
 ### Ionic Example Apps
 
 * [https://github.com/ionic-team/ionic-preview-app](https://github.com/ionic-team/ionic-preview-app) - embedded in docs
+
 * [https://github.com/ionic-team/ionic-conference-app](https://github.com/ionic-team/ionic-conference-app) -
+
 * [https://github.com/ionic-team/ionic-unit-testing-example](https://github.com/ionic-team/ionic-unit-testing-example) - You should test your apps.
+
 * [https://github.com/ionic-team/ionic-pwa-demos](https://github.com/ionic-team/ionic-pwa-demos) -
+
 * [https://github.com/ionic-team/ionic-image-gallery-app](https://github.com/ionic-team/ionic-image-gallery-app) -
+
 * [https://github.com/ionic-team/ionic-tinder-app](https://github.com/ionic-team/ionic-tinder-app) -
+
 * [https://github.com/ionic-team/ionic-mailbox-app](https://github.com/ionic-team/ionic-mailbox-app) -
+
 * [https://github.com/ionic-team/ionic-paging-animation-app](https://github.com/ionic-team/ionic-paging-animation-app) -
+
 * [https://github.com/ionic-team/ionic2-deeplinks-demo](https://github.com/ionic-team/ionic2-deeplinks-demo) -
+
 * [https://github.com/ionic-team/ionic-camera-component-demo](https://github.com/ionic-team/ionic-camera-component-demo) -
+
 * [https://github.com/ionic-team/wkwebview-test-app](https://github.com/ionic-team/wkwebview-test-app) - App that includes and tests a Cordova plugin listed below.
 
 ### Ionic Other
 
 * [https://github.com/ionic-team/ionic-themer](https://github.com/ionic-team/ionic-themer) - Super simple [Ionic Theme Generator](https://ionic-theme-creator.herokuapp.com/)
+
 * [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
+
 * [https://github.com/ionic-team/learn-angular2](https://github.com/ionic-team/learn-angular2) - Ionic 2 switched from AngularJS to Angular, back then still known as Angular2. This repo contains the code for the website [http://learnangular2.com](http://learnangular2.com) that can help you get comfortable with Angular and learn all the stuff that changed.
 
 ## Ionic v1
 
 * [https://github.com/ionic-team/ionic-v1](https://github.com/ionic-team/ionic-v1) - Here Ionic moved the "old" code of Ionic v1 when they released Ionic "2".
+
 * [https://github.com/ionic-team/ionic-app-base](https://github.com/ionic-team/ionic-app-base) - Similar to the ionic2-app-base this is the base project template downloaded by the CLI when you `ionic start` a v1 project.
+
 * [https://github.com/ionic-team/ng-cordova](https://github.com/ionic-team/ng-cordova) - ng-cordova is Ionic Native for Ionic v1
+
 * [https://github.com/ionic-team/ionic-code](https://github.com/ionic-team/ionic-code) - Ionic has a CDN for Ionic v1 files at http://code.ionicframework.com
+
 * [https://github.com/ionic-team/ionic-bower](https://github.com/ionic-team/ionic-bower) - Ionic v1 is/was available on [Bower](https://bower.io/)
+
 * [https://github.com/ionic-team/ionic-native-bower](https://github.com/ionic-team/ionic-native-bower) - Makes Ionic Native available via bower for Ionic v1
+
 * [https://github.com/ionic-team/ionic-typescript-example](https://github.com/ionic-team/ionic-typescript-example) - Use TypeScript with Ionic v1 (includes Screencast)
 
 ### Ionic v1 Starter Templates
 
 * [https://github.com/ionic-team/ionic-starter-tabs](https://github.com/ionic-team/ionic-starter-tabs) -
+
 * [https://github.com/ionic-team/ionic-hello-world](https://github.com/ionic-team/ionic-hello-world) -
+
 * [https://github.com/ionic-team/ionic-starter-sidemenu](https://github.com/ionic-team/ionic-starter-sidemenu) -
+
 * [https://github.com/ionic-team/ionic-starter-blank](https://github.com/ionic-team/ionic-starter-blank) -
+
 * [https://github.com/ionic-team/ionic-starter-salesforce](https://github.com/ionic-team/ionic-starter-salesforce) -
+
 * [https://github.com/ionic-team/ionic-starter-maps](https://github.com/ionic-team/ionic-starter-maps) -
 
 ### Ionic v1 Example Apps
 
 * [https://github.com/ionic-team/ionic-weather](https://github.com/ionic-team/ionic-weather) -
+
 * [https://github.com/ionic-team/ionic1-deeplinks-demo](https://github.com/ionic-team/ionic1-deeplinks-demo) -
+
 * [https://github.com/ionic-team/ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) -
+
 * [https://github.com/ionic-team/ionic-third-party-lib-example](https://github.com/ionic-team/ionic-third-party-lib-example) - "An example App showing how to use third party libs in Ionic"
 
 ### Migrate Ionic v1 to Ionic
 
 * [https://github.com/ionic-team/ionic-migration-demo-v1](https://github.com/ionic-team/ionic-migration-demo-v1) -
+
 * [https://github.com/ionic-team/ionic-migration-demo-v2](https://github.com/ionic-team/ionic-migration-demo-v2) -
 
 ### Ionic v1 Contrib / Ion
 
 * [https://github.com/ionic-team/ionic-ion-drawer](https://github.com/ionic-team/ionic-ion-drawer) -
+
 * [https://github.com/ionic-team/ionic-ion-tinder-cards](https://github.com/ionic-team/ionic-ion-tinder-cards) -
+
 * [https://github.com/ionic-team/ionic-ion-swipe-cards](https://github.com/ionic-team/ionic-ion-swipe-cards) -
+
 * [https://github.com/ionic-team/ionic-ion-frost](https://github.com/ionic-team/ionic-ion-frost) -
+
 * [https://github.com/ionic-team/ionic-ion-header-shrink](https://github.com/ionic-team/ionic-ion-header-shrink) -
+
 * [https://github.com/ionic-team/ionic-contrib-frosted-glass](https://github.com/ionic-team/ionic-contrib-frosted-glass) -
 
 ## Ionic Services / Cloud / Platform
 
 * [https://github.com/ionic-team/ionic-cloud-angular](https://github.com/ionic-team/ionic-cloud-angular) - Use Ionic Services in Ionic/Angular
+
 * [https://github.com/ionic-team/ionic-cloud](https://github.com/ionic-team/ionic-cloud) - Use Ionic Services in Ionic v1/AngularJS
+
 * [https://github.com/ionic-team/ionic-plugin-deploy](https://github.com/ionic-team/ionic-plugin-deploy) - Cordova Plugin for Ionic Deploy / Live Updates
+
 * [https://github.com/ionic-team/ionic-package-hooks](https://github.com/ionic-team/ionic-package-hooks) - "Cordova hooks that you can run in Ionic Package"
+
 * [https://github.com/ionic-team/ionic-view-issues](https://github.com/ionic-team/ionic-view-issues) - Ionic View is the app to show and test apps you `ionic upload`ed to apps.ionic.io. That source code is not open source, but here you can create issues for bugs or feature requests.
+
 * [https://github.com/ionic-team/ionic-cloud-issues](https://github.com/ionic-team/ionic-cloud-issues) # deprecated
+
 * [https://github.com/ionic-team/custom-auth-examples](https://github.com/ionic-team/custom-auth-examples) - ['Custom Auth'](http://docs.ionic.io/services/auth/custom-auth.html) Examples for Ionic Auth
+
 * [https://github.com/ionic-team/platform-client-node](https://github.com/ionic-team/platform-client-node) - Node.js library implementing the [Push Endpoints](https://docs.ionic.io/api/endpoints/push.html) of the Ionic Service HTTP API
 
 ## Cordova Plugins
@@ -145,6 +190,7 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 Ionic Creator is a nifty WYSIWYG editor for Ionic v1 that you can use to click your interface and then back it with code.
 
 * [https://github.com/ionic-team/creator-weekly-workshops](https://github.com/ionic-team/creator-weekly-workshops) -
+
 * [https://github.com/ionic-team/creator-code-todo-demo](https://github.com/ionic-team/creator-code-todo-demo) -
 
 ## Deprecated
@@ -154,6 +200,7 @@ Ionic Creator is a nifty WYSIWYG editor for Ionic v1 that you can use to click y
 With the release of Ionic CLI v3 these two repositories are not needed any more as a rewrite of them is now part of the CLI itself:
 
 * [https://github.com/ionic-team/ionic-app-lib](https://github.com/ionic-team/ionic-app-lib) -
+
 * [https://github.com/ionic-team/ionic-app-generators](https://github.com/ionic-team/ionic-app-generators) -
 
 ## Internal / Unrelated / Abandoned / Not Relevant / Very Old / Unkown
