@@ -21,9 +21,9 @@ Let's start with the most important ones:
 
 ## General
 
-* [https://github.com/ionic-team/ionic-cli](https://github.com/ionic-team/ionic-cli) - The Ionic Command Line Interface (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is the base that enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` to build them into Cordova wrapped native apps for mobile - and so much more.
+* [https://github.com/ionic-team/ionic-cli](https://github.com/ionic-team/ionic-cli) - The Ionic Command Line Interface `ionic` (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is what enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` them into Cordova wrapped native apps for mobile - and so much more.
 
-* [https://github.com/ionic-team/ionic-site](https://github.com/ionic-team/ionic-site) - ionicframework.com
+* [https://github.com/ionic-team/ionic-site](https://github.com/ionic-team/ionic-site) - You most probably visited [ionicframework.com](https://ionicframework.com) when you learned about Ionic Framework. Here is all the information you need, including the [complete documentation](https://ionicframework.com/docs/). The site is built from this repository, which in turn gets its content from many of the child repositories.
 
 ## Ionic
 
@@ -45,7 +45,7 @@ Note: What I call just "Ionic" in the following paragraphs and lists was formerl
 
 ### Ionic Starter Templates
 
-These templates are downloaded and applied on top of the app-base by the CLI when you `ionic start` a project. They only contain the code for the pages (`/src/app` and `/src/pages`), sometimes additional things (like assets, a `package.json` with additional dependencies, providers etc.).
+These templates are downloaded and applied on top of the ionic2-app-base by the CLI when you `ionic start` a project. They contain only the code for the pages (`/src/app` and `/src/pages`), sometimes additional things (like assets, a `package.json` with additional dependencies, providers etc.).
 
 * [https://github.com/ionic-team/ionic2-starter-blank](https://github.com/ionic-team/ionic2-starter-blank) - Blank page with some text
 
@@ -61,7 +61,7 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 
 ### Ionic Example Apps
 
-* https://github.com/ionic-team/ionic-preview-app - embedded in docs
+* [https://github.com/ionic-team/ionic-preview-app](https://github.com/ionic-team/ionic-preview-app) - embedded in docs
 
 * [https://github.com/ionic-team/ionic-conference-app](https://github.com/ionic-team/ionic-conference-app) -
 
@@ -80,13 +80,15 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 * [https://github.com/ionic-team/ionic2-deeplinks-demo](https://github.com/ionic-team/ionic2-deeplinks-demo) -
 
 * [https://github.com/ionic-team/ionic-camera-component-demo](https://github.com/ionic-team/ionic-camera-component-demo) -
-* https://github.com/ionic-team/wkwebview-test-app
+
+* [https://github.com/ionic-team/wkwebview-test-app](https://github.com/ionic-team/wkwebview-test-app) - App that includes and tests a Cordova plugin listed below.
 
 ### Ionic Other
 
 * [https://github.com/ionic-team/ionic-themer](https://github.com/ionic-team/ionic-themer) - Super simple [Ionic Theme Generator](https://ionic-theme-creator.herokuapp.com/)
 
 * [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
+* [https://github.com/ionic-team/learn-angular2](https://github.com/ionic-team/learn-angular2) - Ionic 2 switched from AngularJS to Angular, back then still known as Angular2. This repo contains the code for the website [http://learnangular2.com](http://learnangular2.com) that can help you get comfortable with Angular and learn all the stuff that changed.
 
 ## Ionic v1
 
@@ -179,6 +181,7 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 * [https://github.com/ionic-team/cordova-camera-roll](https://github.com/ionic-team/cordova-camera-roll) - "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll."
 
 * [https://github.com/ionic-team/cordova-plugin-localstorage-backup](https://github.com/ionic-team/cordova-plugin-localstorage-backup) - Backup your local storage to the device
+
 * https://github.com/ionic-team/cordova-plugin-wkwebview-engine
 
 ## Ionic Creator
@@ -188,10 +191,6 @@ Ionic Creator is a nifty WYSIWYG editor for Ionic v1 that you can use to click y
 * [https://github.com/ionic-team/creator-weekly-workshops](https://github.com/ionic-team/creator-weekly-workshops) -
 
 * [https://github.com/ionic-team/creator-code-todo-demo](https://github.com/ionic-team/creator-code-todo-demo) -
-
-## Other
-
-* [https://github.com/ionic-team/learn-angular2](https://github.com/ionic-team/learn-angular2) - Ionic 2 switched from AngularJS to Angular, back then still known as Angular2. This repo contains the code for the website [http://learnangular2.com](http://learnangular2.com/) that can help you get comfortable with Angular and learn all the stuff that changed.
 
 ## Deprecated
 
@@ -320,6 +319,7 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/ionic-starter-analytics
 
 * https://github.com/ionic-team/lazy-loading-poc
+
 *
 
 ## Unsorted
