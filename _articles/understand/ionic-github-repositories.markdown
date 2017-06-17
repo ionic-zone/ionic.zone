@@ -70,7 +70,6 @@ These templates are downloaded and applied on top of the ionic2-app-base by the 
 ### Ionic Other
 
 * [https://github.com/ionic-team/ionic-themer](https://github.com/ionic-team/ionic-themer) - Super simple [Ionic Theme Generator](https://ionic-theme-creator.herokuapp.com/)
-
 * [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 * [https://github.com/ionic-team/learn-angular2](https://github.com/ionic-team/learn-angular2) - Ionic 2 switched from AngularJS to Angular, back then still known as Angular2. This repo contains the code for the website [http://learnangular2.com](http://learnangular2.com) that can help you get comfortable with Angular and learn all the stuff that changed.
 
