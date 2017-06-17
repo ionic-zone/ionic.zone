@@ -16,7 +16,7 @@ defaults:
       path: ""
       type: articles
     values:
-      layout: page
+      layout: article
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
