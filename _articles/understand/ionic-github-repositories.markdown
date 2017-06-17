@@ -1,7 +1,7 @@
 ---
 title: An Overview of Ionic's Github Repositories
 date: '2017-05-12T17:15:00.000+00:00'
-layout: page
+layout: ''
 ---
 # An Overview of Ionic's Github Repositories
 
@@ -11,16 +11,15 @@ But [Ionic, or better ionic-team](https://github.com/ionic-team), the Github org
 
 This post gives you an overview of all these repositories. For that, I went through all of them, grouped them and added some description and explanation of their use - on non-use for older and obsolete ones.
 
-## General Ionic
+## `ionic`
 
 * [https://github.com/ionic-team/ionic-cli](https://github.com/ionic-team/ionic-cli) - The Ionic Command Line Interface (CLI) is what everybody that works with Ionic installs as one of the first steps with `npm install -g ionic`. It is the base that enables you to `ionic start` projects, `ionic serve` them in the local browser to test them and `ionic cordova build` to build them into Cordova wrapped native apps for mobile - and so much more.
-* [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
+
+## Ionic
 
 <div class="message">
 Note: What I call just "Ionic" in the following paragraphs and lists was formerly known as Ionic 2. But Ionic quickly followed up with Ionic 3 and is working hard on the next iterations - so it makes more sense to call is just Ionic. The older iteration of the Framework that was built on AngularJS (instead of Angular for the current Ionic) is now known as "Ionic v1" and referred as such here.
 </div>
-
-## Ionic
 
 * [https://github.com/ionic-team/ionic](https://github.com/ionic-team/ionic) - This is the main Ionic Framework repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects. It includes... TODO
 
@@ -73,6 +72,7 @@ These templates are downloaded and applied on top of the app-base by the CLI whe
 ### Ionic Other
 
 * [https://github.com/ionic-team/ionic-themer](https://github.com/ionic-team/ionic-themer) - Super simple [Ionic Theme Generator](https://ionic-theme-creator.herokuapp.com/)
+* [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Ionicons are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 
 ## Ionic v1
 
