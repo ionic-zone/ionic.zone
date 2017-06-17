@@ -1,9 +1,9 @@
 ---
 
 # Setup
-title:               Ionic.Zone
-tagline:             'A site about Ionic Framework'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               ionic.zone
+tagline:             'a site about Ionic Framework'
+description:         ''
 url:                 https://ionic.zone
 baseurl:             ''
 paginate:            5
@@ -17,7 +17,6 @@ author:
   name:              Jan Piotrowski
   url:               https://janpiotrowski.de
   email:             ionicdotzone@gmail.com
-
 
 # Collections
 collections:
