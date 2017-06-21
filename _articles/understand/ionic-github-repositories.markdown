@@ -184,7 +184,8 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 
 * [ionic-platform-web-client](https://github.com/ionic-team/ionic-platform-web-client) - Precursor to `@ionic/cloud`
 * [ionic-service-analytics](https://github.com/ionic-team/ionic-service-analytics) - Precursor of `ionic-platform-web-client`
-* [ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) - The docs this Ionic v1 app refers to don't exist any more.
+* [ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) - "
+Companion app to the Ionic Push startup guide."
 * [ionic-service-push-client](https://github.com/ionic-team/ionic-service-push-client) - "Client-side code for the ionic push service"
 * [ionic-starter-push](https://github.com/ionic-team/ionic-starter-push) - Start for Ionic Push
 * [ionic-service-core](https://github.com/ionic-team/ionic-service-core) - "Common required service tools and addons"
