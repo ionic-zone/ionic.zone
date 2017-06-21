@@ -142,6 +142,7 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 * [cordova-camera-roll](https://github.com/ionic-team/cordova-camera-roll) - "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll."
 * [cordova-plugin-localstorage-backup](https://github.com/ionic-team/cordova-plugin-localstorage-backup) - Backup your local storage to the device
 * https://github.com/ionic-team/cordova-plugin-wkwebview-engine - "This plugin makes Cordova use the `WKWebView` component instead of the default `UIWebView` component"
+* https://github.com/ionic-team/cordova-plugin-template - "simple starting point for building a Cordova plugin on iOS and Android"
 
 ## Ionic Creator
 
@@ -156,13 +157,14 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 * https://github.com/ionic-team/ionic2 - Former home of Ionic 2
 * https://github.com/ionic-team/ionic-box - "A Vagrant install for Android, Cordova, and Ionic v1"
 * https://github.com/ionic-team/ionic-gulp-tasks - "Collection of gulp tasks for building Ionic apps"
+* https://github.com/ionic-team/ionic-platform-web-client - Precursor to @ionic/cloud
 
 **CLI v2**
 
 With the release of Ionic CLI v3 these two repositories are not needed any more as a rewrite of them is now part of the CLI itself:
 
-* [ionic-app-lib](https://github.com/ionic-team/ionic-app-lib) -
-* [ionic-app-generators](https://github.com/ionic-team/ionic-app-generators) -
+* [ionic-app-lib](https://github.com/ionic-team/ionic-app-lib)
+* [ionic-app-generators](https://github.com/ionic-team/ionic-app-generators)
 
 
 ## Internal, Abandoned, Unkown
@@ -171,28 +173,23 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/ionic-closure - Closure Experiment
 * https://github.com/ionic-team/ionic-web-analytics - "Express middleware for sending web analytics to BigQuery"
 * https://github.com/ionic-team/ionic-precommit-hooks - "Runs the test for Ionic 2."
+* https://github.com/ionic-team/ionic-heroku-button - "A one-click Ionic v1 app template for Heroku"
+* https://github.com/ionic-team/ionic-scripts - "ionic-scripts is a set of scripts/utilities to help ionic 2 app development"
+* https://github.com/ionic-team/ionic-bootstrap-theme-generator - "[Generate an Ionic theme from a bootstrap theme](https://ionic-bootstrap-theme.herokuapp.com/)"
 
 ### Forks
 * https://github.com/ionic-team/repool - "RethinkDB connection pool"
 * https://github.com/ionic-team/cordova-plugin-inapppurchase - "A lightweight cordova plugin for in app purchases on iOS/Android"
+* https://github.com/ionic-team/localForage-cordovaSQLiteDriver - "SQLite driver for Cordova apps using localForage"
+* https://github.com/ionic-team/reactionic - "React Ionic"
+* https://github.com/ionic-team/cordova-plugin-statusbar - "The StatusBar object provides some functions to customize the iOS and Android StatusBar."
 
 
 
-* https://github.com/ionic-team/ionic-heroku-button
 
-* https://github.com/ionic-team/localForage-cordovaSQLiteDriver
 
-* https://github.com/ionic-team/ionic-scripts
 
-* https://github.com/ionic-team/ionic-platform-web-client
 
-* https://github.com/ionic-team/reactionic
-
-* https://github.com/ionic-team/cordova-plugin-statusbar
-
-* https://github.com/ionic-team/ionic-bootstrap-theme-generator
-
-* https://github.com/ionic-team/cordova-plugin-template
 
 * https://github.com/ionic-team/eslint-config-ionic
 
