@@ -56,17 +56,17 @@ These templates are downloaded and applied on top of the [ionic2-app-base](#ioni
 
 ### Ionic Example Apps
 
-* [ionic-preview-app](https://github.com/ionic-team/ionic-preview-app) - This app is embedded in the [documentation ionicframework.com](http://ionicframework.com/docs/components/)
-* [ionic-conference-app](https://github.com/ionic-team/ionic-conference-app) -
-* [ionic-unit-testing-example](https://github.com/ionic-team/ionic-unit-testing-example) - You should test your apps.
-* [ionic-pwa-demos](https://github.com/ionic-team/ionic-pwa-demos) -
-* [ionic-image-gallery-app](https://github.com/ionic-team/ionic-image-gallery-app) -
-* [ionic-tinder-app](https://github.com/ionic-team/ionic-tinder-app) -
-* [ionic-mailbox-app](https://github.com/ionic-team/ionic-mailbox-app) -
-* [ionic-paging-animation-app](https://github.com/ionic-team/ionic-paging-animation-app) -
-* [ionic2-deeplinks-demo](https://github.com/ionic-team/ionic2-deeplinks-demo) -
-* [ionic-camera-component-demo](https://github.com/ionic-team/ionic-camera-component-demo) -
-* [wkwebview-test-app](https://github.com/ionic-team/wkwebview-test-app) - App that includes and tests a Cordova plugin listed below.
+* [ionic-preview-app](https://github.com/ionic-team/ionic-preview-app) - This app is embedded in the [documentation at ionicframework.com](http://ionicframework.com/docs/components/) and shows the usage of components and APIs
+* [ionic-conference-app](https://github.com/ionic-team/ionic-conference-app) - "A conference app built with Ionic to demonstrate Ionic" that includes lotfs of real live examples of how to use components and solve specific problems.
+* [ionic-unit-testing-example](https://github.com/ionic-team/ionic-unit-testing-example) - You should test your apps. This repository "gives guidance on setting up your Ionic application for unit testing and end-to-end (E2E) testing".
+* [ionic-pwa-demos](https://github.com/ionic-team/ionic-pwa-demos) - "A collection of cool Ionic Progressive Web App demos"
+* [ionic-image-gallery-app](https://github.com/ionic-team/ionic-image-gallery-app) - "A simple image gallery app built with Ionic and filled with Unsplash photos."
+* [ionic-tinder-app](https://github.com/ionic-team/ionic-tinder-app) - "An app showing a UX similar to Tinder implemented in Ionic"
+* [ionic-mailbox-app](https://github.com/ionic-team/ionic-mailbox-app) - "A sample app that mimics the user experience of the beloved email client MailBox."
+* [ionic-paging-animation-app](https://github.com/ionic-team/ionic-paging-animation-app) - "An Ionic app that shows off a cool pagination effect"
+* [ionic2-deeplinks-demo](https://github.com/ionic-team/ionic2-deeplinks-demo) - "A test repo for deep linking in Ionic"
+* [ionic-camera-component-demo](https://github.com/ionic-team/ionic-camera-component-demo) - Example projectfr a custom component `<ion-camera>`
+* [wkwebview-test-app](https://github.com/ionic-team/wkwebview-test-app) - App that includes and tests a Cordova plugin for WKWebView.
 
 ### Ionic Other
 
