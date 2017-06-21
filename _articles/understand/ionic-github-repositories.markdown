@@ -126,10 +126,10 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 
 **Contrib / Ion**
 
-* [ionic-ion-drawer](https://github.com/ionic-team/ionic-ion-drawer) - "A side menu drawer for Ionic v1 apps"
-* [ionic-ion-tinder-cards](https://github.com/ionic-team/ionic-ion-tinder-cards) - "Add Tinder-style card swiping to any app with this simple Ionic Ion."
+* [ionic-ion-drawer](https://github.com/ionic-team/ionic-ion-drawer) - "A side menu drawer "
+* [ionic-ion-tinder-cards](https://github.com/ionic-team/ionic-ion-tinder-cards) - "Add Tinder-style card swiping"
 * [ionic-ion-swipe-cards](https://github.com/ionic-team/ionic-ion-swipe-cards) - "Swipeable card based layout for Ionic v1"
-* [ionic-ion-frost](https://github.com/ionic-team/ionic-ion-frost) - "A reusable frosted-glass effect for adding this cool iOS effect to your Ionic v1 apps."
+* [ionic-ion-frost](https://github.com/ionic-team/ionic-ion-frost) - "A reusable frosted-glass effect"
 * [ionic-ion-header-shrink](https://github.com/ionic-team/ionic-ion-header-shrink) - "A demo of making a header that shrinks based on the user scrolling (like Facebook's iOS app)."
 * [ionic-contrib-frosted-glass](https://github.com/ionic-team/ionic-contrib-frosted-glass) - "An optional frosted-glass effect for iOS 7 styled Ionic v1 apps."
 * [ionic-ion-ios-buttons](https://github.com/ionic-team/ionic-ion-ios-buttons) - "Simple iOS 7 style rounded buttons with CSS"
