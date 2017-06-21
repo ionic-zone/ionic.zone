@@ -31,7 +31,7 @@ Let's start with the most important ones:
 Note: What I call just "Ionic" in the following paragraphs and lists was formerly known as Ionic 2. But Ionic quickly followed up with Ionic 3 and is working hard on the next iterations - so it makes more sense to call is just Ionic. The older iteration of the Framework that was built on AngularJS (instead of Angular for the current Ionic) is now known as "Ionic v1" and referred as such here.
 </div>
 
-* [ionic](https://github.com/ionic-team/ionic) ![](https://img.shields.io/github/stars/ionic-team/ionic.svg?style=flat&label=Github%20Stars) - This is the main _Ionic Framework_ repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects. It includes... TODO
+* [ionic ![Github Stars](https://img.shields.io/github/stars/ionic-team/ionic.svg?style=flat&label=Github%20Stars)](https://github.com/ionic-team/ionic) - This is the main _Ionic Framework_ repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects. It includes... TODO
 
 * [ionic-app-scripts](https://github.com/ionic-team/ionic-app-scripts) - Ionic _App Scripts_ are "App Build Scripts for Ionic Projects". They are used by the Ionic CLI to do everything that is required to go from a simple `/src` where you type your code in Typescript files to the processed `/www` where you only have a few optimized `.js` files (meaning these tasks: build, clean, cleancss, copy, lint, minify, sass, watch and more).
 
