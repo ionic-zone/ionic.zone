@@ -97,12 +97,12 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 
 ### Ionic v1 Starter Templates
 
-* [ionic-starter-tabs](https://github.com/ionic-team/ionic-starter-tabs)
-* [ionic-hello-world](https://github.com/ionic-team/ionic-hello-world)
-* [ionic-starter-sidemenu](https://github.com/ionic-team/ionic-starter-sidemenu)
-* [ionic-starter-blank](https://github.com/ionic-team/ionic-starter-blank)
-* [ionic-starter-salesforce](https://github.com/ionic-team/ionic-starter-salesforce)
-* [ionic-starter-maps](https://github.com/ionic-team/ionic-starter-maps)
+* [ionic-hello-world](https://github.com/ionic-team/ionic-hello-world) - "Placeholder for Ionic Starter projects"
+* [ionic-starter-blank](https://github.com/ionic-team/ionic-starter-blank) - "A blank starter project for Ionic"
+* [ionic-starter-tabs](https://github.com/ionic-team/ionic-starter-tabs) - "A starting project for Ionic using a simple tabbed interface"
+* [ionic-starter-sidemenu](https://github.com/ionic-team/ionic-starter-sidemenu) - "A starting project for Ionic using a side menu with navigation in the content area"
+* [ionic-starter-salesforce](https://github.com/ionic-team/ionic-starter-salesforce) - "A starter project for Ionic and Salesforce"
+* [ionic-starter-maps](https://github.com/ionic-team/ionic-starter-maps) - "An Ionic starter project using Google Maps and a side menu"
 * [ionic-starter-io](https://github.com/ionic-team/ionic-starter-io) - "An ionic starter project containing the ionic.io services."
 * [ionic-starter-deploy](https://github.com/ionic-team/ionic-starter-deploy) - "A starter project with Ionic Deploy"
 
