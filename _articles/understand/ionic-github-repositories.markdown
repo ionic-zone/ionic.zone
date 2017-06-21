@@ -28,7 +28,7 @@ Let's start with the most important ones:
 ## Ionic
 
 <div class="message">
-Note: What I call just "Ionic" in the following paragraphs and lists was formerly known as Ionic 2. But Ionic quickly followed up with Ionic 3 and is working hard on the next iterations - so it makes more sense to call is just Ionic. The older iteration of the Framework that was built on AngularJS (instead of Angular for the current Ionic) is now known as "Ionic v1" and referred as such here.
+Note: What I call just "Ionic" in the following paragraphs and lists was formerly known as Ionic 2. But Ionic quickly followed up with Ionic 3 and is working hard on the next iterations - so it makes more sense to call is just Ionic. The older iteration of the Framework that was built on AngularJS (instead of Angular for the current Ionic) is now known as "[Ionic v1](#ionic-v1)" and referred as such here.
 </div>
 
 * [ionic](https://github.com/ionic-team/ionic) - This is the main _Ionic Framework_ repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects. It includes... TODO
@@ -76,6 +76,10 @@ These templates are downloaded and applied on top of the [ionic2-app-base](#ioni
 
 ## Ionic v1
 
+<div class="message">
+Note: Ionic v1 is the "old" version of Ionic Framework that is builts on AngularJS.
+</div>
+
 * [ionic-v1](https://github.com/ionic-team/ionic-v1) - Here Ionic moved the "old" code of _Ionic v1_ when they released Ionic "2".
 * [ionic-app-base](https://github.com/ionic-team/ionic-app-base) - Similar to the ionic2-app-base this is the base project template downloaded by the CLI when you `ionic start` a v1 project.
 * [ng-cordova](https://github.com/ionic-team/ng-cordova) - _ngCordova_ is Ionic Native for Ionic v1
@@ -86,19 +90,18 @@ These templates are downloaded and applied on top of the [ionic2-app-base](#ioni
 
 ### Ionic v1 Starter Templates
 
-* [ionic-starter-tabs](https://github.com/ionic-team/ionic-starter-tabs) -
-* [ionic-hello-world](https://github.com/ionic-team/ionic-hello-world) -
-* [ionic-starter-sidemenu](https://github.com/ionic-team/ionic-starter-sidemenu) -
-* [ionic-starter-blank](https://github.com/ionic-team/ionic-starter-blank) -
-* [ionic-starter-salesforce](https://github.com/ionic-team/ionic-starter-salesforce) -
-* [ionic-starter-maps](https://github.com/ionic-team/ionic-starter-maps) -
+* [ionic-starter-tabs](https://github.com/ionic-team/ionic-starter-tabs)
+* [ionic-hello-world](https://github.com/ionic-team/ionic-hello-world)
+* [ionic-starter-sidemenu](https://github.com/ionic-team/ionic-starter-sidemenu)
+* [ionic-starter-blank](https://github.com/ionic-team/ionic-starter-blank)
+* [ionic-starter-salesforce](https://github.com/ionic-team/ionic-starter-salesforce)
+* [ionic-starter-maps](https://github.com/ionic-team/ionic-starter-maps)
 
 ### Ionic v1 Example Apps
 
-* [ionic-weather](https://github.com/ionic-team/ionic-weather) -
-* [ionic1-deeplinks-demo](https://github.com/ionic-team/ionic1-deeplinks-demo) -
-* [ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) -
-* [ionic-third-party-lib-example](https://github.com/ionic-team/ionic-third-party-lib-example) - "An example App showing how to use third party libs in Ionic"
+* [ionic-weather](https://github.com/ionic-team/ionic-weather) - "A simple Ionic Weather app"
+* [ionic1-deeplinks-demo](https://github.com/ionic-team/ionic1-deeplinks-demo) - Deeplinks demo
+* [ionic-third-party-lib-example](https://github.com/ionic-team/ionic-third-party-lib-example) - "how to use third party libs in Ionic"
 
 ### Migrate Ionic v1 to Ionic
 
@@ -150,12 +153,16 @@ Ionic Creator is a nifty WYSIWYG editor for Ionic v1 that you can use to click y
 
 ## Deprecated
 
-### CLI v2
+* [ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) - The docs this Ionic v1 app refers to don't exist any more.
+
+**CLI v2**
 
 With the release of Ionic CLI v3 these two repositories are not needed any more as a rewrite of them is now part of the CLI itself:
 
 * [ionic-app-lib](https://github.com/ionic-team/ionic-app-lib) -
 * [ionic-app-generators](https://github.com/ionic-team/ionic-app-generators) -
+
+
 
 ## Internal / Unrelated / Abandoned / Not Relevant / Very Old / Unkown
 
