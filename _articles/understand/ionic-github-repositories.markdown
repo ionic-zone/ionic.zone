@@ -35,7 +35,7 @@ Note: What I call just "Ionic" in the following paragraphs and lists was formerl
 
 * [ionic-app-scripts](https://github.com/ionic-team/ionic-app-scripts) - Ionic _App Scripts_ are "App Build Scripts for Ionic Projects". They are used by the Ionic CLI to do everything that is required to go from a simple `/src` where you type your code in Typescript files to the processed `/www` where you only have a few optimized `.js` files (meaning these tasks: build, clean, cleancss, copy, lint, minify, sass, watch and more).
 
-* [ionic2-app-base](https://github.com/ionic-team/ionic2-app-base) - Pure base project for Ionic projects. It includes the stuff that when you start a new Ionic apps is identical in all of them, no matter what starter template (see below) is used. This includes the definition which version of `ionic-angular` is actually used in the project, but also all the other dependencies in `package.json`. It adds the default `config.xml` for Cordova projects, the `src/index.html` that loads all the JS, and the `src/app/main.ts` that is the "entry" point of all the code that gets executed. In `/resources` you also get the default app icons and splash screens.
+* <a name="ionic2-app-base"></a> [ionic2-app-base](https://github.com/ionic-team/ionic2-app-base) - Base project for Ionic projects. It includes the stuff that when you start a new Ionic apps is identical in all of them, no matter what [starter template](#ionic-starter-templates) is used. This includes the definition which version of `ionic-angular` is actually used in the project, but also all the other dependencies in `package.json`. It adds the default `config.xml` for Cordova projects, the `src/index.html` that loads all the JS, and the `src/app/main.ts` that is the "entry" point of all the code that gets executed. In `/resources` you also get the default app icons and splash screens.
 
 * [ionic-native](https://github.com/ionic-team/ionic-native) - _Ionic Native_ bridges all the Cordova plugins out there into the Ionic and Angular world. It adds a wrapper around the plugin codes that offers Promises and Observables you can use in your code. Additionally it adds Runtime Diagnostics and Browser Usage support, so you can write mocks for the plugins that work during browser testing.
 
@@ -45,7 +45,7 @@ Note: What I call just "Ionic" in the following paragraphs and lists was formerl
 
 ### Ionic Starter Templates
 
-These templates are downloaded and applied on top of the ionic2-app-base by the CLI when you `ionic start` a project. They contain only the code for the pages (`/src/app` and `/src/pages`), sometimes additional things (like assets, a `package.json` with additional dependencies, providers etc.).
+These templates are downloaded and applied on top of the [ionic2-app-base](#ionic2-app-base) by the CLI when you `ionic start` a project. They contain mainly the code for the pages (`/src/app` and `/src/pages`), sometimes additional things (like assets, a `package.json` with additional dependencies, providers etc.).
 
 * [ionic2-starter-blank](https://github.com/ionic-team/ionic2-starter-blank) - Blank page with some text
 * [ionic2-starter-tabs](https://github.com/ionic-team/ionic2-starter-tabs) - 3 tabs with some text
@@ -56,7 +56,7 @@ These templates are downloaded and applied on top of the ionic2-app-base by the 
 
 ### Ionic Example Apps
 
-* [ionic-preview-app](https://github.com/ionic-team/ionic-preview-app) - embedded in docs
+* [ionic-preview-app](https://github.com/ionic-team/ionic-preview-app) - This app is embedded in the [documentation ionicframework.com](http://ionicframework.com/docs/components/)
 * [ionic-conference-app](https://github.com/ionic-team/ionic-conference-app) -
 * [ionic-unit-testing-example](https://github.com/ionic-team/ionic-unit-testing-example) - You should test your apps.
 * [ionic-pwa-demos](https://github.com/ionic-team/ionic-pwa-demos) -
