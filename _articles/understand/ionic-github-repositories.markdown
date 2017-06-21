@@ -112,6 +112,8 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 
 ### Ionic v1 Other
 
+* https://github.com/ionic-team/ionic-present - Source of http://ionicframework.com/present-ionic/, a presentation about Ionic v1
+
 **Contrib / Ion**
 
 * [ionic-ion-drawer](https://github.com/ionic-team/ionic-ion-drawer) - "A side menu drawer for Ionic v1 apps"
@@ -157,7 +159,12 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 * https://github.com/ionic-team/ionic2 - Former home of Ionic 2
 * https://github.com/ionic-team/ionic-box - "A Vagrant install for Android, Cordova, and Ionic v1"
 * https://github.com/ionic-team/ionic-gulp-tasks - "Collection of gulp tasks for building Ionic apps"
-* https://github.com/ionic-team/ionic-platform-web-client - Precursor to @ionic/cloud
+* https://github.com/ionic-team/ionic-platform-web-client - Precursor to `@ionic/cloud`
+* https://github.com/ionic-team/ionic-learn - once was learn.ionicframework.com
+* https://github.com/ionic-team/ionic-service-analytics - Precursor of `ionic-platform-web-client`
+* https://github.com/ionic-team/ionitron-issues - "A custom issue tracker for GitHub with issue ranking/scoring, and bot templated responses"
+* https://github.com/ionic-team/ionic-push-issues - "A repo for filing and getting push notification help."
+* https://github.com/ionic-team/ionic2-starter - "An Ionic2 starter project"
 
 **CLI v2**
 
@@ -167,15 +174,29 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * [ionic-app-generators](https://github.com/ionic-team/ionic-app-generators)
 
 
-## Internal, Abandoned, Unkown
+## Other
+
+### Internal
 
 * https://github.com/ionic-team/ionicate - Internal Survey for apps.ionic.io
+* https://github.com/ionic-team/ionic-precommit-hooks - "Runs the test for Ionic 2."
+* https://github.com/ionic-team/ionic-cz-conventional-changelog - "A commitizen adapter"
+* https://github.com/ionic-team/ionic-issue-submit - [Submit issue form](http://ionicframework.com/submit-issue/), see: [http://blog.ionic.io/how-ionic-uses-github-better/](http://blog.ionic.io/how-ionic-uses-github-better/)
+* https://github.com/ionic-team/ionitron-lingo - "teaching Ionitron to speak"
+* https://github.com/ionic-team/gulp-angular-seed - "A simple starting project for JS utilities that use Angular and want to build with Gulp"
+
+
+### Abandoned, Unkown
+
 * https://github.com/ionic-team/ionic-closure - Closure Experiment
 * https://github.com/ionic-team/ionic-web-analytics - "Express middleware for sending web analytics to BigQuery"
-* https://github.com/ionic-team/ionic-precommit-hooks - "Runs the test for Ionic 2."
 * https://github.com/ionic-team/ionic-heroku-button - "A one-click Ionic v1 app template for Heroku"
 * https://github.com/ionic-team/ionic-scripts - "ionic-scripts is a set of scripts/utilities to help ionic 2 app development"
 * https://github.com/ionic-team/ionic-bootstrap-theme-generator - "[Generate an Ionic theme from a bootstrap theme](https://ionic-bootstrap-theme.herokuapp.com/)"
+* https://github.com/ionic-team/eslint-config-ionic - "Common eslint rules/preferences for Ionic."
+* https://github.com/ionic-team/jetstrap-docs
+* https://github.com/ionic-team/ionicons-wp - "Official Ionicons WordPress Plugin"
+
 
 ### Forks
 * https://github.com/ionic-team/repool - "RethinkDB connection pool"
@@ -183,49 +204,13 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/localForage-cordovaSQLiteDriver - "SQLite driver for Cordova apps using localForage"
 * https://github.com/ionic-team/reactionic - "React Ionic"
 * https://github.com/ionic-team/cordova-plugin-statusbar - "The StatusBar object provides some functions to customize the iOS and Android StatusBar."
-
-
-
-
-
-
-
-
-* https://github.com/ionic-team/eslint-config-ionic
-
-* https://github.com/ionic-team/ionic-learn
-
-* https://github.com/ionic-team/ionic-present
-
-* https://github.com/ionic-team/cordova-lib
-
-* https://github.com/ionic-team/ionitron-issues
-
-* https://github.com/ionic-team/ionic-service-analytics
-
-* https://github.com/ionic-team/ionic-cz-conventional-changelog
-
-* https://github.com/ionic-team/ionic-issue-submit
-
-* https://github.com/ionic-team/ionic-push-issues
-
-* https://github.com/ionic-team/storm
-
+* https://github.com/ionic-team/cordova-lib - `cordova-lib`
+* https://github.com/ionic-team/storm - "Apache Storm"
 * https://github.com/ionic-team/heroku-buildpack-sphinx
-
 * https://github.com/ionic-team/heroku-buildpack-python
+* https://github.com/ionic-team/nginx-buildpack - "Run NGINX (with SSL) in front of your app server on Heroku"
 
-* https://github.com/ionic-team/jetstrap-docs
 
-* https://github.com/ionic-team/ionitron-lingo
-
-* https://github.com/ionic-team/gulp-angular-seed
-
-* https://github.com/ionic-team/ionic2-starter
-
-* https://github.com/ionic-team/nginx-buildpack
-
-* https://github.com/ionic-team/ionicons-wp
 
 * https://github.com/ionic-team/ionic-starter-cardboard
 
