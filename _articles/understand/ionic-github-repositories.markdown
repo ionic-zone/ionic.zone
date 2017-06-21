@@ -73,7 +73,7 @@ These templates are downloaded and applied on top of the [ionic2-app-base](#ioni
 * [ionic-themer](https://github.com/ionic-team/ionic-themer) - Super simple [Ionic Theme Generator](https://ionic-theme-creator.herokuapp.com/)
 * [ionicons](https://github.com/ionic-team/ionicons) - _Ionicons_ are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 * [learn-angular2](https://github.com/ionic-team/learn-angular2) - Ionic switched from AngularJS to Angular, back then still known as Angular2. This repo contains the code for the website [http://learnangular2.com](http://learnangular2.com) that can help you get comfortable with Angular and learn all the stuff that changed.
-* https://github.com/ionic-team/tslint-ionic-rules - "Common TypeScript lint rules/preferences for Ionic."
+* [tslint-ionic-rules](https://github.com/ionic-team/tslint-ionic-rules) - "Common TypeScript lint rules/preferences for Ionic."
 
 **Migrate to Ionic from Ionic v1**
 
@@ -103,8 +103,8 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic-starter-blank](https://github.com/ionic-team/ionic-starter-blank)
 * [ionic-starter-salesforce](https://github.com/ionic-team/ionic-starter-salesforce)
 * [ionic-starter-maps](https://github.com/ionic-team/ionic-starter-maps)
-* https://github.com/ionic-team/ionic-starter-io - "An ionic starter project containing the ionic.io services."
-* https://github.com/ionic-team/ionic-starter-deploy - "A starter project with Ionic Deploy"
+* [ionic-starter-io](https://github.com/ionic-team/ionic-starter-io) - "An ionic starter project containing the ionic.io services."
+* [ionic-starter-deploy](https://github.com/ionic-team/ionic-starter-deploy) - "A starter project with Ionic Deploy"
 
 
 ### Ionic v1 Example Apps
@@ -112,17 +112,17 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic-weather](https://github.com/ionic-team/ionic-weather) - "A simple Ionic Weather app"
 * [ionic1-deeplinks-demo](https://github.com/ionic-team/ionic1-deeplinks-demo) - Deeplinks demo
 * [ionic-third-party-lib-example](https://github.com/ionic-team/ionic-third-party-lib-example) - "how to use third party libs in Ionic"
-* https://github.com/ionic-team/ionic-example-cordova-camera - "An example of how to use the Cordova Camera API"
-* https://github.com/ionic-team/front-page - "An example Hacker News app showcasing what's possible with Ionic"
-* https://github.com/ionic-team/ionic-firebase-buses - "A bus tracking app for various cities using Ionic and Firebase"
-* https://github.com/ionic-team/chatroom-cordova-ionic-angularjs-firebase - "Chat room app built with Cordova, Ionic and Angularjs"
-* https://github.com/ionic-team/ionic-intro - "A demo app for showing an intro tutorial for your apps"
+* [ionic-example-cordova-camera](https://github.com/ionic-team/ionic-example-cordova-camera) - "An example of how to use the Cordova Camera API"
+* [front-page](https://github.com/ionic-team/front-page) - "An example Hacker News app showcasing what's possible with Ionic"
+* [ionic-firebase-buses](https://github.com/ionic-team/ionic-firebase-buses) - "A bus tracking app for various cities using Ionic and Firebase"
+* [chatroom-cordova-ionic-angularjs-firebase](https://github.com/ionic-team/chatroom-cordova-ionic-angularjs-firebase) - "Chat room app built with Cordova, Ionic and Angularjs"
+* [ionic-intro](https://github.com/ionic-team/ionic-intro) - "A demo app for showing an intro tutorial for your apps"
 
 
 
 ### Ionic v1 Other
 
-* https://github.com/ionic-team/ionic-present - Source of http://ionicframework.com/present-ionic/, a presentation about Ionic v1
+* [ionic-present](https://github.com/ionic-team/ionic-present) - Source of http://ionicframework.com/present-ionic/, a presentation about Ionic v1
 
 **Contrib / Ion**
 
@@ -132,8 +132,8 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic-ion-frost](https://github.com/ionic-team/ionic-ion-frost) - "A reusable frosted-glass effect for adding this cool iOS effect to your Ionic v1 apps."
 * [ionic-ion-header-shrink](https://github.com/ionic-team/ionic-ion-header-shrink) - "A demo of making a header that shrinks based on the user scrolling (like Facebook's iOS app)."
 * [ionic-contrib-frosted-glass](https://github.com/ionic-team/ionic-contrib-frosted-glass) - "An optional frosted-glass effect for iOS 7 styled Ionic v1 apps."
-* https://github.com/ionic-team/ionic-ion-ios-buttons - "Simple iOS 7 style rounded buttons with CSS"
-* https://github.com/ionic-team/ionic-contrib-firebase-login - "Using Firebase's angularFire and simple login with Ionic"
+* [ionic-ion-ios-buttons](https://github.com/ionic-team/ionic-ion-ios-buttons) - "Simple iOS 7 style rounded buttons with CSS"
+* [ionic-contrib-firebase-login](https://github.com/ionic-team/ionic-contrib-firebase-login) - "Using Firebase's angularFire and simple login with Ionic"
 
 
 ## Ionic Services / Cloud / Platform
@@ -146,7 +146,7 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic-cloud-issues](https://github.com/ionic-team/ionic-cloud-issues) # deprecated
 * [custom-auth-examples](https://github.com/ionic-team/custom-auth-examples) - ['Custom Auth'](http://docs.ionic.io/services/auth/custom-auth.html) Examples for Ionic Auth
 * [platform-client-node](https://github.com/ionic-team/platform-client-node) - Node.js library implementing the [Push Endpoints](https://docs.ionic.io/api/endpoints/push.html) of the Ionic Service HTTP API
-* https://github.com/ionic-team/ionic-error-tracking/ - Future error tracking tool?
+* [ionic-error-tracking](https://github.com/ionic-team/ionic-error-tracking) - Future error tracking tool?
 
 ## Cordova Plugins
 
@@ -157,8 +157,8 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 * [cordova-plugin-ios-keychain](https://github.com/ionic-team/cordova-plugin-ios-keychain) - Access the iOS keychain
 * [cordova-camera-roll](https://github.com/ionic-team/cordova-camera-roll) - "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll."
 * [cordova-plugin-localstorage-backup](https://github.com/ionic-team/cordova-plugin-localstorage-backup) - Backup your local storage to the device
-* https://github.com/ionic-team/cordova-plugin-wkwebview-engine - "This plugin makes Cordova use the `WKWebView` component instead of the default `UIWebView` component"
-* https://github.com/ionic-team/cordova-plugin-template - "simple starting point for building a Cordova plugin on iOS and Android"
+* [cordova-plugin-wkwebview-engine](https://github.com/ionic-team/cordova-plugin-wkwebview-engine) - "This plugin makes Cordova use the `WKWebView` component instead of the default `UIWebView` component"
+* [cordova-plugin-template](https://github.com/ionic-team/cordova-plugin-template) - "simple starting point for building a Cordova plugin on iOS and Android"
 
 ## Ionic Creator
 
@@ -169,29 +169,29 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 
 ## Deprecated
 
-* https://github.com/ionic-team/ionic2 - Former home of Ionic 2
-* https://github.com/ionic-team/ionic-box - "A Vagrant install for Android, Cordova, and Ionic v1"
-* https://github.com/ionic-team/ionic-gulp-tasks - "Collection of gulp tasks for building Ionic apps"
-* https://github.com/ionic-team/ionic-learn - once was learn.ionicframework.com
-* https://github.com/ionic-team/ionitron-issues - "A custom issue tracker for GitHub with issue ranking/scoring, and bot templated responses"
-* https://github.com/ionic-team/ionic-push-issues - "A repo for filing and getting push notification help."
-* https://github.com/ionic-team/ionic2-starter - "An Ionic2 starter project"
-* https://github.com/ionic-team/ionic-starter-cardboard - "A google cardboard template for Ionic"
-* https://github.com/ionic-team/ionic-angular-cordova-seed - "The perfect starting point for an Ionic v1 project"
-* https://github.com/ionic-team/ionic-lab-issues - "Issues to track for the Ionic Lab project."
+* [ionic2](https://github.com/ionic-team/ionic2) - Former home of Ionic 2
+* [ionic-box](https://github.com/ionic-team/ionic-box) - "A Vagrant install for Android, Cordova, and Ionic v1"
+* [ionic-gulp-tasks](https://github.com/ionic-team/ionic-gulp-tasks) - "Collection of gulp tasks for building Ionic apps"
+* [ionic-learn](https://github.com/ionic-team/ionic-learn) - once was learn.ionicframework.com
+* [ionitron-issues](https://github.com/ionic-team/ionitron-issues) - "A custom issue tracker for GitHub with issue ranking/scoring, and bot templated responses"
+* [ionic-push-issues](https://github.com/ionic-team/ionic-push-issues) - "A repo for filing and getting push notification help."
+* [ionic2-starter](https://github.com/ionic-team/ionic2-starter) - "An Ionic2 starter project"
+* [ionic-starter-cardboard](https://github.com/ionic-team/ionic-starter-cardboard) - "A google cardboard template for Ionic"
+* [ionic-angular-cordova-seed](https://github.com/ionic-team/ionic-angular-cordova-seed) - "The perfect starting point for an Ionic v1 project"
+* [ionic-lab-issues](https://github.com/ionic-team/ionic-lab-issues) - "Issues to track for the Ionic Lab project."
 
 **Old Ionic Services**
 
-* https://github.com/ionic-team/ionic-platform-web-client - Precursor to `@ionic/cloud`
-* https://github.com/ionic-team/ionic-service-analytics - Precursor of `ionic-platform-web-client`
+* [ionic-platform-web-client](https://github.com/ionic-team/ionic-platform-web-client) - Precursor to `@ionic/cloud`
+* [ionic-service-analytics](https://github.com/ionic-team/ionic-service-analytics) - Precursor of `ionic-platform-web-client`
 * [ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) - The docs this Ionic v1 app refers to don't exist any more.
-* https://github.com/ionic-team/ionic-service-push-client - "Client-side code for the ionic push service"
-* https://github.com/ionic-team/ionic-starter-push - Start for Ionic Push
-* https://github.com/ionic-team/ionic-service-core - "Common required service tools and addons"
-* https://github.com/ionic-team/ionic-service-deploy - "Update service for Ionic"
-* https://github.com/ionic-team/deploy-tutorial - "Companion app to the Ionic Deploy tutorial"
-* https://github.com/ionic-team/ionic-starter-analytics - "Your basic Ionic starter app, plus analytics"
-* https://github.com/ionic-team/ionic-default-resources - "Default resources for icons and splash screens"
+* [ionic-service-push-client](https://github.com/ionic-team/ionic-service-push-client) - "Client-side code for the ionic push service"
+* [ionic-starter-push](https://github.com/ionic-team/ionic-starter-push) - Start for Ionic Push
+* [ionic-service-core](https://github.com/ionic-team/ionic-service-core) - "Common required service tools and addons"
+* [ionic-service-deploy](https://github.com/ionic-team/ionic-service-deploy) - "Update service for Ionic"
+* [deploy-tutorial](https://github.com/ionic-team/deploy-tutorial) - "Companion app to the Ionic Deploy tutorial"
+* [ionic-starter-analytics](https://github.com/ionic-team/ionic-starter-analytics) - "Your basic Ionic starter app, plus analytics"
+* [ionic-default-resources](https://github.com/ionic-team/ionic-default-resources) - "Default resources for icons and splash screens"
 
 **CLI v2**
 
@@ -205,76 +205,76 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 
 ### Internal
 
-* https://github.com/ionic-team/ionicate - Internal Survey for apps.ionic.io
-* https://github.com/ionic-team/ionic-precommit-hooks - "Runs the test for Ionic 2."
-* https://github.com/ionic-team/ionic-cz-conventional-changelog - "A commitizen adapter"
-* https://github.com/ionic-team/ionic-issue-submit - [Submit issue form](http://ionicframework.com/submit-issue/), see: [http://blog.ionic.io/how-ionic-uses-github-better/](http://blog.ionic.io/how-ionic-uses-github-better/)
-* https://github.com/ionic-team/ionitron-lingo - "teaching Ionitron to speak"
-* https://github.com/ionic-team/gulp-angular-seed - "A simple starting project for JS utilities that use Angular and want to build with Gulp"
-* https://github.com/ionic-team/ionic-workshop-london - "Workshop for AngularConnect"
-* https://github.com/ionic-team/api-tester - "Simple node.js server that mirrors responses back"
+* [ionicate](https://github.com/ionic-team/ionicate) - Internal Survey for apps.ionic.io
+* [ionic-precommit-hooks](https://github.com/ionic-team/ionic-precommit-hooks) - "Runs the test for Ionic 2."
+* [ionic-cz-conventional-changelog](https://github.com/ionic-team/ionic-cz-conventional-changelog) - "A commitizen adapter"
+* [ionic-issue-submit](https://github.com/ionic-team/ionic-issue-submit) - [Submit issue form](http://ionicframework.com/submit-issue/), see: [http://blog.ionic.io/how-ionic-uses-github-better/](http://blog.ionic.io/how-ionic-uses-github-better/)
+* [ionitron-lingo](https://github.com/ionic-team/ionitron-lingo) - "teaching Ionitron to speak"
+* [gulp-angular-seed](https://github.com/ionic-team/gulp-angular-seed) - "A simple starting project for JS utilities that use Angular and want to build with Gulp"
+* [ionic-workshop-london](https://github.com/ionic-team/ionic-workshop-london) - "Workshop for AngularConnect"
+* [api-tester](https://github.com/ionic-team/api-tester) - "Simple node.js server that mirrors responses back"
 
 
 ### Abandoned, Unkown
 
-* https://github.com/ionic-team/ionic-closure - Closure Experiment
-* https://github.com/ionic-team/ionic-web-analytics - "Express middleware for sending web analytics to BigQuery"
-* https://github.com/ionic-team/ionic-heroku-button - "A one-click Ionic v1 app template for Heroku"
-* https://github.com/ionic-team/ionic-scripts - "ionic-scripts is a set of scripts/utilities to help ionic 2 app development"
-* https://github.com/ionic-team/ionic-bootstrap-theme-generator - "[Generate an Ionic theme from a bootstrap theme](https://ionic-bootstrap-theme.herokuapp.com/)"
-* https://github.com/ionic-team/eslint-config-ionic - "Common eslint rules/preferences for Ionic."
-* https://github.com/ionic-team/jetstrap-docs
-* https://github.com/ionic-team/ionicons-wp - "Official Ionicons WordPress Plugin"
-* https://github.com/ionic-team/ionic-workshop - "Ionic Workshop"
-* https://github.com/ionic-team/appcamp-issues - "Issues for the Appcamp project"
-* https://github.com/ionic-team/collide - "A powerful javascript animation engine for web and hybrid mobile apps, inspired by Facebook Pop"
-* https://github.com/ionic-team/lazy-loading-poc - "Lazy loading POC"
-* https://github.com/ionic-team/ionic-io-docs - "Ionic.io Docs Site"
-* https://github.com/ionic-team/ionic-io-testers
-* https://github.com/ionic-team/ionic-proxy-example - "A quick Ionic project showing how to use the proxy server"
-* https://github.com/ionic-team/ionic-starter-tests - "A test of different kinds of page navigation"
-* https://github.com/ionic-team/ionic-starter-complex-list - "A complex list starter template"
-* https://github.com/ionic-team/ionic-theme-server - "A theme server for building and serving Ionic SASS themes with set variables"
-* https://github.com/ionic-team/go-utils - "Common Go Utils for go programs"
-* https://github.com/ionic-team/cordova-plugin-discovery - "Network discovery plugin for iOS and Android Cordova apps"
-* https://github.com/ionic-team/ionic-cordova-wrapper - "A empty wrapping project for an Ionic app that uses Cordova"
-* https://github.com/ionic-team/ngMad - "Homepage for the Madison Angular Meetup Group"
-* https://github.com/ionic-team/ionic-todo
-* https://github.com/ionic-team/django-template - "Generates cordova/phonegap splash screen images for multiple platforms given a logo and background color/image."
-* https://github.com/ionic-team/cordova-splash-generator
-* https://github.com/ionic-team/ionic-tutorial-status-fade - "A simple fading statusbar as seen on the Facebook app on iOS 7"
-* https://github.com/ionic-team/jqm-neue - "A slightly tweaked default jQuery Mobile theme."
-* https://github.com/ionic-team/graphite - "Clean jQuery Mobile theme-pack and theme generator"
-* https://github.com/ionic-team/jquerymobile-tabbar - "An easier to use NavBar control for jQuery Mobile apps"
-* https://github.com/ionic-team/jqm-plain - "A fork of jQuery Mobile with one swatch and a simple, default theme."
+* [ionic-closure](https://github.com/ionic-team/ionic-closure) - Closure Experiment
+* [ionic-web-analytics](https://github.com/ionic-team/ionic-web-analytics) - "Express middleware for sending web analytics to BigQuery"
+* [ionic-heroku-button](https://github.com/ionic-team/ionic-heroku-button) - "A one-click Ionic v1 app template for Heroku"
+* [ionic-scripts](https://github.com/ionic-team/ionic-scripts) - "ionic-scripts is a set of scripts/utilities to help ionic 2 app development"
+* [ionic-bootstrap-theme-generator](https://github.com/ionic-team/ionic-bootstrap-theme-generator) - "[Generate an Ionic theme from a bootstrap theme](https://ionic-bootstrap-theme.herokuapp.com/)"
+* [eslint-config-ionic](https://github.com/ionic-team/eslint-config-ionic) - "Common eslint rules/preferences for Ionic."
+* [jetstrap-docs](https://github.com/ionic-team/jetstrap-docs)
+* [ionicons-wp](https://github.com/ionic-team/ionicons-wp) - "Official Ionicons WordPress Plugin"
+* [ionic-workshop](https://github.com/ionic-team/ionic-workshop) - "Ionic Workshop"
+* [appcamp-issues](https://github.com/ionic-team/appcamp-issues) - "Issues for the Appcamp project"
+* [collide](https://github.com/ionic-team/collide) - "A powerful javascript animation engine for web and hybrid mobile apps, inspired by Facebook Pop"
+* [lazy-loading-poc](https://github.com/ionic-team/lazy-loading-poc) - "Lazy loading POC"
+* [ionic-io-docs](https://github.com/ionic-team/ionic-io-docs) - "Ionic.io Docs Site"
+* [ionic-io-testers](https://github.com/ionic-team/ionic-io-testers)
+* [ionic-proxy-example](https://github.com/ionic-team/ionic-proxy-example) - "A quick Ionic project showing how to use the proxy server"
+* [ionic-starter-tests](https://github.com/ionic-team/ionic-starter-tests) - "A test of different kinds of page navigation"
+* [ionic-starter-complex-list](https://github.com/ionic-team/ionic-starter-complex-list) - "A complex list starter template"
+* [ionic-theme-server](https://github.com/ionic-team/ionic-theme-server) - "A theme server for building and serving Ionic SASS themes with set variables"
+* [go-utils](https://github.com/ionic-team/go-utils) - "Common Go Utils for go programs"
+* [cordova-plugin-discovery](https://github.com/ionic-team/cordova-plugin-discovery) - "Network discovery plugin for iOS and Android Cordova apps"
+* [ionic-cordova-wrapper](https://github.com/ionic-team/ionic-cordova-wrapper) - "A empty wrapping project for an Ionic app that uses Cordova"
+* [ngMad](https://github.com/ionic-team/ngMad) - "Homepage for the Madison Angular Meetup Group"
+* [ionic-todo](https://github.com/ionic-team/ionic-todo)
+* [django-template](https://github.com/ionic-team/django-template) - "Generates cordova/phonegap splash screen images for multiple platforms given a logo and background color/image."
+* [cordova-splash-generator](https://github.com/ionic-team/cordova-splash-generator)
+* [ionic-tutorial-status-fade](https://github.com/ionic-team/ionic-tutorial-status-fade) - "A simple fading statusbar as seen on the Facebook app on iOS 7"
+* [jqm-neue](https://github.com/ionic-team/jqm-neue) - "A slightly tweaked default jQuery Mobile theme."
+* [graphite](https://github.com/ionic-team/graphite) - "Clean jQuery Mobile theme-pack and theme generator"
+* [jquerymobile-tabbar](https://github.com/ionic-team/jquerymobile-tabbar) - "An easier to use NavBar control for jQuery Mobile apps"
+* [jqm-plain](https://github.com/ionic-team/jqm-plain) - "A fork of jQuery Mobile with one swatch and a simple, default theme."
 
 
 ### Forks
-* https://github.com/ionic-team/repool - "RethinkDB connection pool"
-* https://github.com/ionic-team/cordova-plugin-inapppurchase - "A lightweight cordova plugin for in app purchases on iOS/Android"
-* https://github.com/ionic-team/localForage-cordovaSQLiteDriver - "SQLite driver for Cordova apps using localForage"
-* https://github.com/ionic-team/reactionic - "React Ionic"
-* https://github.com/ionic-team/cordova-plugin-statusbar - "The StatusBar object provides some functions to customize the iOS and Android StatusBar."
-* https://github.com/ionic-team/cordova-lib - `cordova-lib`
-* https://github.com/ionic-team/storm - "Apache Storm"
-* https://github.com/ionic-team/heroku-buildpack-sphinx
-* https://github.com/ionic-team/heroku-buildpack-python
-* https://github.com/ionic-team/nginx-buildpack - "Run NGINX (with SSL) in front of your app server on Heroku"
-* https://github.com/ionic-team/heroku-buildpack-multi - "Composable buildpacks"
-* https://github.com/ionic-team/electron-builder - "Build installers for Electron apps the easy way"
-* https://github.com/ionic-team/usemin-lib - "Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)"
-* https://github.com/ionic-team/node-xcode - "tools and utilities for working with xcode/ios projects"
-* https://github.com/ionic-team/heroku-buildpack-nodejs-gulp - "A slightly modified version of Heroku's official Node.js buildpack with added gulp.js support"
-* https://github.com/ionic-team/node-js-getting-started - "Getting Started with Node on Heroku"
-* https://github.com/ionic-team/gulp-electron - "A gulp plugin for atom-shell distribute applications"
-* https://github.com/ionic-team/bonjour - "A Bonjour/Zeroconf protocol implementation in JavaScript"
-* https://github.com/ionic-team/cordova-plugin-keyboard - "Keyboard Plugin for Cordova"
-* https://github.com/ionic-team/cordova-android - `cordova-android`
-* https://github.com/ionic-team/cordova-crosswalk-engine - "Proof of Concept Third Party Web Engine using Crosswalk"
-* https://github.com/ionic-team/standard - "JavaScript Standard Style — One Style to Rule Them All"
-* https://github.com/ionic-team/tiny-lr - "tiny livereload"
-* https://github.com/ionic-team/InstagramPlugin - "Instagram plugin for PhoneGap/Cordova"
-* https://github.com/ionic-team/opbeat-node - "A Node.js client for Opbeat"
-* https://github.com/ionic-team/docker-consul - "Dockerized Consul Agent"
-* https://github.com/ionic-team/gosass - "Go language wrapper for LibSass"
-* https://github.com/ionic-team/discourse - "A platform for community discussion."
+* [repool](https://github.com/ionic-team/repool) - "RethinkDB connection pool"
+* [cordova-plugin-inapppurchase](https://github.com/ionic-team/cordova-plugin-inapppurchase) - "A lightweight cordova plugin for in app purchases on iOS/Android"
+* [localForage-cordovaSQLiteDriver](https://github.com/ionic-team/localForage-cordovaSQLiteDriver) - "SQLite driver for Cordova apps using localForage"
+* [reactionic](https://github.com/ionic-team/reactionic) - "React Ionic"
+* [cordova-plugin-statusbar](https://github.com/ionic-team/cordova-plugin-statusbar) - "The StatusBar object provides some functions to customize the iOS and Android StatusBar."
+* [cordova-lib](https://github.com/ionic-team/cordova-lib) - `cordova-lib`
+* [storm](https://github.com/ionic-team/storm) - "Apache Storm"
+* [heroku-buildpack-sphinx](https://github.com/ionic-team/heroku-buildpack-sphinx)
+* [heroku-buildpack-python](https://github.com/ionic-team/heroku-buildpack-python)
+* [nginx-buildpack](https://github.com/ionic-team/nginx-buildpack) - "Run NGINX (with SSL) in front of your app server on Heroku"
+* [heroku-buildpack-multi](https://github.com/ionic-team/heroku-buildpack-multi) - "Composable buildpacks"
+* [electron-builder](https://github.com/ionic-team/electron-builder) - "Build installers for Electron apps the easy way"
+* [usemin-lib](https://github.com/ionic-team/usemin-lib) - "Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)"
+* [node-xcode](https://github.com/ionic-team/node-xcode) - "tools and utilities for working with xcode/ios projects"
+* [heroku-buildpack-nodejs-gulp](https://github.com/ionic-team/heroku-buildpack-nodejs-gulp) - "A slightly modified version of Heroku's official Node.js buildpack with added gulp.js support"
+* [gulp-electron](https://github.com/ionic-team/node-js-getting-started) - "Getting Started with Node on Heroku"
+* [gulp-electron](https://github.com/ionic-team/gulp-electron) - "A gulp plugin for atom-shell distribute applications"
+* [bonjour](https://github.com/ionic-team/bonjour) - "A Bonjour/Zeroconf protocol implementation in JavaScript"
+* [cordova-plugin-keyboard](https://github.com/ionic-team/cordova-plugin-keyboard) - "Keyboard Plugin for Cordova"
+* [cordova-android](https://github.com/ionic-team/cordova-android) - `cordova-android`
+* [cordova-crosswalk-engine](https://github.com/ionic-team/cordova-crosswalk-engine) - "Proof of Concept Third Party Web Engine using Crosswalk"
+* [standard](https://github.com/ionic-team/standard) - "JavaScript Standard Style — One Style to Rule Them All"
+* [tiny-lr](https://github.com/ionic-team/tiny-lr) - "tiny livereload"
+* [InstagramPlugin](https://github.com/ionic-team/InstagramPlugin) - "Instagram plugin for PhoneGap/Cordova"
+* [opbeat-node](https://github.com/ionic-team/opbeat-node) - "A Node.js client for Opbeat"
+* [docker-consul](https://github.com/ionic-team/docker-consul) - "Dockerized Consul Agent"
+* [gosass](https://github.com/ionic-team/gosass) - "Go language wrapper for LibSass"
+* [discourse](https://github.com/ionic-team/discourse) - "A platform for community discussion."
