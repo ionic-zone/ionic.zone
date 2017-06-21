@@ -113,6 +113,11 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic1-deeplinks-demo](https://github.com/ionic-team/ionic1-deeplinks-demo) - Deeplinks demo
 * [ionic-third-party-lib-example](https://github.com/ionic-team/ionic-third-party-lib-example) - "how to use third party libs in Ionic"
 * https://github.com/ionic-team/ionic-example-cordova-camera - "An example of how to use the Cordova Camera API"
+* https://github.com/ionic-team/front-page - "An example Hacker News app showcasing what's possible with Ionic"
+* https://github.com/ionic-team/ionic-firebase-buses - "A bus tracking app for various cities using Ionic and Firebase"
+* https://github.com/ionic-team/chatroom-cordova-ionic-angularjs-firebase - "Chat room app built with Cordova, Ionic and Angularjs"
+* https://github.com/ionic-team/ionic-intro - "A demo app for showing an intro tutorial for your apps"
+
 
 
 ### Ionic v1 Other
@@ -127,6 +132,9 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic-ion-frost](https://github.com/ionic-team/ionic-ion-frost) - "A reusable frosted-glass effect for adding this cool iOS effect to your Ionic v1 apps."
 * [ionic-ion-header-shrink](https://github.com/ionic-team/ionic-ion-header-shrink) - "A demo of making a header that shrinks based on the user scrolling (like Facebook's iOS app)."
 * [ionic-contrib-frosted-glass](https://github.com/ionic-team/ionic-contrib-frosted-glass) - "An optional frosted-glass effect for iOS 7 styled Ionic v1 apps."
+* https://github.com/ionic-team/ionic-ion-ios-buttons - "Simple iOS 7 style rounded buttons with CSS"
+* https://github.com/ionic-team/ionic-contrib-firebase-login - "Using Firebase's angularFire and simple login with Ionic"
+
 
 ## Ionic Services / Cloud / Platform
 
@@ -185,7 +193,6 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 * https://github.com/ionic-team/ionic-starter-analytics - "Your basic Ionic starter app, plus analytics"
 * https://github.com/ionic-team/ionic-default-resources - "Default resources for icons and splash screens"
 
-
 **CLI v2**
 
 With the release of Ionic CLI v3 these two repositories are not needed any more as a rewrite of them is now part of the CLI itself:
@@ -225,7 +232,21 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/ionic-io-docs - "Ionic.io Docs Site"
 * https://github.com/ionic-team/ionic-io-testers
 * https://github.com/ionic-team/ionic-proxy-example - "A quick Ionic project showing how to use the proxy server"
-
+* https://github.com/ionic-team/ionic-starter-tests - "A test of different kinds of page navigation"
+* https://github.com/ionic-team/ionic-starter-complex-list - "A complex list starter template"
+* https://github.com/ionic-team/ionic-theme-server - "A theme server for building and serving Ionic SASS themes with set variables"
+* https://github.com/ionic-team/go-utils - "Common Go Utils for go programs"
+* https://github.com/ionic-team/cordova-plugin-discovery - "Network discovery plugin for iOS and Android Cordova apps"
+* https://github.com/ionic-team/ionic-cordova-wrapper - "A empty wrapping project for an Ionic app that uses Cordova"
+* https://github.com/ionic-team/ngMad - "Homepage for the Madison Angular Meetup Group"
+* https://github.com/ionic-team/ionic-todo
+* https://github.com/ionic-team/django-template - "Generates cordova/phonegap splash screen images for multiple platforms given a logo and background color/image."
+* https://github.com/ionic-team/cordova-splash-generator
+* https://github.com/ionic-team/ionic-tutorial-status-fade - "A simple fading statusbar as seen on the Facebook app on iOS 7"
+* https://github.com/ionic-team/jqm-neue - "A slightly tweaked default jQuery Mobile theme."
+* https://github.com/ionic-team/graphite - "Clean jQuery Mobile theme-pack and theme generator"
+* https://github.com/ionic-team/jquerymobile-tabbar - "An easier to use NavBar control for jQuery Mobile apps"
+* https://github.com/ionic-team/jqm-plain - "A fork of jQuery Mobile with one swatch and a simple, default theme."
 
 
 ### Forks
@@ -253,59 +274,7 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/standard - "JavaScript Standard Style — One Style to Rule Them All"
 * https://github.com/ionic-team/tiny-lr - "tiny livereload"
 * https://github.com/ionic-team/InstagramPlugin - "Instagram plugin for PhoneGap/Cordova"
-
-
-
-## Unsorted
-
-
-
-* https://github.com/ionic-team/opbeat-node
-
-* https://github.com/ionic-team/front-page
-
-* https://github.com/ionic-team/ionic-starter-tests
-
-* https://github.com/ionic-team/ionic-starter-complex-list
-
-* https://github.com/ionic-team/docker-consul
-
-* https://github.com/ionic-team/ionic-ion-ios-buttons
-
-* https://github.com/ionic-team/ionic-theme-server
-
-* https://github.com/ionic-team/gosass
-
-* https://github.com/ionic-team/go-utils
- 
-* https://github.com/ionic-team/cordova-plugin-discovery
-
-* https://github.com/ionic-team/ionic-cordova-wrapper
-
-* https://github.com/ionic-team/ionic-contrib-firebase-login
-
-* https://github.com/ionic-team/ngMad
-
-* https://github.com/ionic-team/ionic-todo
-
-* https://github.com/ionic-team/ionic-firebase-buses
-
-* https://github.com/ionic-team/chatroom-cordova-ionic-angularjs-firebase
-
-* https://github.com/ionic-team/django-template
-
-* https://github.com/ionic-team/cordova-splash-generator
-
-* https://github.com/ionic-team/ionic-intro
-
-* https://github.com/ionic-team/ionic-tutorial-status-fade
-
-* https://github.com/ionic-team/discourse
-
-* https://github.com/ionic-team/jqm-neue
-
-* https://github.com/ionic-team/graphite
-
-* https://github.com/ionic-team/jquerymobile-tabbar
-
-* https://github.com/ionic-team/jqm-plain
+* https://github.com/ionic-team/opbeat-node - "A Node.js client for Opbeat"
+* https://github.com/ionic-team/docker-consul - "Dockerized Consul Agent"
+* https://github.com/ionic-team/gosass - "Go language wrapper for LibSass"
+* https://github.com/ionic-team/discourse - "A platform for community discussion."
