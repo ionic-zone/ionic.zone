@@ -136,14 +136,13 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic-contrib-firebase-login](https://github.com/ionic-team/ionic-contrib-firebase-login) - "Using Firebase's angularFire and simple login with Ionic"
 
 
-## Ionic Services / Cloud / Platform
+## Ionic Services (Cloud, Platform)
 
 * [ionic-cloud-angular](https://github.com/ionic-team/ionic-cloud-angular) - Use _Ionic Services_ in Ionic/Angular
 * [ionic-cloud](https://github.com/ionic-team/ionic-cloud) - Use Ionic Services in Ionic v1/AngularJS
 * [ionic-plugin-deploy](https://github.com/ionic-team/ionic-plugin-deploy) - Cordova Plugin for Ionic Deploy / Live Updates
 * [ionic-package-hooks](https://github.com/ionic-team/ionic-package-hooks) - "Cordova hooks that you can run in Ionic Package"
 * [ionic-view-issues](https://github.com/ionic-team/ionic-view-issues) - _Ionic View_ is the app to show and test apps you `ionic upload`ed to apps.ionic.io. That source code is not open source, but here you can create issues for bugs or feature requests.
-* [ionic-cloud-issues](https://github.com/ionic-team/ionic-cloud-issues) # deprecated
 * [custom-auth-examples](https://github.com/ionic-team/custom-auth-examples) - ['Custom Auth'](http://docs.ionic.io/services/auth/custom-auth.html) Examples for Ionic Auth
 * [platform-client-node](https://github.com/ionic-team/platform-client-node) - Node.js library implementing the [Push Endpoints](https://docs.ionic.io/api/endpoints/push.html) of the Ionic Service HTTP API
 * [ionic-error-tracking](https://github.com/ionic-team/ionic-error-tracking) - Future error tracking tool?
@@ -162,14 +161,15 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 
 ## Ionic Creator
 
-[Ionic Creator](https://creator.ionic.io/) is a nifty WYSIWYG editor for [Ionic v1](#ionic-v1) that you can use to click your interface and then back it with code.
+[Ionic Creator](https://creator.ionic.io/) is a WYSIWYG editor for [Ionic v1](#ionic-v1) that you can use to click your interface and then back it with code.
 
-* [creator-weekly-workshops](https://github.com/ionic-team/creator-weekly-workshops) -
-* [creator-code-todo-demo](https://github.com/ionic-team/creator-code-todo-demo) -
+* [creator-weekly-workshops](https://github.com/ionic-team/creator-weekly-workshops)
+* [creator-code-todo-demo](https://github.com/ionic-team/creator-code-todo-demo)
 
 ## Deprecated
 
 * [ionic2](https://github.com/ionic-team/ionic2) - Former home of Ionic 2
+* [ionic-cloud-issues](https://github.com/ionic-team/ionic-cloud-issues)
 * [ionic-box](https://github.com/ionic-team/ionic-box) - "A Vagrant install for Android, Cordova, and Ionic v1"
 * [ionic-gulp-tasks](https://github.com/ionic-team/ionic-gulp-tasks) - "Collection of gulp tasks for building Ionic apps"
 * [ionic-learn](https://github.com/ionic-team/ionic-learn) - once was learn.ionicframework.com
