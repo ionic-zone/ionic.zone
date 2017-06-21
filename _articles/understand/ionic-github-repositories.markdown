@@ -73,6 +73,7 @@ These templates are downloaded and applied on top of the [ionic2-app-base](#ioni
 * [ionic-themer](https://github.com/ionic-team/ionic-themer) - Super simple [Ionic Theme Generator](https://ionic-theme-creator.herokuapp.com/)
 * [ionicons](https://github.com/ionic-team/ionicons) - _Ionicons_ are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 * [learn-angular2](https://github.com/ionic-team/learn-angular2) - Ionic switched from AngularJS to Angular, back then still known as Angular2. This repo contains the code for the website [http://learnangular2.com](http://learnangular2.com) that can help you get comfortable with Angular and learn all the stuff that changed.
+* https://github.com/ionic-team/tslint-ionic-rules - "Common TypeScript lint rules/preferences for Ionic."
 
 **Migrate to Ionic from Ionic v1**
 
@@ -135,21 +136,16 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 
 Ionic also offers and creates some Cordova plugins for use in all Cordova projects, not only Ionic.
 
-* [ionic-plugin-keyboard](https://github.com/ionic-team/ionic-plugin-keyboard) - Interacting with the keyboards and get events fire on keyboard changes
-
+* [ionic-plugin-keyboard](https://github.com/ionic-team/ionic-plugin-keyboard) - Interacting with the keyboards and get events fired on keyboard changes
 * [ionic-plugin-deeplinks](https://github.com/ionic-team/ionic-plugin-deeplinks) - "Handle deeplinks into your Ionic/Cordova apps from Universal Links, App Links, and Custom URL schemes."
-
 * [cordova-plugin-ios-keychain](https://github.com/ionic-team/cordova-plugin-ios-keychain) - Access the iOS keychain
-
 * [cordova-camera-roll](https://github.com/ionic-team/cordova-camera-roll) - "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll."
-
 * [cordova-plugin-localstorage-backup](https://github.com/ionic-team/cordova-plugin-localstorage-backup) - Backup your local storage to the device
-
-* https://github.com/ionic-team/cordova-plugin-wkwebview-engine
+* https://github.com/ionic-team/cordova-plugin-wkwebview-engine - "This plugin makes Cordova use the `WKWebView` component instead of the default `UIWebView` component"
 
 ## Ionic Creator
 
-Ionic Creator is a nifty WYSIWYG editor for Ionic v1 that you can use to click your interface and then back it with code.
+[Ionic Creator](https://creator.ionic.io/) is a nifty WYSIWYG editor for [Ionic v1](#ionic-v1) that you can use to click your interface and then back it with code.
 
 * [creator-weekly-workshops](https://github.com/ionic-team/creator-weekly-workshops) -
 * [creator-code-todo-demo](https://github.com/ionic-team/creator-code-todo-demo) -
@@ -157,6 +153,9 @@ Ionic Creator is a nifty WYSIWYG editor for Ionic v1 that you can use to click y
 ## Deprecated
 
 * [ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) - The docs this Ionic v1 app refers to don't exist any more.
+* https://github.com/ionic-team/ionic2 - Former home of Ionic 2
+* https://github.com/ionic-team/ionic-box - "A Vagrant install for Android, Cordova, and Ionic v1"
+* https://github.com/ionic-team/ionic-gulp-tasks - "Collection of gulp tasks for building Ionic apps"
 
 **CLI v2**
 
@@ -166,28 +165,18 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * [ionic-app-generators](https://github.com/ionic-team/ionic-app-generators) -
 
 
+## Internal, Abandoned, Unkown
 
-## Internal / Unrelated / Abandoned / Not Relevant / Very Old / Unkown
+* https://github.com/ionic-team/ionicate - Internal Survey for apps.ionic.io
+* https://github.com/ionic-team/ionic-closure - Closure Experiment
+* https://github.com/ionic-team/ionic-web-analytics - "Express middleware for sending web analytics to BigQuery"
+* https://github.com/ionic-team/ionic-precommit-hooks - "Runs the test for Ionic 2."
 
-* https://github.com/ionic-team/ionicate = Internal Survey for apps.ionic.io
+### Forks
+* https://github.com/ionic-team/repool - "RethinkDB connection pool"
+* https://github.com/ionic-team/cordova-plugin-inapppurchase - "A lightweight cordova plugin for in app purchases on iOS/Android"
 
-* https://github.com/ionic-team/ionic2 = Former home of Ionic 2
 
-* https://github.com/ionic-team/ionic-closure = Closure Experiment
-
-* https://github.com/ionic-team/repool
-
-* https://github.com/ionic-team/ionic-box
-
-* https://github.com/ionic-team/ionic-web-analytics
-
-* https://github.com/ionic-team/ionic-precommit-hooks
-
-* https://github.com/ionic-team/cordova-plugin-inapppurchase
-
-* https://github.com/ionic-team/ionic-gulp-tasks
-
-* https://github.com/ionic-team/tslint-ionic-rules
 
 * https://github.com/ionic-team/ionic-heroku-button
 
