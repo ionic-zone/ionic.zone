@@ -155,16 +155,29 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 
 ## Deprecated
 
-* [ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) - The docs this Ionic v1 app refers to don't exist any more.
 * https://github.com/ionic-team/ionic2 - Former home of Ionic 2
 * https://github.com/ionic-team/ionic-box - "A Vagrant install for Android, Cordova, and Ionic v1"
 * https://github.com/ionic-team/ionic-gulp-tasks - "Collection of gulp tasks for building Ionic apps"
-* https://github.com/ionic-team/ionic-platform-web-client - Precursor to `@ionic/cloud`
 * https://github.com/ionic-team/ionic-learn - once was learn.ionicframework.com
-* https://github.com/ionic-team/ionic-service-analytics - Precursor of `ionic-platform-web-client`
 * https://github.com/ionic-team/ionitron-issues - "A custom issue tracker for GitHub with issue ranking/scoring, and bot templated responses"
 * https://github.com/ionic-team/ionic-push-issues - "A repo for filing and getting push notification help."
 * https://github.com/ionic-team/ionic2-starter - "An Ionic2 starter project"
+* https://github.com/ionic-team/ionic-starter-cardboard - "A google cardboard template for Ionic"
+* https://github.com/ionic-team/ionic-angular-cordova-seed - "The perfect starting point for an Ionic v1 project"
+* https://github.com/ionic-team/ionic-lab-issues - "Issues to track for the Ionic Lab project."
+
+**Old Ionic Services**
+
+* https://github.com/ionic-team/ionic-platform-web-client - Precursor to `@ionic/cloud`
+* https://github.com/ionic-team/ionic-service-analytics - Precursor of `ionic-platform-web-client`
+* [ionic-push-tutorial-app](https://github.com/ionic-team/ionic-push-tutorial-app) - The docs this Ionic v1 app refers to don't exist any more.
+* https://github.com/ionic-team/ionic-service-push-client - "Client-side code for the ionic push service"
+* https://github.com/ionic-team/ionic-starter-push - Start for Ionic Push
+* https://github.com/ionic-team/ionic-service-core - "Common required service tools and addons"
+* https://github.com/ionic-team/ionic-service-deploy - "Update service for Ionic"
+* https://github.com/ionic-team/deploy-tutorial - "Companion app to the Ionic Deploy tutorial"
+* https://github.com/ionic-team/ionic-starter-analytics - "Your basic Ionic starter app, plus analytics"
+
 
 **CLI v2**
 
@@ -184,6 +197,8 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/ionic-issue-submit - [Submit issue form](http://ionicframework.com/submit-issue/), see: [http://blog.ionic.io/how-ionic-uses-github-better/](http://blog.ionic.io/how-ionic-uses-github-better/)
 * https://github.com/ionic-team/ionitron-lingo - "teaching Ionitron to speak"
 * https://github.com/ionic-team/gulp-angular-seed - "A simple starting project for JS utilities that use Angular and want to build with Gulp"
+* https://github.com/ionic-team/ionic-workshop-london - "Workshop for AngularConnect"
+* https://github.com/ionic-team/api-tester - "Simple node.js server that mirrors responses back"
 
 
 ### Abandoned, Unkown
@@ -196,6 +211,11 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/eslint-config-ionic - "Common eslint rules/preferences for Ionic."
 * https://github.com/ionic-team/jetstrap-docs
 * https://github.com/ionic-team/ionicons-wp - "Official Ionicons WordPress Plugin"
+* https://github.com/ionic-team/ionic-workshop - "Ionic Workshop"
+* https://github.com/ionic-team/appcamp-issues - "Issues for the Appcamp project"
+* https://github.com/ionic-team/collide - "A powerful javascript animation engine for web and hybrid mobile apps, inspired by Facebook Pop"
+* https://github.com/ionic-team/lazy-loading-poc - "Lazy loading POC"
+
 
 
 ### Forks
@@ -209,54 +229,18 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/heroku-buildpack-sphinx
 * https://github.com/ionic-team/heroku-buildpack-python
 * https://github.com/ionic-team/nginx-buildpack - "Run NGINX (with SSL) in front of your app server on Heroku"
+* https://github.com/ionic-team/heroku-buildpack-multi - "Composable buildpacks"
+* https://github.com/ionic-team/electron-builder - "Build installers for Electron apps the easy way"
+* https://github.com/ionic-team/usemin-lib - "Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)"
+* https://github.com/ionic-team/node-xcode - "tools and utilities for working with xcode/ios projects"
+* https://github.com/ionic-team/heroku-buildpack-nodejs-gulp - "A slightly modified version of Heroku's official Node.js buildpack with added gulp.js support"
+* https://github.com/ionic-team/node-js-getting-started - "Getting Started with Node on Heroku"
+* https://github.com/ionic-team/gulp-electron - "A gulp plugin for atom-shell distribute applications"
 
 
 
-* https://github.com/ionic-team/ionic-starter-cardboard
 
-* https://github.com/ionic-team/ionic-workshop-london
 
-* https://github.com/ionic-team/ionic-service-push-client
-
-* https://github.com/ionic-team/ionic-starter-push
-
-* https://github.com/ionic-team/ionic-service-core
-
-* https://github.com/ionic-team/ionic-service-deploy
-
-* https://github.com/ionic-team/heroku-buildpack-multi
-
-* https://github.com/ionic-team/ionic-workshop
-
-* https://github.com/ionic-team/deploy-tutorial
-
-* https://github.com/ionic-team/appcamp-issues
-
-* https://github.com/ionic-team/electron-builder
-
-* https://github.com/ionic-team/ionic-angular-cordova-seed
-
-* https://github.com/ionic-team/usemin-lib
-
-* https://github.com/ionic-team/node-xcode
-
-* https://github.com/ionic-team/ionic-lab-issues
-
-* https://github.com/ionic-team/heroku-buildpack-nodejs-gulp
-
-* https://github.com/ionic-team/collide
-
-* https://github.com/ionic-team/api-tester
-
-* https://github.com/ionic-team/node-js-getting-started
-
-* https://github.com/ionic-team/gulp-electron
-
-* https://github.com/ionic-team/ionic-starter-analytics
-
-* https://github.com/ionic-team/lazy-loading-poc
-
-*
 
 ## Unsorted
 
