@@ -103,12 +103,17 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic-starter-blank](https://github.com/ionic-team/ionic-starter-blank)
 * [ionic-starter-salesforce](https://github.com/ionic-team/ionic-starter-salesforce)
 * [ionic-starter-maps](https://github.com/ionic-team/ionic-starter-maps)
+* https://github.com/ionic-team/ionic-starter-io - "An ionic starter project containing the ionic.io services."
+* https://github.com/ionic-team/ionic-starter-deploy - "A starter project with Ionic Deploy"
+
 
 ### Ionic v1 Example Apps
 
 * [ionic-weather](https://github.com/ionic-team/ionic-weather) - "A simple Ionic Weather app"
 * [ionic1-deeplinks-demo](https://github.com/ionic-team/ionic1-deeplinks-demo) - Deeplinks demo
 * [ionic-third-party-lib-example](https://github.com/ionic-team/ionic-third-party-lib-example) - "how to use third party libs in Ionic"
+* https://github.com/ionic-team/ionic-example-cordova-camera - "An example of how to use the Cordova Camera API"
+
 
 ### Ionic v1 Other
 
@@ -133,6 +138,7 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic-cloud-issues](https://github.com/ionic-team/ionic-cloud-issues) # deprecated
 * [custom-auth-examples](https://github.com/ionic-team/custom-auth-examples) - ['Custom Auth'](http://docs.ionic.io/services/auth/custom-auth.html) Examples for Ionic Auth
 * [platform-client-node](https://github.com/ionic-team/platform-client-node) - Node.js library implementing the [Push Endpoints](https://docs.ionic.io/api/endpoints/push.html) of the Ionic Service HTTP API
+* https://github.com/ionic-team/ionic-error-tracking/ - Future error tracking tool?
 
 ## Cordova Plugins
 
@@ -177,6 +183,7 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 * https://github.com/ionic-team/ionic-service-deploy - "Update service for Ionic"
 * https://github.com/ionic-team/deploy-tutorial - "Companion app to the Ionic Deploy tutorial"
 * https://github.com/ionic-team/ionic-starter-analytics - "Your basic Ionic starter app, plus analytics"
+* https://github.com/ionic-team/ionic-default-resources - "Default resources for icons and splash screens"
 
 
 **CLI v2**
@@ -215,6 +222,9 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/appcamp-issues - "Issues for the Appcamp project"
 * https://github.com/ionic-team/collide - "A powerful javascript animation engine for web and hybrid mobile apps, inspired by Facebook Pop"
 * https://github.com/ionic-team/lazy-loading-poc - "Lazy loading POC"
+* https://github.com/ionic-team/ionic-io-docs - "Ionic.io Docs Site"
+* https://github.com/ionic-team/ionic-io-testers
+* https://github.com/ionic-team/ionic-proxy-example - "A quick Ionic project showing how to use the proxy server"
 
 
 
@@ -236,90 +246,66 @@ With the release of Ionic CLI v3 these two repositories are not needed any more 
 * https://github.com/ionic-team/heroku-buildpack-nodejs-gulp - "A slightly modified version of Heroku's official Node.js buildpack with added gulp.js support"
 * https://github.com/ionic-team/node-js-getting-started - "Getting Started with Node on Heroku"
 * https://github.com/ionic-team/gulp-electron - "A gulp plugin for atom-shell distribute applications"
-
-
-
+* https://github.com/ionic-team/bonjour - "A Bonjour/Zeroconf protocol implementation in JavaScript"
+* https://github.com/ionic-team/cordova-plugin-keyboard - "Keyboard Plugin for Cordova"
+* https://github.com/ionic-team/cordova-android - `cordova-android`
+* https://github.com/ionic-team/cordova-crosswalk-engine - "Proof of Concept Third Party Web Engine using Crosswalk"
+* https://github.com/ionic-team/standard - "JavaScript Standard Style — One Style to Rule Them All"
+* https://github.com/ionic-team/tiny-lr - "tiny livereload"
+* https://github.com/ionic-team/InstagramPlugin - "Instagram plugin for PhoneGap/Cordova"
 
 
 
 ## Unsorted
 
-https://github.com/ionic-team/bonjour = Internal fork
 
-https://github.com/ionic-team/cordova-plugin-keyboard =
 
-https://github.com/ionic-team/ionic-error-tracking/ = "Internal" error tracking tool
+* https://github.com/ionic-team/opbeat-node
 
-https://github.com/ionic-team/ionic-example-cordova-camera
+* https://github.com/ionic-team/front-page
 
-https://github.com/ionic-team/ionic-starter-io
+* https://github.com/ionic-team/ionic-starter-tests
 
-https://github.com/ionic-team/ionic-starter-deploy
+* https://github.com/ionic-team/ionic-starter-complex-list
 
-https://github.com/ionic-team/ionic-io-docs
+* https://github.com/ionic-team/docker-consul
 
-https://github.com/ionic-team/cordova-android
+* https://github.com/ionic-team/ionic-ion-ios-buttons
 
-https://github.com/ionic-team/cordova-crosswalk-engine
+* https://github.com/ionic-team/ionic-theme-server
 
-https://github.com/ionic-team/ionic-io-testers
+* https://github.com/ionic-team/gosass
 
-https://github.com/ionic-team/ionic-default-resources
+* https://github.com/ionic-team/go-utils
+ 
+* https://github.com/ionic-team/cordova-plugin-discovery
 
-https://github.com/ionic-team/standard
+* https://github.com/ionic-team/ionic-cordova-wrapper
 
-https://github.com/ionic-team/tiny-lr
+* https://github.com/ionic-team/ionic-contrib-firebase-login
 
-https://github.com/ionic-team/InstagramPlugin
+* https://github.com/ionic-team/ngMad
 
-https://github.com/ionic-team/ionic-proxy-example
+* https://github.com/ionic-team/ionic-todo
 
-https://github.com/ionic-team/opbeat-node
+* https://github.com/ionic-team/ionic-firebase-buses
 
-https://github.com/ionic-team/front-page
+* https://github.com/ionic-team/chatroom-cordova-ionic-angularjs-firebase
 
-https://github.com/ionic-team/ionic-starter-tests
+* https://github.com/ionic-team/django-template
 
-https://github.com/ionic-team/ionic-starter-complex-list
+* https://github.com/ionic-team/cordova-splash-generator
 
-https://github.com/ionic-team/docker-consul
+* https://github.com/ionic-team/ionic-intro
 
-https://github.com/ionic-team/ionic-ion-ios-buttons
+* https://github.com/ionic-team/ionic-tutorial-status-fade
 
-https://github.com/ionic-team/ionic-theme-server
+* https://github.com/ionic-team/discourse
 
-https://github.com/ionic-team/gosass
+* https://github.com/ionic-team/jqm-neue
 
-https://github.com/ionic-team/go-utils
+* https://github.com/ionic-team/graphite
 
-https://github.com/ionic-team/cordova-plugin-discovery
+* https://github.com/ionic-team/jquerymobile-tabbar
 
-https://github.com/ionic-team/ionic-cordova-wrapper
-
-https://github.com/ionic-team/ionic-contrib-firebase-login
-
-https://github.com/ionic-team/ngMad
-
-https://github.com/ionic-team/ionic-todo
-
-https://github.com/ionic-team/ionic-firebase-buses
-
-https://github.com/ionic-team/chatroom-cordova-ionic-angularjs-firebase
-
-https://github.com/ionic-team/django-template
-
-https://github.com/ionic-team/cordova-splash-generator
-
-https://github.com/ionic-team/ionic-intro
-
-https://github.com/ionic-team/ionic-tutorial-status-fade
-
-https://github.com/ionic-team/discourse
-
-https://github.com/ionic-team/jqm-neue
-
-https://github.com/ionic-team/graphite
-
-https://github.com/ionic-team/jquerymobile-tabbar
-
-https://github.com/ionic-team/jqm-plain
+* https://github.com/ionic-team/jqm-plain
