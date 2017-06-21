@@ -168,6 +168,8 @@ Ionic also offers and creates some Cordova plugins for use in all Cordova projec
 
 ## Deprecated
 
+There are lots of repositores that were once used, but now are explicitly marked as deprecated or implicitly are deprecated because the service or tool they describe is not in use any more.
+
 * [ionic2](https://github.com/ionic-team/ionic2) - Former home of Ionic 2
 * [ionic-cloud-issues](https://github.com/ionic-team/ionic-cloud-issues)
 * [ionic-box](https://github.com/ionic-team/ionic-box) - "A Vagrant install for Android, Cordova, and Ionic v1"
