@@ -74,9 +74,9 @@ These templates are downloaded and applied on top of the [ionic2-app-base](#ioni
 * [ionicons](https://github.com/ionic-team/ionicons) - _Ionicons_ are the "premium icon font for Ionic" and define the look of Ionic you know: By default, they are used everywhere where Icons appear in the apps created by Ionic. Tabbars, Buttons with Icons, Navigation use icons built with this icon font.
 * [learn-angular2](https://github.com/ionic-team/learn-angular2) - Ionic switched from AngularJS to Angular, back then still known as Angular2. This repo contains the code for the website [http://learnangular2.com](http://learnangular2.com) that can help you get comfortable with Angular and learn all the stuff that changed.
 
-** Migrate to Ionic from Ionic v1 **
+**Migrate to Ionic from Ionic v1**
 
-Ionic provides a [Migration Guide to Ionic 2 from Ionic v1 (PDF)](http://ionicframework.com/files/Ionic2Migration.pdf) for people with v1 projects. 
+Ionic provides a [33 page Migration Guide to Ionic 2 from Ionic v1 (PDF)](http://ionicframework.com/files/Ionic2Migration.pdf) for people with v1 projects. 
 * [ionic-migration-demo-v1](https://github.com/ionic-team/ionic-migration-demo-v1) - Ionic v1 project
 * [ionic-migration-demo-v2](https://github.com/ionic-team/ionic-migration-demo-v2) - Migrated Ionic project
 
@@ -109,14 +109,16 @@ Note: Ionic v1 is the "old" version of Ionic Framework that is builts on Angular
 * [ionic1-deeplinks-demo](https://github.com/ionic-team/ionic1-deeplinks-demo) - Deeplinks demo
 * [ionic-third-party-lib-example](https://github.com/ionic-team/ionic-third-party-lib-example) - "how to use third party libs in Ionic"
 
-### Ionic v1 Contrib / Ion
+### Ionic v1 Other
 
-* [ionic-ion-drawer](https://github.com/ionic-team/ionic-ion-drawer) -
-* [ionic-ion-tinder-cards](https://github.com/ionic-team/ionic-ion-tinder-cards) -
-* [ionic-ion-swipe-cards](https://github.com/ionic-team/ionic-ion-swipe-cards) -
-* [ionic-ion-frost](https://github.com/ionic-team/ionic-ion-frost) -
-* [ionic-ion-header-shrink](https://github.com/ionic-team/ionic-ion-header-shrink) -
-* [ionic-contrib-frosted-glass](https://github.com/ionic-team/ionic-contrib-frosted-glass) -
+**Contrib / Ion**
+
+* [ionic-ion-drawer](https://github.com/ionic-team/ionic-ion-drawer) - "A side menu drawer for Ionic v1 apps"
+* [ionic-ion-tinder-cards](https://github.com/ionic-team/ionic-ion-tinder-cards) - "Add Tinder-style card swiping to any app with this simple Ionic Ion."
+* [ionic-ion-swipe-cards](https://github.com/ionic-team/ionic-ion-swipe-cards) - "Swipeable card based layout for Ionic v1"
+* [ionic-ion-frost](https://github.com/ionic-team/ionic-ion-frost) - "A reusable frosted-glass effect for adding this cool iOS effect to your Ionic v1 apps."
+* [ionic-ion-header-shrink](https://github.com/ionic-team/ionic-ion-header-shrink) - "A demo of making a header that shrinks based on the user scrolling (like Facebook's iOS app)."
+* [ionic-contrib-frosted-glass](https://github.com/ionic-team/ionic-contrib-frosted-glass) - "An optional frosted-glass effect for iOS 7 styled Ionic v1 apps."
 
 ## Ionic Services / Cloud / Platform
 
