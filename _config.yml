@@ -17,7 +17,9 @@ author:
   name:              Jan Piotrowski
   url:               https://janpiotrowski.de
   email:             ionicdotzone@gmail.com
-
+github:
+  repo:              https://github.com/ionic-zone/ionic.zone
+  
 # Collections
 collections:
   posts:
@@ -39,7 +41,7 @@ defaults:
       layout: article
 
 # Custom vars
-version:             1.0.0
+version:             0.0.1
 
 # Gems
 gems: [jekyll-paginate, jekyll-gist]
