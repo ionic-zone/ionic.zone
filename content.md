@@ -1,3 +1,7 @@
+---
+title: Content
+---
+
 ## Categories
 
 - Understand
