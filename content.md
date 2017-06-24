@@ -51,8 +51,14 @@ title: Content
 * How to display PDFs in Ionic apps = pdf.js and build a viewer into your app
 * How to download PDFs in Ionic apps
 * How to use jQuery in a Ionic project?
+* How to use mailto: and tel: Links in Ionic on Android and iOS
+* How to use mailto: and tel: Links in Ionic (with WKWebView) on Android and iOS
+* How to add a database to an Ionic project?
+* How to install a specific cordova-android version that is not released yet? 
 
 #### Interface
+* Using Lottie Animations in Ionic
+
 #### Navigation
 #### Data
 ##### Persistence
@@ -63,6 +69,9 @@ title: Content
  
 #### Ionic Native
 #### Ionic and ...
+* Ionic + Electron
+* Ionic + Windows
+
 #### Tooling
 * How to change the browser opened by `ionic serve`?
 
@@ -90,3 +99,4 @@ title: Content
 * How to upgrade an old Ionic 2 project to the current version?
 
 ### Meta
+* How to create a Codepen or Plunkr to recreate your Ionic UI problem
