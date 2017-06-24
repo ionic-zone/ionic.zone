@@ -29,13 +29,20 @@ title: Content
 * How does Cordova work on iOS?
 * How does the Ionic startup process work?
 * When does which code gets executed? (not exactly when you expect)
+
+##### Ionic CLI
 * How `ionic serve` works internally (rebuild all files, listen for changes etc)
+* Why does Ionic CLI "wrap" the `cordova` commands as `ionic cordova`?
+* Can I use `cordova` directly instead of doing `ionic cordova`?
 
 
 ### Install
 * How to try out new Ionic CLI versions safely
-* How can I create an Ionic project with this specific Ionic Framework version?
 * How to install Android for Ionic
+
+#### Start
+* How can I create an Ionic project with this specific Ionic Framework version?
+* How to manually do what `ionic start` is doing? 
 
 ### Develop
 * How to fork a Cordova Plugin to improve it (or apply a unmerged Pull Request)
@@ -68,6 +75,8 @@ title: Content
 * How to cache Images locally?
  
 #### Ionic Native
+* What Ionic Components can be replaced by native (and better) plugins?
+
 #### Ionic and ...
 * Ionic + Electron
 * Ionic + Windows
@@ -97,6 +106,7 @@ title: Content
 * How to Upgrade from Ionic 2 to Ionic 3?
 * How to Upgrade from Ionic Native 2 to Ionic Native 3?
 * How to upgrade an old Ionic 2 project to the current version?
+* How to check if something has to be updated? (Ionic, Ionic CLI, App-Sripts, Cordova etc)
 
 ### Meta
 * How to create a Codepen or Plunkr to recreate your Ionic UI problem
