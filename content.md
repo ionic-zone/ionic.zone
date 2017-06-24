@@ -1,5 +1,3 @@
-# Content
-
 ## Categories
 
 - Understand
