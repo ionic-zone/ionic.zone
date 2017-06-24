@@ -18,6 +18,7 @@ title: Content
 * What is Cordova?
 * How do Cordova plugins work?
 * How does Ionic Native work?
+* vDo I have to have a Mac? What Mac should I get?
 
 #### Ecosystem
 - [An Overview of Ionic's Github Repositories](http://ionic.zone/understand/ionic-github-repositories)
@@ -85,10 +86,20 @@ title: Content
 * How to change the browser opened by `ionic serve`?
 
 ### Test
+
+#### Beta Testing
+* HockeyApp
+* TestFlight + Play Store Beta
+
+
 ### Debug
 * How to solve common "Request URL" problems in Ionic
+* How to remote debug your app
+* The many ways to debug a problem with an Ionic app
+* Where does Remote Debugging with Chrome / Safari work? Ionic View? Debug Builds? Prod builds?
 
 #### Common Error Messages
+* Error: Could not find gradle wrapper within Android SDK
 
 ### Optimize
 * How to speedup the startup of your Ionic 2 application
@@ -98,6 +109,7 @@ title: Content
 * How to deploy an Ionic App as a website
 * How to get an Ionic app from newly created to App Store ready?
 * Hot to change the assets (Icon, Splashscreen) of an Ionic app?
+* What's the fastest way to your own .ipa/.apk?
 
 ### Update
 * How to upgrade to a new Ionic v2 version
@@ -110,3 +122,5 @@ title: Content
 
 ### Meta
 * How to create a Codepen or Plunkr to recreate your Ionic UI problem
+* Writing good forum posts about your specific problem with your Ionic app
+
