@@ -1,5 +1,3 @@
-# Content
-
 ## Categories
 
 - Understand
@@ -17,4 +15,3 @@
 - Deploy
 - Update
 - Meta
-Prose
