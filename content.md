@@ -35,25 +35,51 @@ title: Content
 ### Install
 * How to try out new Ionic CLI versions safely
 * How can I create an Ionic project with this specific Ionic Framework version?
+* How to install Android for Ionic
 
 ### Develop
 * How to fork a Cordova Plugin to improve it (or apply a unmerged Pull Request)
 * How to preload lazy loaded pages (or modules) in the background
 * How to understand the size of your Ionic app?
+* How to add a Cordova plugin, that has no wrapper in ionic-native, to a Ionic project?
+* How to restrict your Android app to tablets only? 
+* How to get Push-Token/RegistrationId from Push plugin?
+* How to filter a list?
+* How to add Google Analytics to an Ionic App?
+* How to use Cordova plugins in Ionic that are not supported by Ionic Native?
+* How to open PDFs in Ionic apps
+* How to display PDFs in Ionic apps = pdf.js and build a viewer into your app
+* How to download PDFs in Ionic apps
+* How to use jQuery in a Ionic project?
 
 #### Interface
 #### Navigation
 #### Data
+##### Persistence
+* How to save stuff in Ionic
+* How to save stuff in Ionic and do something useful with it
+* What other options for persistence are there?
+* How to cache Images locally?
+ 
 #### Ionic Native
 #### Ionic and ...
+#### Tooling
+* How to change the browser opened by `ionic serve`?
+
 ### Test
 ### Debug
+* How to solve common "Request URL" problems in Ionic
+
 #### Common Error Messages
+
 ### Optimize
 * How to speedup the startup of your Ionic 2 application
 
 ### Deploy
+* How to release an Ionic app
 * How to deploy an Ionic App as a website
+* How to get an Ionic app from newly created to App Store ready?
+* Hot to change the assets (Icon, Splashscreen) of an Ionic app?
 
 ### Update
 * How to upgrade to a new Ionic v2 version
