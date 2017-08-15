@@ -1,3 +1,9 @@
+---
+title: Ionic and Fastlane (iOS and Android)
+date: '2017-08-15T16:00:00.000+00:00'
+date: '2017-08-15T16:00:00.000+00:00'
+published: true
+---
 # Ionic and Fastlane (iOS and Android)
 
 Fastlane promises to get rid of the cert foo with iOS. Sold. 
