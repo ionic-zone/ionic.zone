@@ -29,6 +29,7 @@ collections:
     title: Uploads
     output: true
   articles:
+    title: Articles
     output: true
     permalink: /:path
 
