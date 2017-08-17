@@ -1,10 +1,8 @@
 # Fastlane + Ionic: Android Screenshots with `screengrab`
 
-## Android
-
 For Android, you can use `fastlane screengrab` to create the screenshots. It uses "UI Automator" and "Espresso" tests (or only "Espresso" for older versions) to drive the interactions in your app.
 
-### Installation and preparation
+## Installation and preparation
 
 - `fastlane screengrab init` - this creates a "Screengrabfile" you should customize (check `locales`)
 - Add a lane to Fastfile which calls `screengrab` to the `android` platform:
@@ -80,7 +78,7 @@ tests_apk_path 'platforms/android/build/outputs/apk/android-debug-androidTest.ap
 
 That means we are now actually going to create some tests as the environment is ready.
 
-### Create the test that takes screenshots
+## Create the test that takes screenshots
 
 - Run -> "Record Espresso Test". This creates a [basic JUnit 4 test class](https://developer.android.com/training/testing/start/index.html#junit), adds in some Espresso (UI Test) stuff and takes care of the imports (via messing with your build.gradle)
   - Manually add assertion for Webview that won't work, but adds a nice delay thingie

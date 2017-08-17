@@ -1,56 +1,68 @@
 ---
-title: Ionic and Fastlane (iOS and Android)
+title: Ionic and Fastlane
 date: 2017-08-15 16:00:00 +0000
 published: true
 last_updated: ''
 ---
-# Ionic and Fastlane (iOS and Android)
+# Ionic and Fastlane
 
-Fastlane promises to get rid of the cert foo with iOS. Sold. 
-And it also offers more: screenshots, metadata, beta distribution.
-So much wow
+[`fastlane`](https://fastlane.tools/) describes itself as 
+> [...] the tool to release your iOS and Android app 🚀
+It handles all tedious tasks, like generating screenshots, dealing with code signing, and releasing your application. 
 
-- produce = create apps on itunes and dev account
-- deliver = metadata ios
-- supply = metadata android
-- match = iOS certificates and provisioning profiles
-- snapshot = Screenshots with iOS
-- screengrab = Screengrabs with Android
+or 
 
-The goal: Don't do anything manually for build your app, releasing it to testers, no manual screenshot creation, no fighting with Xcode and Apple about certificates, updating everything in the stores (app and metadata like text or screenshots) - this can all be automated.
+> The easiest way to automate building and releasing your iOS and Android apps 
 
-Android and iOS.
-Mac only unfortunately
-Ionic support not perfect, but absolutely fine.
+To be honest, most people come into contact with Fastlane because it also promises to get rid of the certification and signing chaos often created when developing for iOS. I know that alone was enough to sell me on the tool.
 
-Problems: 
-Fastlane more or less expects projects to be iOS _or_ Android
-Wants to be installed into the native project - in Ionic/Cordova these are generated and not checked into git
-Different build process than native apps via `ionic`
-But: All solvable!
+But Fastlane also offers much more: creating screenshots, managing and uploading metadata to the stores, creating apps entries, even building and (beta) distribution. With all the tools in its toolchain, the whole "deploy + release" process can be covered:
 
-## Content
+- `produce` = Create apps on Apple Developer Center and iTunes Connect
+- `precheck` = Check if your app and its data will pass the app review
+- `deliver` = Upload metadata for iOS apps
+- `supply` = Upload metadata for Android apps
+- `match` = Manage iOS certificates and provisioning profiles
+- `snapshot` = Screenshots for iOS apps
+- `screengrab` = Screengrabs for Android apps
+- `gym` = Build your iOS apps
 
-* [initialize-fastlane-for-your-cordova-ios-and-android-apps.md](initialize-fastlane-for-your-cordova-ios-and-android-apps)
-* [Build and upload for testing](build-and-upload-for-testing)
-* [add-metadata-and-publish.md](add-metadata-and-publish)
-* [Take screenshots of your Ionic app (iOS and Android) with Fastlane](take-screenshots-of-your-ionic-app-ios-ad-android-with-fastlane)
-  * [ios-screenshots-with-snapshot.md](ios-screenshots-with-snapshot)
-    * [uitest-for-cordova-apps.md](uitest-for-cordova-apps)
-  * [android-screenshots-with-screengrab.md](android-screenshots-with-screengrab)
-    * [instrumented-espresso-or-ui-automator-tests-for-android-cordova-apps.md](instrumented-espresso-or-ui-automator-tests-for-android-cordova-app)
-* [Build and upload for release](build-and-upload-for-release)
+You can also manually manage your certificates with `pem`, `sigh` and `cert`, handle your testing with `scan`, `pilot` and `boarding`, use `frameit` to put your iOS screenshots into a template or manually to Apple Dev center and iTunes Connect with `spaceship`.
 
+## Fastlane + Ionic?
 
+So how about Ionic support with its hybrid apps based on Cordova? Well, it won't work out of the box:
 
+Fastlane more or less expects projects to be iOS _or_ Android. It wants to be installed into the native project. And as these are generated for Ionic/Cordova, handled as build artifacts and not checked into `git`, the `fastlane` installation would get lost with each new checkout of the project. 
 
+The commands you execute via the `ionic` CLI are also unique for Ionic (`ionic cordova build`, `ionic cordova prepare` etc.), and so are of course not taken into consideration in all documentation of Fastlane and the published tutorials around the web.
+
+In sum this requires some creative handling of things and also usage of some plugins. But: It is perfectly doable!
+
+> Note: Unfortunately `fastlane` can only be installed and used on the Mac operating system as some of its internal dependencies depend on functionality, that is not available for Windows (yet).
+
+Just follow these steps to use all the relevant `fastlane` tools with your Ionic app:
 
 
+## Fastlane for Ionic step by step
 
+1. [Prepare and initialize Fastlane for your Cordova iOS and Android apps](initialize-fastlane-for-your-cordova-ios-and-android-apps.md)
+2. [Build and upload your app for testing](build-and-upload-for-testing.md)
+3. [Add first metadata and publish them to stores](add-metadata-and-publish.md)
+4. [Take screenshots of your Ionic app (iOS and Android) with Fastlane](take-screenshots-of-your-ionic-app-ios-ad-android-with-fastlane.md)
+   * [iOS Screenshots with `snapshot`](ios-screenshots-with-snapshot.md)
+     * [UI Tests for your Cordova iOS app ](uitest-for-cordova-apps.md)
+   * [Android Screenshots with `screengrab`](android-screenshots-with-screengrab.md)
+     * [Instrumented (Espresso or UI Automator) tests for your Cordova Android app](instrumented-espresso-or-ui-automator-tests-for-android-cordova-app.md)
+   * [Upload your generated screenshots to stores](TODO)
+5. [Build and upload your app for release](build-and-upload-for-release.md)
 
----
-TODO: Create fastlane Ionic plugin
-TODO: Create fastlane cordova_screenshots plugin
+## Example project on GitHub
 
+You can also cheat a bit and just look at this example project on GitHub. It includes all the things generated by following the above steps:
+
+[https://github.com/ionic-zone/ionic-fastlane](https://github.com/ionic-zone/ionic-fastlane)
+
+The README also explains what to do to get it working locally, and links to the (automatically generated) `fastlane` README that lists all the functionality available.
 
 

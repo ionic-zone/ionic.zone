@@ -1,5 +1,4 @@
-# Fastlane + Ionic: How to write instrumented (Espresso or UI Automator) tests for Android 
-(to e.g. use in `screengrab`)
+# Fastlane + Ionic: How to write instrumented (Espresso or UI Automator) tests for your Cordova Android app (to use with fastlane's `screengrab`)
 
 As usual navigating the WebView is a bit more difficult as the test frameworks are written to navigate native elements. Lucky for us the Android people were aware of this and created `espresso-web`.
 

@@ -1,4 +1,4 @@
-# Fastlane Snapshot: General UITest tips
+# Build UI Tests for your Cordova iOS app (to use with Fastlane's `snapshot`)
 
 General:
 https://stackoverflow.com/a/35455671/252627
