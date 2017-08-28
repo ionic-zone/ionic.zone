@@ -1,4 +1,4 @@
-## Add metadata and publish
+## Add metadata and upload to stores
 
 Now you have to do some manual work and fill these files created by `deliver`and `supply` in the previous step with real data. 
 
@@ -24,8 +24,8 @@ TODO tree
 
 > Note that `supply` doesn't yet support all fields that the Google Play console requires, e.g. "category" is not downloaded and can not be set for Android apps. You have to do that manually later.
 
-### Upload to publish
+### Upload to stores
 
-Run `fastlane supply` and `fastlane deliver` to update your apps. Check both stores if the upload worked.
+Run `fastlane supply` and `fastlane deliver` to update your apps on the stores administration interfaces. Check both stores (iTunes Connect and Google Play console) if the upload worked.
 
 > Note that both tools don't remove translations or set the default language of your app. You will have to do that manually for both the Play Store and the App Store.
