@@ -41,14 +41,13 @@ body {
 }
 
 html {
-   font-family: "PT Serif", Georgia, "Times New Roman", serif; 
+   font-family: "Noto Sans", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   color: #313131;
-  letter-spacing: -.025rem;
 }
 
 /*
@@ -559,4 +558,37 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+
+
+
+/* Own stuff */ 
+
+#future-content {
+  background-color: #ccc;
+  opacity: 0.4;
+  margin: 0 -20px;
+  padding: 5px 20px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#future-content a {
+}
+
+#future-content code {
+  background-color: inherit;
+}
+
+#update-box {
+  background-color: #ebebeb;
+  margin: 0 -20px;
+  padding: 35px 50px;
+  border: 4px solid #ccc;
+  text-align: center;
 }
