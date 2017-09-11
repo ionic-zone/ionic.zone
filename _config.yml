@@ -2,15 +2,18 @@
 
 # Setup
 title:               ionic.zone
-tagline:             ' - a site about all things Ionic'
+tagline:             'a site about all things Ionic'
 description:         ''
 url:                 https://ionic.zone
 baseurl:             ''
 paginate:            5
 timezone:            UTC
 permalink:           pretty
-markdown:            kramdown
 highlighter:         rouge
+markdown:            kramdown
+kramdown: 
+  parse_block_html: true
+
 
 # About/contact
 author:
@@ -45,4 +48,4 @@ defaults:
 version:             0.0.1
 
 # Gems
-gems: [jekyll-paginate, jekyll-gist]
+gems: [jekyll-paginate, jekyll-gist, jekyll-relative-links]

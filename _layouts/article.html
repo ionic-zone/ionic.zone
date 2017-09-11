@@ -3,5 +3,8 @@ layout: default
 ---
 
 <div class="page">
+  {% if page.parent %}
+    <p>« <a href="{{ page.parent[1] }}">{{ page.parent[0] }}</a></p>
+  {% endif %}
   {{ content }}
 </div>

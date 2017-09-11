@@ -1,0 +1,15 @@
+---
+title: Unordered list of articles
+layout: default
+published: true
+---
+
+<h1>Unordered list of all articles</h1>
+
+<p>This is an unordered list of all articles on this site:</p>
+
+<ul class="articles">
+  {% for article in site.articles %}
+    <li><a href="{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a></li>
+  {% endfor %}
+</ul>

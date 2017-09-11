@@ -11,6 +11,9 @@ If you develop applications using Ionic Framework you will - sooner or later - c
 
 But Ionic (or better [ionic-team](https://github.com/ionic-team), the Github organization that hosts and collects all the repositories) has a loooot of Github repositories. More than 150 in fact. What is which and needed why?
 
+Note: This article is slightly outdated right now as Ionic created a few new projects. These will be added soon-ish.
+{:.message}
+
 This post gives you an overview of all these repositories. For that, I went through all of them, grouped them and added some description and explanation:
 
 * toc
@@ -27,9 +30,8 @@ Let's start with the most important ones:
 
 ## Ionic
 
-<div class="message">
 Note: What I call just "Ionic" in the following paragraphs and lists was formerly known as Ionic 2. But Ionic quickly followed up with Ionic 3 and is working hard on the next iterations - so it makes more sense to call is just Ionic. The older iteration of the Framework that was built on AngularJS (instead of Angular for the current Ionic) is now known as "[Ionic v1](#ionic-v1)" and referred as such here.
-</div>
+{:.message}
 
 * [ionic](https://github.com/ionic-team/ionic) - This is the main _Ionic Framework_ repository that is published as `ionic-angular` to npm and by this name included in the `package.json` of newly created Ionic projects. It includes... TODO
 
@@ -83,9 +85,8 @@ Ionic provides a [33 page Migration Guide to Ionic 2 from Ionic v1 (PDF)](http:/
 
 ## Ionic v1
 
-<div class="message">
-Note: Ionic v1 is the "old" version of Ionic Framework that is builts on AngularJS.
-</div>
+Note: Ionic v1 is the "old" version of Ionic Framework that is built on AngularJS.
+{:.message}
 
 * [ionic-v1](https://github.com/ionic-team/ionic-v1) - Here Ionic moved the "old" code of _Ionic v1_ when they released Ionic "2".
 * [ionic-app-base](https://github.com/ionic-team/ionic-app-base) - Similar to the ionic2-app-base this is the base project template downloaded by the CLI when you `ionic start` a v1 project.

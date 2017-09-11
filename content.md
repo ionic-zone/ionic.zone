@@ -18,14 +18,14 @@ title: Content
 * What is Cordova?
 * How do Cordova plugins work?
 * How does Ionic Native work?
-* vDo I have to have a Mac? What Mac should I get?
+* Do I have to have a Mac? What Mac should I get?
 
 #### Ecosystem
-- [An Overview of Ionic's Github Repositories](http://ionic.zone/understand/ionic-github-repositories)
+- [An Overview of Ionic's Github Repositories](../understand/ionic-github-repositories)
 - How popular is Ionic?
 
 #### Technical Details
-* package.json vs. config.xml 
+* `package.json` vs. `config.xml` 
 * Webpack? Rollup?
 * How does Cordova work on iOS?
 * How does the Ionic startup process work?
@@ -68,7 +68,9 @@ title: Content
 * Using Lottie Animations in Ionic
 
 #### Navigation
+
 #### Data
+
 ##### Persistence
 * How to save stuff in Ionic
 * How to save stuff in Ionic and do something useful with it
@@ -81,6 +83,7 @@ title: Content
 #### Ionic and ...
 * Ionic + Electron
 * Ionic + Windows
+* [Ionic + Fastlane](../fastlane)
 
 #### Tooling
 * How to change the browser opened by `ionic serve`?
