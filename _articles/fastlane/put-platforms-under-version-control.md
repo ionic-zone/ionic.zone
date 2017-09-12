@@ -11,13 +11,16 @@ parent: ['Ionic + Fastlane', '../fastlane']
 
 Normally `/platforms` and similar folders are in the `.gitignore` file of Cordova projects. This means the whole generated iOS and Android projects don't take up space in your repository - they can be recreated by running the `(ionic) cordova build` command.
 
-But when we work with `fastlane`, it can be beneficial to know what our code changed in the native projects (and being able to simply revert all the things we messed up...).
+But when we work with `fastlane`, it can be beneficial to know what our code changed in the native projects (and being able to simply revert all the things we messed up...). As we are using git, somehow versioning `/platforms` is a simple way to achieve this.
+
+Important: You don't _have_ to do this to use Fastlane. All the actual Fastlane files live in `/fastlane` in your project. But as some of the more advanced Fastlane actions also manipulate your native projects {::comment}TODO add links to screenshots etc that mess with platforms{:/comment} understanding what happens in `/platform` can help to understand what happens and avoid problems.
 
 There are two way to achieve this:
+(I personally prefer option [b)](#b-create-a-local-git-repository-in-platforms) as it is easier to revert)
 
 ## a) Remove `/platforms` from the default `.gitignore` file
 
-If you have no problem with all the `platforms` files and folders being in the main git repository of your project, you can just remove `/platforms` from the `.gitignore` file.
+If you have no problem with all the `platforms` files and folders being in the main Git repository of your project, you can just remove `/platforms` from the `.gitignore` file.
 
 Open the `.gitignore` file in your favorite editor. Remove or uncomment (`#`) this line:
 
