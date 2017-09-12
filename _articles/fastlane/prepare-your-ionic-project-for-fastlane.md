@@ -12,7 +12,7 @@ Before we jump into installing and initializing Fastlane we have to make sure ou
 Note: You can better follow the changes done to the native projects if you [add the `platforms` folder to Git before continuing](put-platforms-under-version-control).
 {:.message}
 
-The following paragraphs will make sure you have [1) added both `ios` and `android` platforms to the project](#1-add-the-ios-and-android-platforms), [2) use your own unique project name](#2-use-your-own-project-name) and [3) package id](#2-use-your-own-project-name), [4) app version](#4-set-your-initial-app-version) and [5) assets](#5-use-your-own-assets-as-app-icon).
+The following paragraphs will make sure you have [1) added both `ios` and `android` platforms to the project](#1-add-the-ios-and-android-platforms), [2) use your own unique project name](#2-use-your-own-project-name) and [3) package id](#3-set-your-own-package-id), [4) app version](#4-set-your-initial-app-version) and [5) assets](#5-use-your-own-assets-as-app-icon).
 
 
 ## 1) Add the `ios` and `android` platforms
