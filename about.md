@@ -18,3 +18,7 @@ I also felt the itch to write some things down myself. Compared to other framewo
 So Ionic.zone is my try to share my expanded bookmark folder with everybody. I also want to write the content that is right now missing but would help beginners or even experienced Ionic developers to build better apps.
 
 Let me know what you think, and have fun learning more about Ionic!
+
+## Author
+
+Oh yeah, maybe you're wondering about the person behind ionic.zone: I'm [Jan Piotrowski](https://janpiotrowski.de), a IT Business Engineer working in software development; [Sujan12](https://forum.ionicframework.com/u/sujan12) on the Ionic Forum where I am a moderator and [janpio](https://github.com/janpio/) on Github where I try to help out a bit in Ionic related repositories as well.
