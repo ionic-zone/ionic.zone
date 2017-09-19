@@ -34,7 +34,7 @@ You can also manually manage your certificates with `sigh`, `cert` and `pem`, ha
 
 {::comment}
 ## Fastlane Bascis
-
+TODO
 ### Background
 Felix Krause
 Fabric
@@ -47,10 +47,18 @@ Ruby?
 *file?
 
 ### Functionality
-...
+First class tools: CLI for one set of tasks, can be used standalone
+all grouped under `fastline` as well
+
+Actions: `fastlane` comes with a list of actions that can be used in Fastfiles
+All first class CLI tools are also available as actions
+
+Optional plugins that have to be installed can offer additional actions to be used in Fastfiles
+These add more obscure stuff only needed by some people
+It's easy to write them yourself, so you can extend fastlane functionality without having to edit fastline itself
 
 ### Documentation
-...
+https://docs.fastlane.tools/
 {:/comment}
 
 Now you know what Fastlane offers. But [can it be used with Ionic Cordova projects?](problems-with-using-fastlane-for-ionic)
