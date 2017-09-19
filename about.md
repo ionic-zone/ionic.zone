@@ -1,33 +1,20 @@
 ---
-title: About
+title: About ionic.zone
 layout: page
 ---
 
+> Ionic Zone aims to be the #1 source for educational content about Ionic Framework and related technologies. This means original content about every topic a new or experienced Ionic developer could need, but also curating what great content is out there by other authors.
 
-Heyho there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+## History
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+The site you are at started as a big _Ionic_ bookmarks folder where I collected all the good and relevant articles and blog posts about Ionic Framework. Pretty soon it got a sister _Ionic 2_, when Ionic v2 based on Angular was preview-ed, beta-d and then released. 
 
-There are currently two themes built on Poole:
+This folder was _very_ important for me in learning my way around and building successful apps. Why keep it for myself?
 
-* [Hyde](http://hyde.getpoole.com)
+I also felt the itch to write some things down myself. Compared to other framework ecosystems, there is surprisingly little content about Ionic published on the web. There are [some people](community) that work on changing that, but in comparison to the whole amount of Ionic developers out there is is still tiny.
 
-* [Lanyon](http://lanyon.getpoole.com)
+## Goal
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+So Ionic.zone is my try to share my expanded bookmark folder with everybody. I also want to write the content that is right now missing but would help beginners or even experienced Ionic developers to build better apps.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Let me know what you think, and have fun learning more about Ionic!
