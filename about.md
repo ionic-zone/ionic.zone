@@ -21,4 +21,4 @@ Let me know what you think, and have fun learning more about Ionic!
 
 ## Author
 
-Oh yeah, maybe you're wondering about the person behind ionic.zone: I'm [Jan Piotrowski](https://janpiotrowski.de), a IT Business Engineer working in software development; [Sujan12](https://forum.ionicframework.com/u/sujan12) on the Ionic Forum where I am a moderator and [janpio](https://github.com/janpio/) on Github where I try to help out a bit in Ionic related repositories as well.
+Oh yeah, maybe you're wondering about the person behind ionic.zone: I'm [Jan Piotrowski](https://janpiotrowski.de), an IT Business Engineer working in software development; [Sujan12](https://forum.ionicframework.com/u/sujan12) on the Ionic Forum where I am a moderator and [janpio](https://github.com/janpio/) on Github where I try to help out a bit in Ionic related repositories as well.
