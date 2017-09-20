@@ -14,6 +14,10 @@
     {% endif %}
   </title>
 
+{% if site.github.repository_nwo != 'ionic-zone/ionic.zone' %}
+  <meta name="robots" content="noindex">
+{% endif %}
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
