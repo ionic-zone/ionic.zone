@@ -2,9 +2,9 @@
 
 # Setup
 title:               ionic.zone
-tagline:             'a site about all things Ionic'
+tagline:             'a site about all things Ionic (Staging)'
 description:         ''
-url:                 https://ionic.zone
+url:                 https://staging.ionic.zone
 baseurl:             ''
 paginate:            5
 timezone:            UTC
@@ -21,7 +21,7 @@ author:
   url:               https://janpiotrowski.de
   email:             ionicdotzone@gmail.com
 github:
-  repo:              https://github.com/ionic-zone/ionic.zone
+  repo:              https://github.com/janpio/ionic.zone
   
 # Collections
 collections:
@@ -46,7 +46,7 @@ defaults:
 
 # Custom vars
 version:             0.0.1
-analytics_id:        UA-106337676-1
+analytics_id:        UA-106337676-2
 
 # Gems
 gems: [jekyll-paginate, jekyll-gist, jekyll-relative-links]
