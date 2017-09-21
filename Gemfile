@@ -1,7 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.4.0'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem 'jekyll-paginate', group: :jekyll_plugins
-gem 'jekyll-gist', group: :jekyll_plugins
-gem 'jekyll-relative-links', group: :jekyll_plugins
+gem 'github-pages', versions['github-pages']
