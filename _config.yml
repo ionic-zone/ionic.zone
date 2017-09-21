@@ -49,4 +49,4 @@ version:             0.0.1
 analytics_id:        UA-106337676-2
 
 # Gems
-gems: [jekyll-paginate, jekyll-gist, jekyll-relative-links]
+plugins: [jekyll-paginate, jekyll-gist, jekyll-relative-links]
