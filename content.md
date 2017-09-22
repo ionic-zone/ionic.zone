@@ -1,5 +1,6 @@
 ---
 title: Content
+layout: page
 ---
 
 ## Categories

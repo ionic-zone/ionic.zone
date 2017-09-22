@@ -25,6 +25,7 @@
       {% endif %}
     {% endfor %}
 
+    <a class="sidebar-nav-item{% if page.url == 'tools' %} active{% endif %}" href="{{ site.baseurl }}/tools">Tools</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
