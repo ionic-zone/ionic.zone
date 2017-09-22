@@ -8,7 +8,7 @@ last_updated: ''
 
 There are many people in the Ionic community that share their experience and knowledge by creating blog posts, tutorials, articles, Youtube videos, or even books or courses that can help other Ionic users.
 
-Here is an (incomplete) list whose content influenced ionic.zone:
+Here is an (incomplete) list of people whose content influenced ionic.zone:
 
 - [Ionic Team](https://ionicframework.com/team)
 - Sani Yusuf - presentations, courses
