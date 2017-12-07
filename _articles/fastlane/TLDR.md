@@ -13,7 +13,7 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 - toc
 {:toc}
 
-## Prepare
+## [Prepare](prepare-your-ionic-project-for-fastlane.md)
 
 - Make sure iOS and Android are added and up to date
   - If missing:
@@ -23,15 +23,15 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 - `ionic cordova prepare`
 - `ionic cordova resources`
 
-## Install
+## [Install](install-fastlane.md)
 
 - Install [Homebrew](https://brew.sh/) 
 - `brew cask install fastlane`
 - `fastlane --version` to check if everything works
 
-## Initialize
+## [Initialize](initialize-fastlane-for-your-cordova-ios-and-android-apps.md)
 
-### iOS
+### [iOS](initialize-fastlane-for-your-cordova-ios-and-android-apps.md#ios)
 
 - `fastlane init`
   - "Is this project an iOS project?" <kbd>y</kbd>
@@ -49,7 +49,7 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
         └── actions/
         ```
 
-### Android
+### [Android](initialize-fastlane-for-your-cordova-ios-and-android-apps.md#android)
 
 - Do it manually
   - Add at the bottom of `Appfile`:
@@ -113,24 +113,24 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 - `fastlane supply init --verbose` to test
   - You want to see `Fetching a new access token from Google...` and then a error `Google Api Error: applicationNotFound: No application was found for the given package name`
 
-## Create remote apps
+## [Create remote apps](create-your-remote-app-with-fastlane.md)
 
-### iOS
+### [iOS](create-your-remote-app-with-fastlane.md#ios)
 
 - `fastlane produce`
   - "App name:" `Fastlane Ionic`
   - Check “My Apps” in iTunes Connect and “Identifiers” => “App IDs” in the Developer Center
 
-### Android
+### [Android](create-your-remote-app-with-fastlane.md#android)
 
 - Open [Google Play Console](https://play.google.com/apps/publish/) and manually “Create Application”
 - Go to “App Releases” -> “Manage Alpha” -> “Create Release” and “Upload APK”
   - Upload a [normal Ionic `--release` APK](TODO)
   - Check if `package_name` now appears in application list
 
-## Create local metadata
+## [Create local metadata](create-local-file-structure.md)
 
-### iOS
+### [iOS](create-local-file-structure.md#ios-fastlane-deliver-init)
 
 - `fastlane deliver init`
 - Creates local file structure for metadata:
@@ -177,7 +177,7 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
     ```
   - Delete `Deliverfile`
 
-### Android
+### [Android](create-local-file-structure.md#android-fastlane-supply-init)
 
 - `fastlane supply init`
 - Creates additional local files:
@@ -196,9 +196,9 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
         └── video.txt
     ```
 
-## Add metadata and upload
+## [Add metadata and upload](add-metadata-and-upload.md)
 
-### iOS
+### [iOS](add-metadata-and-upload.md#ios)
 
 - Fill files in `fastlane/metadata`
 - `fastlane deliver`
@@ -206,16 +206,16 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
   - "Does the Preview look okay for you?" <kbd>y</kbd>
   - Check iTunes Connect for success
 
-### Android
+### [Android](add-metadata-and-upload.md#android)
 
 - Fill files in `fastlane/metadata/android`
   - Create `en-US/featureGraphic.png` (1024x500px) and `en-US/icon.png` (512x512px)
 - `fastlane supply`
   - Check the Play Console for confirmation it worked
 
-## Build your app
+## [Build your app](build-your-project.md)
 
-### Setup iOS certificate handling with match
+### [Setup iOS certificate handling with match](setup-ios-certificate-handling.md)
 
 - `fastlane match init`
   - Requires private git repo
@@ -237,14 +237,14 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 - `fastlane match development --force_for_new_devices`  
   `fastlane match adhoc --force_for_new_devices`
 
-### Build your Ionic app with the `ionic` Fastlane plugin
+### [Build your Ionic app with the `ionic` Fastlane plugin](build-your-project-with-ionic-plugin.md)
 
 - `fastlane add_plugin ionic`
   - Creates `Gemfile` and `Gemfile.lock` listing the gem
 
-#### Debug Builds
+#### [Debug Builds](build-your-project-with-ionic-plugin.md#debug-builds)
 
-##### Android
+##### [Android](build-your-project-with-ionic-plugin.md#android-debug-build)
 
 - Add lane to `android` block of `Fastfile`:
     ```ruby
@@ -259,7 +259,7 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
     ```
 - Run `fastlane android build_debug` to execute
 
-##### iOS
+##### [iOS](build-your-project-with-ionic-plugin.md#ios-debug-build)
 
 - Add lane to `ios` block of `Fastfile`:
     ```ruby
@@ -276,9 +276,9 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
     ```
 - Run `fastlane ios build_debug` to execute
 
-#### Release Builds
+#### [Release Builds](build-your-project-with-ionic-plugin.md#release-builds)
 
-##### Android
+##### [Android](build-your-project-with-ionic-plugin.md#android-release-build)
 
 - Add lane to `android` block of `Fastfile`:
     ```ruby
@@ -297,7 +297,7 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
     ```
 - Run `fastlane android build_release` to execute
 
-##### iOS
+##### [iOS](build-your-project-with-ionic-plugin.md#ios-release-builds)
 
 - Add lane to `ios` block of `Fastfile`:
     ```ruby
