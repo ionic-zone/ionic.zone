@@ -7,7 +7,7 @@ parent: ['Tools', '../tools']
 ---
 # @IonicReleases - An Ionic Github Releases Twitter bot
 
-Ionic development is distributed to lots of [libraries](/TODO) and [repositories](../understand/ionic-github-repositories). It also tends to move very fast at times, with simultaneous releases of different parts. This can make it quite challenging to know what is going on and to find about about new releases or bugfixes in a reasonable time.
+Ionic development is distributed to lots of [libraries](TODO) and [repositories](../understand/ionic-github-repositories.md). It also tends to move very fast at times, with simultaneous releases of different parts. This can make it quite challenging to know what is going on and to find about about new releases or bugfixes in a reasonable time.
 
 That's why I created the [Twitter account @IonicReleases](https://twitter.com/IonicReleases) that tweets each time a new release for any of the important repositories on Github gets tagged and released:
 

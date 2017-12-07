@@ -6,15 +6,15 @@ published: true
 
 # Welcome to ionic.zone!
 
-Ionic Zone aims to be the #1 source for educational content about [Ionic Framework](http://ionicframework.com/) and related technologies. This means original content about every topic a new or experienced Ionic developer could need, but also curating what great content is out there by [other authors](community).
+Ionic Zone aims to be the #1 source for educational content about [Ionic Framework](http://ionicframework.com/) and related technologies. This means original content about every topic a new or experienced Ionic developer could need, but also curating what great content is out there by [other authors](_articles/community.md).
 
 Right now you can "only" find this here:
 
-* [Fastlane and Ionic](fastlane)
-* [A (slighty outdated) Overview of Ionic's Github Repositories](understand/ionic-github-repositories)
-* [Tools](tools)
+* [Fastlane and Ionic](_articles/fastlane.md)
+* [A (slighty outdated) Overview of Ionic's Github Repositories](_articles/understand/ionic-github-repositories.md)
+* [Tools](_articles/tools.md)
 
-But this will grow over time. Check out our [planned or possible content](content).
+But this will grow over time. Check out our [planned or possible content](content.md).
 
 {::nomarkdown}
 <div id="update-box">

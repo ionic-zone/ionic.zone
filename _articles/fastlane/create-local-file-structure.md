@@ -7,7 +7,7 @@ parent: ['Ionic + Fastlane', '../fastlane']
 ---
 # Create local metadata file structure
 
-After you [installed](install-fastlane) and [initialized `fastlane`](initialize-fastlane-for-your-cordova-ios-and-android-apps) you [created your apps in the stores](create-your-remote-app-with-fastlane) which we can now use to create a local file structure representing the necessary metadata.
+After you [installed](install-fastlane.md) and [initialized `fastlane`](initialize-fastlane-for-your-cordova-ios-and-android-apps.md) you [created your apps in the stores](create-your-remote-app-with-fastlane.md) which we can now use to create a local file structure representing the necessary metadata.
 
 ## iOS: `fastlane deliver init`
 
@@ -86,4 +86,4 @@ metadata/android
 
 You now have a local file structure for metadata and screenshots of both apps in your `fastlane` folder. (The combined file and folder structure in `metadata` clearly shows that Fastlane was started as a iOS tool.) 
 
-Now you can [add metadata to this local structure and upload it to the stores](add-metadata-and-upload).
+Now you can [add metadata to this local structure and upload it to the stores](add-metadata-and-upload.md).

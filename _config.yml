@@ -8,10 +8,10 @@ url:                 https://staging.ionic.zone
 baseurl:             ''
 paginate:            5
 timezone:            UTC
-permalink:           pretty
+permalink:           /:path
 highlighter:         rouge
 markdown:            kramdown
-kramdown: 
+kramdown:
   parse_block_html: true
 
 
@@ -22,15 +22,9 @@ author:
   email:             ionicdotzone@gmail.com
 github:
   repo:              https://github.com/janpio/ionic.zone
-  
+
 # Collections
 collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
   articles:
     title: Articles
     output: true
@@ -48,5 +42,10 @@ defaults:
 version:             0.0.1
 analytics_id:        UA-106337676-2
 
-# Gems
-plugins: [jekyll-paginate, jekyll-gist, jekyll-relative-links]
+# Gems configuration
+relative_links:
+  enabled: true
+  collections: true
+
+plugins:
+  - jekyll-relative-links

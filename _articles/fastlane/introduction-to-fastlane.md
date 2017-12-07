@@ -43,22 +43,38 @@ now Google
 
 ### Architecture
 TODO lane?
+
+```ruby
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+    # match(type: "appstore") # more information: https://codesigning.guide
+    gym # Build your app - more options available
+    pilot
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here (run `fastlane actions`)
+  end
+```
+
+This defines a `beta` lane, that uses `match` to take care of certificates (commented out right by default because not all people want to use that, we do!), then `gym` to build the app and finally `pilot` to upload to Testflight.
+
 Ruby?
 *file?
 
 ### Functionality
 First class tools: CLI for one set of tasks, can be used standalone
-all grouped under `fastline` as well
+all grouped under `fastlane` as well
 
 Actions: `fastlane` comes with a list of actions that can be used in Fastfiles
 All first class CLI tools are also available as actions
 
 Optional plugins that have to be installed can offer additional actions to be used in Fastfiles
 These add more obscure stuff only needed by some people
-It's easy to write them yourself, so you can extend fastlane functionality without having to edit fastline itself
+It's easy to write them yourself, so you can extend fastlane functionality without having to edit fastlane itself
 
 ### Documentation
 https://docs.fastlane.tools/
 {:/comment}
 
-Now you know what Fastlane offers. But [can it be used with Ionic Cordova projects?](problems-with-using-fastlane-for-ionic)
+Now you know what Fastlane offers. But [can it be used with Ionic Cordova projects?](problems-with-using-fastlane-for-ionic.md)

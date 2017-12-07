@@ -8,29 +8,29 @@ last_updated: ''
 
 This series of articles investigates and explains how to use Fastlane with your Ionic or Cordova projects for automating common tasks that normally are done manually and take tons of time.
 
-## Introduction, Preparation 
+## Introduction, Preparation
 
 What is this all about?
 
-- [Introduction to Fastlane](fastlane/introduction-to-fastlane)
-- [Problems using Fastlane for Ionic Cordova projects](fastlane/problems-with-using-fastlane-for-ionic)
-- [Prepare your Ionic/Cordova project for Fastlane](fastlane/prepare-your-ionic-project-for-fastlane)
-   * [Optional: Put `/platforms` under version control](fastlane/put-platforms-under-version-control)
+- [Introduction to Fastlane](fastlane/introduction-to-fastlane.md)
+- [Problems using Fastlane for Ionic Cordova projects](fastlane/problems-with-using-fastlane-for-ionic.md)
+- [Prepare your Ionic/Cordova project for Fastlane](fastlane/prepare-your-ionic-project-for-fastlane.md)
+  - [Optional: Put `/platforms` under version control](fastlane/put-platforms-under-version-control.md)
 
 ## Installation, Initialization
 
 Before we get to the _really_ fun part...
 
-- [Install `fastlane`](fastlane/install-fastlane)
-- [Initialize Fastlane with `fastlane init`](fastlane/initialize-fastlane-for-your-cordova-ios-and-android-apps)
+- [Install `fastlane`](fastlane/install-fastlane.md)
+- [Initialize Fastlane with `fastlane init`](fastlane/initialize-fastlane-for-your-cordova-ios-and-android-apps.md)
 
 ## Upload App Metadata to App Store and Google Play
 
 Have all app data for both stores in (versioned) local files and upload with one command.
 
-- [Create your apps on the stores with `produce`](fastlane/create-your-remote-app-with-fastlane)
-- [Create local store metadata file structure with `deliver` and `supply`](fastlane/create-local-file-structure)
-- [Add metadata to local structure and upload to stores](fastlane/add-metadata-and-upload)
+- [Create your apps on the stores with `produce`](fastlane/create-your-remote-app-with-fastlane.md)
+- [Create local store metadata file structure with `deliver` and `supply`](fastlane/create-local-file-structure.md)
+- [Add metadata to local structure and upload to stores](fastlane/add-metadata-and-upload.md)
 
 
 {::nomarkdown}

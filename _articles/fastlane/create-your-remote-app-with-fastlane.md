@@ -7,17 +7,17 @@ parent: ['Ionic + Fastlane', '../fastlane']
 ---
 # Create your remote app
 
-Before you [installed `fastlane`](install-fastlane) and [created a local `Appfile` and `Fastfile`](initialize-fastlane-for-your-cordova-ios-and-android-apps). The next step is to create the remote apps that will be used to upload metadata and app binaries into later:
+Before you [installed `fastlane`](install-fastlane.md) and [created a local `Appfile` and `Fastfile`](initialize-fastlane-for-your-cordova-ios-and-android-apps.md). The next step is to create the remote apps that will be used to upload metadata and app binaries into later:
 
 ## iOS
 
 We can use `fastlane produce` to create our app in [iTunes Connect](https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app) and the [Apple Developer Center](https://developer.apple.com/account/ios/identifier/bundle). It asks for the `app_name` and then just goes ahead and uses the information it gets from the `Appfile` (and the saved credentials) to create the app remotely:
 
-![`fastlane produce`]({{ site.url }}/assets/fastlane/fastlane-produce.png)
+![`fastlane produce`](/assets/fastlane/fastlane-produce.png)
 
 Check "My Apps" in [iTunes Connect](https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app) and "Identifiers" => "App IDs" in the [Developer Center](https://developer.apple.com/account/ios/identifier/bundle) to confirm.
 
-![New app in Apple Developer Center]({{ site.url }}/assets/fastlane/fastlane-produce-dev.png) ![New App in iTunes Connect]({{ site.url }}/assets/fastlane/fastlane-produce-connect.png)
+![New app in Apple Developer Center](/assets/fastlane/fastlane-produce-dev.png) ![New App in iTunes Connect](/assets/fastlane/fastlane-produce-connect.png)
 
 That was easy, wasn't it?
 
@@ -31,7 +31,7 @@ Open [Google Play Console](https://play.google.com/apps/publish/) and hit "Creat
 
 [TODO]: <> (animated gif)
 
-![Google Play Console, name only]({{ site.url }}/assets/fastlane/google-play-console-name-only.png)
+![Google Play Console, name only](/assets/fastlane/google-play-console-name-only.png)
 
 (You don't have to add any other data yet - we will do that later with Fastlane.)
 
@@ -43,9 +43,9 @@ Go to "App Releases" -> "Manage Alpha" -> "Create Release" and "Upload APK". You
 
 Going back to the initial list of applications in the [Google Play Console](https://play.google.com/apps/publish/) it should now list the `package_name` under your app's name:
 
-![Google Play Console, with package name]({{ site.url }}/assets/fastlane/google-play-console-package-name.png)
+![Google Play Console, with package name](/assets/fastlane/google-play-console-package-name.png)
 
 ## Done
 
-Now your app is created in both remote administration interfaces. Your local setup has credentials to connect to both APIs. On to [create a local file structure that represents the metadata.](create-local-file-structure)
+Now your app is created in both remote administration interfaces. Your local setup has credentials to connect to both APIs. On to [create a local file structure that represents the metadata.](create-local-file-structure.md)
 
