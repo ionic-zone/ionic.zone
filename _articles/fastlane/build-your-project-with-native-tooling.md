@@ -32,11 +32,9 @@ This article was created when the following versions of the tools and Cordova li
 
 If your software and libraries are older than this, it is very much possible that these instructions don't work 100% for you. If your local setup is newer than the listed versions, you should probably be fine. (Please [comment at the end of this article](#comments) if you encounter any problems - make sure to include your local versions!)
 
-## Limitations
+## iOS Limitations & Workaround
 
 The native tooling doesn't play as well with the default iOS project produced by Cordova CLI as the [Fastlane Ionic plugin](build-your-project-with-ionic-plugin.md) or [Fastlane Cordova plugin](build-your-project-with-cordova-plugin.md) do. This means your lanes have to execute some additional code.
-
-### Workaround iOS
 
 For the iOS builds to work with `gym` you need to upgrade your Xcode project from the pre-Xcode8 state it is in. A handy [fastlane plugin `upgrade_super_old_xcode_project`](https://github.com/ionic-zone/fastlane-plugin-upgrade_super_old_xcode_project) exists. It has to be installed and called by the build lanes.
 
@@ -135,10 +133,10 @@ lane :build_release do
     project_dir: 'platforms/android',
 
     properties: {
-      "android.injected.signing.store.file" => keystore_path,
-      "android.injected.signing.store.password" => keystore_password,
-      "android.injected.signing.key.alias" => keystore_alias,
-      "android.injected.signing.key.password" => keystore_password,
+      "android.injected.signing.store.file" => '../FastlaneIonic.keystore',
+      "android.injected.signing.store.password" => 'xyz',
+      "android.injected.signing.key.alias" => 'FastlaneIonic',
+      "android.injected.signing.key.password" => 'xyz',
     }
   )
 end

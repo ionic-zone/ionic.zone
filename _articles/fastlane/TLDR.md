@@ -34,12 +34,12 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 ### iOS
 
 - `fastlane init`
-  - "Is this project an iOS project?" `y`
+  - "Is this project an iOS project?" <kbd>y</kbd>
   - "Couldn't automatically detect the project file, please provide a path:" `platforms/ios/FastlaneIonic.xcodeproj`
   - "Your Apple ID (e.g. fastlane@krausefx.com):" Enter your Apple ID
   - "Passwort (for mail@example.org):" Enter your Apple ID password
-  - "App Identifier (com.krausefx.app):" `zone.ionix.fastlane`
-  - "Would you like to create your app on iTunes Connect and the Developer Portal?" `n` (!)
+  - "App Identifier (com.krausefx.app):" `zone.ionic.fastlane`
+  - "Would you like to create your app on iTunes Connect and the Developer Portal?" <kbd>n</kbd> (!)
   - "Optional: The scheme name of your app (If you don't need one, just hit Enter):" <kbd>Enter</kbd>
   - Creates some files:
         ```
@@ -105,7 +105,7 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
         end
         end
         ```
-- [Get a google_play_key.json file](https://docs.fastlane.tools/getting-started/android/setup/#collect-your-google-credentials)
+- [Get a `google_play_key.json` file](https://docs.fastlane.tools/getting-started/android/setup/#collect-your-google-credentials)
 - Edit `Appfile` with the path to your file:
     ```ruby
     json_key_file "../google_play_key.json"
@@ -118,8 +118,8 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 ### iOS
 
 - `fastlane produce`
-  - "App name:" `Fastlane Ionic``
-  - Check “My Apps” in iTunes Connect and “Identifiers” => “App IDs” in the Developer Center 
+  - "App name:" `Fastlane Ionic`
+  - Check “My Apps” in iTunes Connect and “Identifiers” => “App IDs” in the Developer Center
 
 ### Android
 
@@ -203,7 +203,7 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 - Fill files in `fastlane/metadata`
 - `fastlane deliver`
   - Creates a HTML preview
-  - "Does the Preview look okay for you?" `y`
+  - "Does the Preview look okay for you?" <kbd>y</kbd>
   - Check iTunes Connect for success
 
 ### Android
@@ -226,18 +226,18 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
       ```
 - `fastlane match nuke development`  
   `fastlane match nuke distribution`
-  - "Do you really want to nuke everything listed above?" `y`
+  - "Do you really want to nuke everything listed above?" <kbd>y</kbd>
 - `fastlane match development`  
   `fastlane match appstore`  
   (Optional, can also be done in build lanes later)
-  - Set or use passphrase for en/decryption of certificates
+  - Set or use passphrase for en-/decryption of certificates
 
 #### Daily Life: Regenerate provisioning profiles with newly added devices
 
 - `fastlane match development --force_for_new_devices`  
   `fastlane match adhoc --force_for_new_devices`
 
-### Build your Ionic app with the ionic Fastlane plugin
+### Build your Ionic app with the `ionic` Fastlane plugin
 
 - `fastlane add_plugin ionic`
   - Creates `Gemfile` and `Gemfile.lock` listing the gem
@@ -255,7 +255,6 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
         prod: true,
         release: false
       )
-      TODO check
     end
     ```
 - Run `fastlane android build_debug` to execute
@@ -266,7 +265,13 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
     ```ruby
     desc "Build Debug"
     lane :build_debug do
-      ... TODO
+      match(type: 'development')
+      ionic(
+        platform: 'ios',
+        prod: true,
+        release: false,
+        type: 'development'
+      )
     end
     ```
 - Run `fastlane ios build_debug` to execute
@@ -277,7 +282,18 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 
 - Add lane to `android` block of `Fastfile`:
     ```ruby
-    TODO
+    lane :build_release do
+      ionic(
+        platform: 'android',
+        prod: true,
+        release: true,
+
+        keystore_path: '../FastlaneIonic.keystore',
+        keystore_password: 'xyz',
+        keystore_alias: 'FastlaneIonic',
+        key_password: 'xyz'
+      )
+    end
     ```
 - Run `fastlane android build_release` to execute
 
@@ -285,9 +301,14 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 
 - Add lane to `ios` block of `Fastfile`:
     ```ruby
-    desc "Build Debug"
-    lane :build_debug do
-      ... TODO
+    desc "Build Release"
+    lane :build_release do
+      match(type: 'appstore')
+      ionic(
+        platform: 'ios',
+        prod: true,
+        release: true
+      )
     end
     ```
 - Run `fastlane ios build_release` to execute

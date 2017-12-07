@@ -563,7 +563,7 @@ a.pagination-item:hover {
 
 
 
-/* Own stuff */ 
+/* Own stuff */
 
 #future-content {
   background-color: #ccc;
@@ -591,4 +591,17 @@ a.pagination-item:hover {
   padding: 35px 50px;
   border: 4px solid #ccc;
   text-align: center;
+}
+
+kbd {
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.8);
+  color: #222;
+  display: inline-block;
+  font-size: 0.857em;
+  line-height: 1.4;
+  margin: 0 .1em;
+  padding: .1em .6em;
 }
