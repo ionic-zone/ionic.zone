@@ -24,7 +24,7 @@ Here is an (incomplete) list of people whose content influenced ionic.zone:
 - Aaron Czichon - tutorials, meetups
 - Matthieu Drula - tutorials, book
 - Yann Braga - tutorials
-- Jave Bratt - articles (Firebase)
+- Jorge 'javebratt' Vergara - Firebase, articles
 - Chris Griffith - book
 
 ## Cordova Community
