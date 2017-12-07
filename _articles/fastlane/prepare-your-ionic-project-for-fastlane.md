@@ -14,7 +14,6 @@ Note: You can better follow the changes done to the native projects if you [add 
 
 The following paragraphs will make sure you have [1) added both `ios` and `android` platforms to the project](#1-add-the-ios-and-android-platforms), [2) use your own unique project name](#2-use-your-own-project-name) and [3) package id](#3-set-your-own-package-id), [4) app version](#4-set-your-initial-app-version) and [5) assets](#5-use-your-own-assets-as-app-icon).
 
-
 ## 1) Add the `ios` and `android` platforms
 
 Make sure you have both the `ios` and `android` platform added to your project. You can check by running `ionic cordova platform list`. You should get output similar to this:
@@ -34,7 +33,7 @@ If one is outdated, run `ionic cordova platform update ios` or `ionic cordova pl
 
 ## 2) Use your own project name
 
-New Ionic projects by default are generated with the app name `MyApp` - which is what will be displayed on your user's smartphone screen beneath your app icon. You can set that to e.g. `Fastlane Ionic` by changing your `config.xml`: 
+New Ionic projects by default are generated with the app name `MyApp` - which is what will be displayed on your user's smartphone screen beneath your app icon. You can set that to e.g. `Fastlane Ionic` by changing your `config.xml`:
 
 ```xml
 <name>Fastlane Ionic</name>
