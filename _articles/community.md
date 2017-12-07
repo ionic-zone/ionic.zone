@@ -29,7 +29,7 @@ Here is an (incomplete) list of people whose content influenced ionic.zone:
 
 ## Cordova Community
 
-Ionic uses [Cordova to build native apps](/TODO), so everything Cordova is also relevant for Ionic:
+Ionic uses [Cordova to build native apps](TODO), so everything Cordova is also relevant for Ionic:
 
 - [Apache Cordova Commitee](https://projects.apache.org/committee.html?cordova)
 - Eddy Verbruggen - Cordova plugins

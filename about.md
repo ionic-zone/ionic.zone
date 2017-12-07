@@ -11,7 +11,7 @@ The site you are at started as a big _Ionic_ bookmarks folder where I collected 
 
 This folder was _very_ important for me in learning my way around and building successful apps. Why keep it for myself?
 
-I also felt the itch to write some things down myself. Compared to other framework ecosystems, there is surprisingly little content about Ionic published on the web. There are [some people](community) that work on changing that, but in comparison to the whole amount of Ionic developers out there is is still tiny.
+I also felt the itch to write some things down myself. Compared to other framework ecosystems, there is surprisingly little content about Ionic published on the web. There are [some people](_articles/community.md) that work on changing that, but in comparison to the whole amount of Ionic developers out there is is still tiny.
 
 ## Goal
 

@@ -22,7 +22,7 @@ layout: page
 * Do I have to have a Mac? What Mac should I get?
 
 #### Ecosystem
-- [An Overview of Ionic's Github Repositories](../understand/ionic-github-repositories)
+- [An Overview of Ionic's Github Repositories](_articles/understand/ionic-github-repositories.md)
 - How popular is Ionic?
 
 #### Technical Details
@@ -84,7 +84,7 @@ layout: page
 #### Ionic and ...
 * Ionic + Electron
 * Ionic + Windows
-* [Ionic + Fastlane](../fastlane)
+* [Ionic + Fastlane](_articles/fastlane.md)
 
 #### Tooling
 * How to change the browser opened by `ionic serve`?
@@ -108,12 +108,16 @@ layout: page
 ### Optimize
 * How to speedup the startup of your Ionic 2 application
 
-### Deploy
+### Build
 * How to release an Ionic app
-* How to deploy an Ionic App as a website
 * How to get an Ionic app from newly created to App Store ready?
 * Hot to change the assets (Icon, Splashscreen) of an Ionic app?
 * What's the fastest way to your own .ipa/.apk?
+* [Should I build my project via Ionic, Cordova or native tooling (Android Studio, Xcode?)](_articles/build/build-via-ionic-or-cordova-or-native-tooling.md)
+
+### Deploy
+* How to deploy an Ionic App as a website
+* How to upload your Ionic iOS App on Windows?
 
 ### Update
 * How to upgrade to a new Ionic v2 version

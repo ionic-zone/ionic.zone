@@ -7,7 +7,7 @@ parent: ['Ionic + Fastlane', '../fastlane']
 ---
 # Add metadata and upload to stores
 
-You currently have lots of empty files in your `fastlane/metadata` folder from when you [created the local metadata file structure](create-local-file-structure) (after you previously [installed](install-fastlane) and [initialized `fastlane`](initialize-fastlane-for-your-cordova-ios-and-android-apps) and [created your apps in the stores](create-your-remote-app-with-fastlane)). 
+You currently have lots of empty files in your `fastlane/metadata` folder from when you [created the local metadata file structure](create-local-file-structure.md) (after you previously [installed](install-fastlane.md) and [initialized `fastlane`](initialize-fastlane-for-your-cordova-ios-and-android-apps.md) and [created your apps in the stores](create-your-remote-app-with-fastlane.md)). 
 
 Now you have to do some manual work and fill these files with real data. 
 
@@ -36,17 +36,18 @@ When you are done you can run `fastlane deliver` to generate a html file as over
 
 Note: If you run this after doing the steps for Android below, this might fail with a `[!] Unsupported directory name(s) for screenshots/metadata in './fastlane/metadata': android` error message. Use `fastlane deliver --ignore_language_directory_validation true` instead to overcome this error. (A pull request for Fastlane to [fix this is already submitted](https://github.com/fastlane/fastlane/pull/10267))
 
-![`fastlane deliver` html preview]({{ site.url }}/assets/fastlane/fastlane-deliver-preview.png)
+![`fastlane deliver` html preview](/assets/fastlane/fastlane-deliver-preview.png)
 
 ### Upload to iTunes Connect
 
-If you press `n` it won't continue with the upload and you can fix things further. If you are ready, press `y` to upload the data:
+If you press `n` it won't continue with the upload and you can fix things further.  
+If you are ready, press `y` to upload the data:
 
-![`fastlane deliver` upload success]({{ site.url }}/assets/fastlane/fastlane-deliver-upload-success.png)
+![`fastlane deliver` upload success](/assets/fastlane/fastlane-deliver-upload-success.png)
 
 Check iTunes Connect for success:
 
-![`fastlane deliver` metadata in iTunes Connect]({{ site.url }}/assets/fastlane/fastlane-deliver-metadata-in-itunes-connect.png)
+![`fastlane deliver` metadata in iTunes Connect](/assets/fastlane/fastlane-deliver-metadata-in-itunes-connect.png)
 
 ### Optional: Advanced language structure
 
@@ -71,6 +72,7 @@ Additionally to the files that get created by default you also should create the
 All files are localized, and identical to iOS you can create additional languages by duplicating the `en-US` folder and giving it the intended countries' language code as new name.
 
 {::comment}
+TODO
 #### Changelogs 
 
 Android's changelogs for apps [live in another folder `metadata/android/en-US/changelogs` and have the "version code" as their filename with a `.txt` file extension](https://github.com/fastlane/fastlane/tree/master/supply#changelogs-whats-new):
@@ -105,11 +107,11 @@ There is no "generate preview" functionality in `supply` [yet](https://github.co
 
 Execute `fastlane supply` to upload the data to Google Play Console:
 
-![`fastlane supply` upload success]({{ site.url }}/assets/fastlane/fastlane-supply-upload-success.png)
+![`fastlane supply` upload success](/assets/fastlane/fastlane-supply-upload-success.png)
 
 Check the Play Console for confirmation it worked:
 
-![`fastlane supply` metadata in Play Console]({{ site.url }}/assets/fastlane/fastlane-supply-metadata-in-play-console.png)
+![`fastlane supply` metadata in Play Console](/assets/fastlane/fastlane-supply-metadata-in-play-console.png)
 
 Note that `supply` doesn't yet support all fields that the Google Play console requires, e.g. "category" is not downloaded and can not be set for Android apps. You have to do that manually before publishing your app later.
 {:.message}

@@ -7,7 +7,7 @@ parent: ['Ionic + Fastlane', '../fastlane']
 ---
 # Possible problems using Fastlane for Ionic Cordova projects
 
-You now know [what Fastlane offers](introduction-to-fastlane). So how about Ionic support with its hybrid apps based on Cordova? 
+You now know [what Fastlane offers](introduction-to-fastlane.md). So how about Ionic support with its hybrid apps based on Cordova? 
 
 ## Fastlane + Ionic? (and Cordova?)
 
@@ -25,4 +25,4 @@ Well, it won't work out of the box. Here are some of the reasons:
 
 This requires some creative handling of things and also usage of some plugins. But: It is perfectly doable!
 
-Start by [preparing your Ionic/Cordova project for Fastlane](prepare-your-ionic-project-for-fastlane).
+Start by [preparing your Ionic/Cordova project for Fastlane](prepare-your-ionic-project-for-fastlane.md).
