@@ -6,19 +6,25 @@ last_updated: ''
 parent: ['Ionic + Fastlane', '../fastlane']
 ---
 # TLDR: Fastlane + Ionic
+{:.no_toc}
 
 This is the "Too Long Didn't Read" version of all the articles about Ionic and Fastlane: Just the commands, necessary input or checks to do.
 
+- toc
+{:toc}
+
 ## Prepare
+
 - Make sure iOS and Android are added and up to date
-    - If missing:
-        - `ionic cordova platform add ios`
-        - `ionic cordova platform add android`
+  - If missing:
+    - `ionic cordova platform add ios`
+    - `ionic cordova platform add android`
 - Edit `config.xml`: Customize `widget id` and `widget version`
 - `ionic cordova prepare`
 - `ionic cordova resources`
 
 ## Install
+
 - Install [Homebrew](https://brew.sh/) 
 - `brew cask install fastlane`
 - `fastlane --version` to check if everything works
@@ -26,15 +32,16 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 ## Initialize
 
 ### iOS
+
 - `fastlane init`
-    - "Is this project an iOS project?" `y`
-    - "Couldn't automatically detect the project file, please provide a path:" `platforms/ios/FastlaneIonic.xcodeproj`
-    - "Your Apple ID (e.g. fastlane@krausefx.com):" Enter your Apple ID
-    - "Passwort (for mail@example.org):" Enter your Apple ID password
-    - "App Identifier (com.krausefx.app):" `zone.ionix.fastlane`
-    - "Would you like to create your app on iTunes Connect and the Developer Portal?" `n` (!)
-    - "Optional: The scheme name of your app (If you don't need one, just hit Enter):" <kbd>Enter</kbd>
-    - Creates some files:
+  - "Is this project an iOS project?" `y`
+  - "Couldn't automatically detect the project file, please provide a path:" `platforms/ios/FastlaneIonic.xcodeproj`
+  - "Your Apple ID (e.g. fastlane@krausefx.com):" Enter your Apple ID
+  - "Passwort (for mail@example.org):" Enter your Apple ID password
+  - "App Identifier (com.krausefx.app):" `zone.ionix.fastlane`
+  - "Would you like to create your app on iTunes Connect and the Developer Portal?" `n` (!)
+  - "Optional: The scheme name of your app (If you don't need one, just hit Enter):" <kbd>Enter</kbd>
+  - Creates some files:
         ```
         fastlane/
         ├── Appfile
@@ -43,15 +50,16 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
         ```
 
 ### Android
+
 - Do it manually
-    - Add at the bottom of `Appfile`:
-        ```
+  - Add at the bottom of `Appfile`:
+        ```ruby
         [...]
         json_key_file ""
         package_name "zone.ionic.fastlane"
         ```
-    - Add at the bottom of `Fastfile`:
-        ```
+  - Add at the bottom of `Fastfile`:
+        ```ruby
         [...]
 
         platform :android do
@@ -98,30 +106,32 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
         end
         ```
 - [Get a google_play_key.json file](https://docs.fastlane.tools/getting-started/android/setup/#collect-your-google-credentials)
-- Edit `Appfile` with the path to your file: 
-    ```
+- Edit `Appfile` with the path to your file:
+    ```ruby
     json_key_file "../google_play_key.json"
     ```
 - `fastlane supply init --verbose` to test
-    - You want to see `Fetching a new access token from Google...` and then a error `Google Api Error: applicationNotFound: No application was found for the given package name`
+  - You want to see `Fetching a new access token from Google...` and then a error `Google Api Error: applicationNotFound: No application was found for the given package name`
 
 ## Create remote apps
 
 ### iOS
+
 - `fastlane produce`
-    - "App name:" `Fastlane Ionic``
-    - Check “My Apps” in iTunes Connect and “Identifiers” => “App IDs” in the Developer Center 
+  - "App name:" `Fastlane Ionic``
+  - Check “My Apps” in iTunes Connect and “Identifiers” => “App IDs” in the Developer Center 
 
 ### Android
 
 - Open [Google Play Console](https://play.google.com/apps/publish/) and manually “Create Application”
 - Go to “App Releases” -> “Manage Alpha” -> “Create Release” and “Upload APK”
-    - Upload a [normal Ionic `--release` APK](TODO)
-    - Check if `package_name` now appears in application list
+  - Upload a [normal Ionic `--release` APK](TODO)
+  - Check if `package_name` now appears in application list
 
 ## Create local metadata
 
 ### iOS
+
 - `fastlane deliver init`
 - Creates local file structure for metadata:
     ```
@@ -165,9 +175,10 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
     └── screenshots
         └── README.txt
     ```
-    - Delete `Deliverfile`
+  - Delete `Deliverfile`
 
 ### Android
+
 - `fastlane supply init`
 - Creates additional local files:
     ```
@@ -188,27 +199,113 @@ This is the "Too Long Didn't Read" version of all the articles about Ionic and F
 ## Add metadata and upload
 
 ### iOS
+
 - Fill files in `fastlane/metadata`
-- `fastlane deliver`
-    - Creates a HTML preview
-    - "Does the Preview look okay for you?" `y`
-    - Check iTunes Connect for success
+- `fastlane deliver`
+  - Creates a HTML preview
+  - "Does the Preview look okay for you?" `y`
+  - Check iTunes Connect for success
 
 ### Android
+
 - Fill files in `fastlane/metadata/android`
-    - Create `en-US/featureGraphic.png` (1024x500px) and `en-US/icon.png` (512x512px)
+  - Create `en-US/featureGraphic.png` (1024x500px) and `en-US/icon.png` (512x512px)
 - `fastlane supply`
-    - Check the Play Console for confirmation it worked
- 
+  - Check the Play Console for confirmation it worked
+
+## Build your app
+
+### Setup iOS certificate handling with match
+
+- `fastlane match init`
+  - Requires private git repo
+  - Creates a file:
+      ```
+      fastlane/
+      └── Matchfile
+      ```
+- `fastlane match nuke development`  
+  `fastlane match nuke distribution`
+  - "Do you really want to nuke everything listed above?" `y`
+- `fastlane match development`  
+  `fastlane match appstore`  
+  (Optional, can also be done in build lanes later)
+  - Set or use passphrase for en/decryption of certificates
+
+#### Daily Life: Regenerate provisioning profiles with newly added devices
+
+- `fastlane match development --force_for_new_devices`  
+  `fastlane match adhoc --force_for_new_devices`
+
+### Build your Ionic app with the ionic Fastlane plugin
+
+- `fastlane add_plugin ionic`
+  - Creates `Gemfile` and `Gemfile.lock` listing the gem
+
+#### Debug Builds
+
+##### Android
+
+- Add lane to `android` block of `Fastfile`:
+    ```ruby
+    desc "Build Debug"
+    lane :build_debug do
+      ionic(
+        platform: 'android',
+        prod: true,
+        release: false
+      )
+      TODO check
+    end
+    ```
+- Run `fastlane android build_debug` to execute
+
+##### iOS
+
+- Add lane to `ios` block of `Fastfile`:
+    ```ruby
+    desc "Build Debug"
+    lane :build_debug do
+      ... TODO
+    end
+    ```
+- Run `fastlane ios build_debug` to execute
+
+#### Release Builds
+
+##### Android
+
+- Add lane to `android` block of `Fastfile`:
+    ```ruby
+    TODO
+    ```
+- Run `fastlane android build_release` to execute
+
+##### iOS
+
+- Add lane to `ios` block of `Fastfile`:
+    ```ruby
+    desc "Build Debug"
+    lane :build_debug do
+      ... TODO
+    end
+    ```
+- Run `fastlane ios build_release` to execute
+
 <div id="future-content">
 
-## Build and upload for testing
+## Upload your app
+
+### Upload your _Debug_ app for testing
+
+- ...
+
+### Publish your _Release_ app
+
 - ...
 
 ## Take screenshots
-- ...
 
-## Build and upload for release
 - ...
 
 </div>
