@@ -15,7 +15,7 @@ Initialization of the actual Fastlane installation in your project happens by ru
 
 ### iOS
 
-Run `fastlane init` in your project folder (where your `config.xml` and `/platforms` directory exist). As we don't run this in a default iOS project as Fastlane expects, it can't automatically detect the platform and will ask you if this is actually an iOS project, which you confirm with `y`. 
+Run `fastlane init` in your project folder (where your `config.xml` and `/platforms` directory exist). As we don't run this in a default iOS project as Fastlane expects, it can't automatically detect the platform and will ask you if this is actually an iOS project, which you confirm with <kbd>y</kbd>.
 
 ![`fastlane init`](/assets/fastlane/fastlane-init-1.png)
 
@@ -33,7 +33,7 @@ TODO Redo screenshot with two factor
 
 Because of an [incompatibility of Fastlane with Cordova iOS projects](https://github.com/fastlane/fastlane/issues/10202) it currently can't automatically get your app identifier (called `bundle_id` in iOS land) and you have to input it manually: `zone.ionic.fastlane` for this example.
 
-If the login is successful it will ask if you would "like to create your app on iTunes Connect and the Developer Portal?". For now decline this with `n` (as we will do this later when we [Create the app remotely](create-your-remote-app-with-fastlane.md)). The optional scheme input can be skipped by hitting <kbd>Enter</kbd> - and that's it.
+If the login is successful it will ask if you would "like to create your app on iTunes Connect and the Developer Portal?". For now decline this with <kbd>n</kbd> (as we will do this later when we [Create the app remotely](create-your-remote-app-with-fastlane.md)). The optional scheme input can be skipped by hitting <kbd>Enter</kbd> - and that's it.
 
 ![`fastlane init`](/assets/fastlane/fastlane-init-4.png)
 
@@ -59,11 +59,11 @@ On to Android do the same for Android:
 
 ### Android
 
-As the file structure for Fastlane was already created, and `fastlane` wasn't made for projects with both Android and iOS, we unfortuinately can't just run `init` again and choose `n` on the `iOS?` question to trigger the generation of the Android data.
+As the file structure for Fastlane was already created, and `fastlane` wasn't made for projects with both Android and iOS, we unfortunately can't just run `init` again and choose <kbd>n</kbd> on the `iOS?` question to trigger the generation of the Android data.
 
 But lucky for us the Android process only creates minimal content on both `Fastfile` and `Appfile` which we can replicate manually with little effort.
 
-#### Add Android to `Fastfile` and `Appfile` 
+#### Add Android to `Fastfile` and `Appfile`
 
 First your add an empty `json_key_file` entry and `package_name` entry with the same value as `app_identifier` to the bottom of the `Appfile`:
 
