@@ -34,8 +34,6 @@ If you want your app to contain localized app information for additional languag
 
 When you are done you can run `fastlane deliver` to generate a html file as overview of the data:
 
-Note: If you run this after doing the steps for Android below, this might fail with a `[!] Unsupported directory name(s) for screenshots/metadata in './fastlane/metadata': android` error message. Use `fastlane deliver --ignore_language_directory_validation true` instead to overcome this error. (A pull request for Fastlane to [fix this is already submitted](https://github.com/fastlane/fastlane/pull/10267))
-
 ![`fastlane deliver` html preview](/assets/fastlane/fastlane-deliver-preview.png)
 
 ### Upload to iTunes Connect
@@ -119,3 +117,7 @@ Note that `supply` doesn't yet support all fields that the Google Play console r
 
 Note that both tools don't update the default language of your app or remove translations that are not part of your file structure. You will have to do that manually for both the Play Store and the App Store.
 {:.message}
+
+## Next
+
+With your [apps created in the stores](create-your-remote-app-with-fastlane.md) and them being [filled with metadata](add-metadata-and-upload.md), you "only" have to [build your app](build-your-project.md) for testing and later release.
