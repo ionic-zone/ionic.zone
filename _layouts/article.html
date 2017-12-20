@@ -4,7 +4,29 @@ layout: default
 
 <div class="page">
   {% if page.parent %}
-    <p>« <a href="{{ page.parent[1] }}">{{ page.parent[0] }}</a></p>
+    <p>
+      « <a href="{{ page.parent[1] }}">{{ page.parent[0] }}</a>
+    </p>
   {% endif %}
   {{ content }}
+  {% if page.parent %}
+    <hr>
+    <p>
+      « <a href="{{ page.parent[1] }}">{{ page.parent[0] }}</a>
+    </p>
+  {% endif %}
+</div>
+
+<div id="comments">
+
+  <div id="disqus_thread"></div>
+  <script>
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://ionic-zone.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+
 </div>
