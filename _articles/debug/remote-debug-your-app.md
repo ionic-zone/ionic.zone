@@ -88,13 +88,14 @@ Safari is unfortunately only available for macOS and can not be installed on Win
 - Navigate to `Preferences › Advanced` in Safari on your Mac. Check "Show Develop menu in menu bar" option at the bottom.  
 ![Safari Preferences > Advanced](images/remote-debug-safari-preferences.png){:style="margin-top:20px"}
 - Connect your physical iOS device to your Mac
-  - Since macOS 10.12.4+, Xcode 9+ and iOS 11+ you [can connect to your device wirelessly](https://help.apple.com/xcode/mac/9.0/index.html?localePath=en.lproj#/devbc48d1bad).
+  - Connect your physical device with a USB cable.
+  - Since macOS 10.12.4+, Xcode 9+ and iOS 11+ you [can connect to your device wirelessly](https://help.apple.com/xcode/mac/9.0/index.html?localePath=en.lproj#/devbc48d1bad).  
+    Note that you [can not _deploy_ your app to the device wirelessly with Ionic or Cordova CLI yet](https://github.com/phonegap/ios-deploy/issues/320).
     - Connect your device with a USB cable.
     - Select "Connect via network" in your device settings in Xcode (`Window > Devices and Simulators > Devices`).
     - Unplug the USB cable, a "globe" icon next to your device name indicates that it is now connected wirelessly.
     - Install [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/).
     - Continue with this guide, use Safari Technology Preview in place of Safari
-  - You can of course use a USB cable as usual (or for older versions)
 
 #### Debugging
 
