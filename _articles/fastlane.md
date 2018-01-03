@@ -34,56 +34,35 @@ Have all app data for both stores in (versioned) local files and upload with one
 - [Create local store metadata file structure with `deliver` and `supply`](fastlane/create-local-file-structure.md)
 - [Add metadata to local structure and upload to stores](fastlane/add-metadata-and-upload.md)
 
-## Build your app
-
-Automatically build your app (Includes fully automated handling of iOS certificates).
-
-- [Build your Ionic app with Fastlane](fastlane/build-your-project.md)
-  1. [Build your Ionic app with the `ionic` Fastlane plugin](fastlane/build-your-project-with-ionic-plugin.md)
-  1. [Build your Ionic or Cordova app with the `cordova` Fastlane plugin](fastlane/build-your-project-with-cordova-plugin.md)
-  1. [Build your Ionic or Cordova app with native tooling in Fastlane](fastlane/build-your-project-with-native-tooling.md)
-- [Setup iOS certificate handling with `match`](fastlane/setup-ios-certificate-handling.md)
-
-{::nomarkdown}
-<div id="update-box">
-
-  <strong>Get notified about new <em>Ionic + Fastlane</em> articles</strong><br>
-  The articles below are not ready yet and are actively worked on right now. Enter your email address to automatically be notified when they are published:<br>
-  <br>
-
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-  #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-</style>
-<div id="mc_embed_signup">
-  <form action="//zone.us16.list-manage.com/subscribe/post?u=343ee35d12246a68f6310af0c&amp;id=b0d2853531" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_343ee35d12246a68f6310af0c_b0d2853531" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-  </form>
-</div>
-<!--End mc_embed_signup-->
-
-</div>
-{:/nomarkdown}
-
 <div id="future-content">
 
 ## Upload your app
 
 ### Upload your _Debug_ app for testing
 
-Upload your app for testing via different beta distribution services.
+- [Build and upload your app for testing (with Testflight, Play Store Alpha and HockeyApp)](fastlane/build-and-upload-for-testing)
+   * [Setup iOS certificate handling with `match`](fastlane/setup-ios-certificate-handling)
+   * [Modify your Cordova iOS project to work with Fastlane](fastlane/modify-cordova-ios-project-for-fastlane)
+   * ~~[Manage Testflight testers with Fastlane's `pilot` and `boarding`](fastlane/manage-testflight-testers-with-fastlane)~~
+   * ~~[Handle version numbers automatically with Fastlane](fastlane/handle-version-numbers-automatically-with-fastlane)~~
+   * ~~[Automatically create changelog from Git commit messages](fastlane/automatically-create-changelogs-from-git-commit-messages)~~
+</div>
 
 - [Upload your app for testing (with HockeyApp or Testflight and Play Store Alpha)](fastlane/upload-for-testing.md)
 
 ### Publish your _Release_ app
 
-Upload your app to the app stores for release.
+- [Take screenshots of your Ionic app (iOS and Android) with Fastlane](fastlane/take-screenshots-of-your-ionic-app-ios-ad-android-with-fastlane)
+   * [iOS Screenshots with `snapshot`](fastlane/ios-screenshots-with-snapshot)
+     * [UI Tests for your Cordova iOS app ](fastlane/uitest-for-cordova-apps)
+   * [Android Screenshots with `screengrab`](fastlane/android-screenshots-with-screengrab)
+     * [Instrumented (Espresso or UI Automator) tests for your Cordova Android app](fastlane/instrumented-espresso-or-ui-automator-tests-for-android-cordova-apps)
+
+<div id="future-content">
+
+   * [Upload your generated screenshots to the stores](fastlane/upload-generated-screenshots)
+   * ~~[Improve your Fastlane app screenshots by cleaning the status bar](fastlane/improve-generated-screenshots-by-cleaning-status-bar)~~
+   * ~~[Improve your Fastlane app screenshots by framing them with `frameit`](fastlane/improve-screenshots-by-framing-them)~~
 
 - [Publish your app for production release (to App Store and Google Play Store)](fastlane/publish-your-app.md)
 
