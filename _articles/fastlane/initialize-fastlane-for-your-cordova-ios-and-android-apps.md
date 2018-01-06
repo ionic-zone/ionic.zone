@@ -65,7 +65,7 @@ But lucky for us the Android process only creates minimal content on both `Fastf
 
 #### Add Android to `Fastfile` and `Appfile`
 
-First your add an empty `json_key_file` entry and `package_name` entry with the same value as `app_identifier` to the bottom of the `Appfile`:
+First you add an empty `json_key_file` entry and `package_name` entry with the same value as `app_identifier` to the bottom of the `Appfile`:
 
 ```
 [...]
