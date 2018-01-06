@@ -69,7 +69,7 @@ First you add an empty `json_key_file` entry and `package_name` entry with the s
 
 ```
 [...]
-json_key_file "" # Path to the json secret file - Follow https://github.com/fastlane/supply#setup to get one
+json_key_file "" # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
 package_name "zone.ionic.fastlane" # e.g. com.krausefx.app
 ```
 
