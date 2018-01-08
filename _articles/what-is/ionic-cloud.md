@@ -1,3 +1,9 @@
+---
+title: What was Ionic Cloud?
+date: 2018-01-08 16:00:00 +0000
+published: true
+last_updated: ''
+---
 # What <strike>is</strike> was Ionic Cloud?
 
 Ionic Cloud was an early cloud offering of Ionic. 
