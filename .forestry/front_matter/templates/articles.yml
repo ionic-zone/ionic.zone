@@ -1,5 +1,6 @@
 ---
 pages:
+- _articles/what-is-ionic-cloud.md
 - _articles/tools.md
 - _articles/fastlane/create-your-remote-app-with-fastlane.md
 - _articles/fastlane/initialize-fastlane-for-your-cordova-ios-and-android-apps.md
