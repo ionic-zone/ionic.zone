@@ -1,0 +1,41 @@
+---
+pages:
+- _articles/tools.md
+- _articles/fastlane/create-your-remote-app-with-fastlane.md
+- _articles/fastlane/initialize-fastlane-for-your-cordova-ios-and-android-apps.md
+- _articles/debug/remote-debug-your-app.md
+- _articles/build/build-via-ionic-or-cordova-or-native-tooling.md
+- _articles/fastlane/setup-ios-certificate-handling.md
+- _articles/fastlane/TLDR.md
+- _articles/fastlane/build-your-project.md
+- _articles/fastlane/build-your-project-with-native-tooling.md
+- _articles/fastlane/build-your-project-with-ionic-plugin.md
+- _articles/fastlane/build-your-project-with-cordova-plugin.md
+- _articles/tools/IonicReleases.md
+- _articles/fastlane/problems-with-using-fastlane-for-ionic.md
+- _articles/fastlane/prepare-your-ionic-project-for-fastlane.md
+- _articles/fastlane/create-local-file-structure.md
+- _articles/fastlane/install-fastlane.md
+- _articles/community.md
+- _articles/fastlane/introduction-to-fastlane.md
+- _articles/fastlane/put-platforms-under-version-control.md
+- _articles/fastlane/fastlane-and-windows.md
+- _articles/fastlane/add-metadata-and-upload.md
+- _articles/fastlane.md
+- _articles/understand/ionic-github-repositories.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: last_updated
+  type: datetime
+  label: Last updated
+  config: {}
