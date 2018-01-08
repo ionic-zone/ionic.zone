@@ -15,6 +15,9 @@ We can use `fastlane produce` to create our app in [iTunes Connect](https://itun
 
 ![`fastlane produce`](/assets/fastlane/fastlane-produce.png)
 
+If this is the very first app you create on this account, you will get an error containing "You must provide a company name to use on the App Store." now. To work aroudn this, add `-c "YourCompanyName Ltd"` to the `ionic produce` call. `-c` is short for `--company_name` which [Apple asks for with the first app you create](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/FirstSteps.html#//apple_ref/doc/uid/TP40011225-CH19-SW4).
+{:.message}
+
 Check "My Apps" in [iTunes Connect](https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app) and "Identifiers" => "App IDs" in the [Developer Center](https://developer.apple.com/account/ios/identifier/bundle) to confirm.
 
 ![New app in Apple Developer Center](/assets/fastlane/fastlane-produce-dev.png) ![New App in iTunes Connect](/assets/fastlane/fastlane-produce-connect.png)
