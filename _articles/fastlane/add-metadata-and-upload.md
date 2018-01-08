@@ -64,8 +64,8 @@ Of course you also have to do the same for the Android metadata in `fastlane/met
 
 Additionally to the files that get created by default you also should create these [required graphic files](https://support.google.com/googleplay/android-developer/answer/1078870):
 
-* `metadata/android/en-US/featureGraphic.png` is a promotional banner that can be shown in the Play Store to advertise your app (Size: 1024x500px)
-* `metadata/android/en-US/icon.png` is the app icon shown in the Play Store (Size: 512x512px)
+* `metadata/android/en-US/images/featureGraphic.png` is a promotional banner that can be shown in the Play Store to advertise your app (Size: 1024x500px)
+* `metadata/android/en-US/images/icon.png` is the app icon shown in the Play Store (Size: 512x512px)
 
 All files are localized, and identical to iOS you can create additional languages by duplicating the `en-US` folder and giving it the intended countries' language code as new name.
 
