@@ -1,5 +1,6 @@
 ---
 pages:
+- _articles/capacitor/native-functionality-and-plugins.md
 - _articles/capacitor/overview.md
 - _articles/capacitor.md
 - _articles/what-is.md
