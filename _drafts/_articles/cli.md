@@ -8,7 +8,7 @@ last_updated: ''
 
 Most of the interaction you will have with [Capacitor, the recently alpha-release Cordova successor by Ionic](what-is-capacitor.md), will be through it CLI, `npx cap`.
 
-`cap` obviously stands for "Capacitor", which would have been quite demanding to type, but did you notice the `npx` in front of it?
+`cap` obviously stands for "Capacitor", which would have been a bit too long to type regularly, but did you notice the `npx` in front of it?
 
 `npx` is a new tool by the `npm` people that allows you to run npm packages as CLI tools without globally installing them.
 
