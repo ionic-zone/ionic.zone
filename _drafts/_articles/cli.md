@@ -28,10 +28,12 @@ To [create your Capacitor project](https://capacitor.ionicframework.com/docs/get
 
 > Initializes a new Capacitor project in the current directory
 
-If you already have a web app, you first install the CLI and the Core library via `npm` as usual:
+If you already have a web app with a `package.json` file, for example one built with Ionic, you start by installing the CLI and the Core library via `npm` as usual:
+
 ```
 npm install @capacitor/cli @capacitor/core
 ```
+
 Then you can use the `init` command from above to create the initial Capacitor configuration file, `capacitor.config.json`, in your existing project.
 
 ### b) `npx @capacitor/cli create [appDir] [appName] [appId]`
@@ -39,11 +41,6 @@ Then you can use the `init` command from above to create the initial Capacitor c
 > Creates a new Capacitor project
 
 If you start without an existing web app project, you can use `npx` to temporarily download and install `@capacitor/cli` and use its `create` command to generate a whole Capacitor project with a rudimentary web app included (that has `@capacitor/core` installed).  
-
-
-
-
-you can start inside the folder of a web app project, that already includes a `package.json` file. First install Capacitor by running  first before using the above command. This creates the initial Capacitor configuration that is needed to continue. I assumes your web app content currently lives in `www`.
 
 ## 2. Add native platforms
 
