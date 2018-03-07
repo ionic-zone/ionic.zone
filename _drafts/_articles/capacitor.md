@@ -17,5 +17,5 @@ Capacitor is a new way to package web apps made with HTML, CSS and JavaScript in
   Capacitor is different in a few very important aspects.
 * [How does Capacitor (technically) work?](capacitor/deep-dive-into-capacitor.md)  
   Deep dive into Capacitor from a technical point of view.
-* [What does Capacitor's Core JS library, `@capacitor/core` do?](capacitor/core.md)
+* [What does Capacitor's Core JS library, `@capacitor/core` do?](capacitor/core.md)  
   Using Capacitor functionality in your app.
