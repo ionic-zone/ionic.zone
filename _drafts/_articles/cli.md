@@ -140,4 +140,6 @@ There are also 2 more commands that might come in handy during development:
 
 ---
 
-And that's it! As Capacitor doesn't abstract building and packaging your apps (read more about the [differences between Cordova and Capacitor](differences-to-cordova.md), these are all the commands that currently exist and are needed.
+And that's it!
+
+As Capacitor doesn't abstract building and packaging your apps (read more about the [differences between Cordova and Capacitor](differences-to-cordova.md)), these are all the commands that currently exist and are needed.
