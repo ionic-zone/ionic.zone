@@ -48,19 +48,15 @@ To [create your Capacitor project](https://capacitor.ionicframework.com/docs/get
 
 ### a) `npx cap init [appName] [appId]`
 
-> Initializes a new Capacitor project in the current directory
-
 If you already have a web app with a `package.json` file, for example one built with Ionic, you start by installing the CLI and the Core library via `npm` as usual:
 
 ```
 npm install @capacitor/cli @capacitor/core
 ```
 
-Then you can use the `init` command from above to create the initial Capacitor configuration file, `capacitor.config.json`, in your existing project.
+Then you can use the `init` command from above to initialize a Capacitor configuration file, `capacitor.config.json`, in your existing project.
 
 ### b) `npx @capacitor/cli create [appDir] [appName] [appId]`
-
-> Creates a new Capacitor project
 
 If you start without an existing web app project, you can use `npx` to temporarily download and install `@capacitor/cli` and use its `create` command to generate a whole Capacitor project with a rudimentary web app included (that has `@capacitor/core` installed).  
 
@@ -69,8 +65,6 @@ If you start without an existing web app project, you can use `npx` to temporari
 To actually start development of a native app you now have to add the platforms you want to support in your app to the project:
 
 ### `npx cap add [platform]`
-
-> Add a native platform project
 
 Running `npx cap add ios` and `npx cap add android` will create a `ios` or `android` folder that contain ordinary native platform projects - with some Capacitor goodness added in.
 
@@ -88,19 +82,15 @@ Opens the project in the native IDE for the chosen platform: Xcode for iOS, Andr
 
 ### `npx cap serve`
 
-> Serves a Capacitor Progressive Web App in the browser
-
-If your web app doesn't have its own `serve` or `watch` workflow, Capacitor provides a minimal implementation that runs the current content of `www` in your default browser.
+If your web app doesn't have its own `serve` or `watch` workflow, Capacitor provides a minimal implementation that serves the current content of `www` to your default browser.
 
 ## 4. Update your native Capacitor project(s)
 
-Now that you have your native projects (via `npx cap add`) there are two tasks that you have to run from time to time:
+Now that you have your native projects (via `npx cap add`) there are two tasks that you have to use frequently and from time to time respectively:
 
 ### `npx cap copy [platform]`
 
-> copies the web app build into the native app
-
-Each time you create a new build of your web app in `www`, it has to be copied over to the native platforms to be included in the next native build of the app. `cap copy` takes care of that. 
+Each time you create a new build of your web app in `www`, it has to be copied over to the native platforms to be included in the next native build of the app. `copy` takes care of that. 
 
 If you run your build via e.g. `npm run build`, it probably makes to add the `npx cap copy` command to the end automatically. For an Ionic project this might look like this:
 
@@ -116,17 +106,15 @@ If you run your build via e.g. `npm run build`, it probably makes to add the `np
 
 ### `npx cap update [platform]`
 
-> updates the native plugins and dependencies based in package.json
+If you also installed, updated or changed any native plugins (Capacitor or Cordova) via npm/`package.json` or updated Capacitor itself, you will have to use `update` to also apply those changes to the native projects. (Capacitor itself calls this ["Periodic Maintenance"](https://capacitor.ionicframework.com/docs/basics/workflow/#4-periodic-maintenance)). 
 
-If you also changed something with the native plugins installed via `npm` (Capacitor and Cordova plugins) or updated Capacitor itself, you will have to use `update` to also apply those changes to the native projects. (Capacitor itself calls this ["Periodic Maintenance"](https://capacitor.ionicframework.com/docs/basics/workflow/#4-periodic-maintenance)). The process copies over the plugin files and "installs" them into the native projects so they will automatically be picked up the next time the native app is built.
+The process copies over the plugin JS files and "installs" them into the native projects so they will automatically be picked up the next time the native app is built.
 
 Beware: For iOS this process might take quite long as it does a lot of things with Cocoapods for the plugins, which is also why this is a separate command from `copy`.
 
 ### `npx cap sync [platform]`
 
-> update + copy
-
-This convenience command combines `copy` and `sync` from above. Use it if you want to make sure all changes are synced to the native projects.
+This convenience command combines `copy` and `update` from above. Use it if you want to make sure all changes are synced to the native projects.
 
 ## 5. Helpers
 
@@ -134,11 +122,11 @@ There are also 2 more commands that might come in handy during development:
 
 ### `npx cap doctor [platform]`
 
-> checks the current setup for common errorsnpx 
+This command checks the current project and setup for common errors.
 
 ### `npx cap plugin:generate`
 
-> start a new Capacitor plugin
+Create a new Capacitor plugin from a template.
 
 ---
 
