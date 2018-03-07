@@ -102,20 +102,17 @@ Beware: For iOS this process might take quite long as it does a lot of things wi
 
 ### `npx cap sync [platform]`
 
-https://capacitor.ionicframework.com/docs/basics/cordova#installing-cordova-plugins
+> update + copy
 
-> The sync command updates dependencies, and copies any web assets to your project.
-https://capacitor.ionicframework.com/docs/ios/#creating-ios-app
-
-> updates + copy
+This convenience command combines `copy` and `sync` from above. Use it if you want to make sure all changes are synced to the native projects.
 
 ## 5. Helpers
 
-There are also 2 more commands that might come in handy:
+There are also 2 more commands that might come in handy during development:
 
 ### `npx cap doctor [platform]`
 
- >checks the current setup for common errors
+> checks the current setup for common errorsnpx 
 
 ### `plugin:generate`
 
