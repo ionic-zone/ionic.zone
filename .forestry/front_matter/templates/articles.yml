@@ -1,5 +1,6 @@
 ---
 pages:
+- _articles/cli.md
 - _articles/capacitor.md
 - _articles/overview.md
 - _articles/native-functionality-and-plugins.md
