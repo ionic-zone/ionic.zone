@@ -13,19 +13,19 @@ This article describes how it works and lists all its commands and explains what
 - [npx?](#npx)
 - [1. Create a Capacitor project](#1-create-a-capacitor-project)
   * [a) `npx cap init [appName] [appId]`](#a-npx-cap-init-appname-appid)
-  * [b) `npx @capacitor/cli create [appDir] [appName] [appId]`](#b-npx-capacitor-cli-create-appdir-appname-appid)
+  * [b) `npx @capacitor/cli create [appDir] [appName] [appId]`](#b-npx-capacitorcli-create-appdir-appname-appid)
 - [2. Add native platforms](#2-add-native-platforms)
   * [`npx cap add [platform]`](#npx-cap-add-platform)
 - [3. Develop your app](#3-develop-your-app)
   * [`npx cap open [platform]`](#npx-cap-open-platform)
   * [`npx cap serve`](#npx-cap-serve)
-- [4. Update your native Capacitor project(s)](#4-update-your-native-capacitor-project-s)
+- [4. Update your native Capacitor project(s)](#4-update-your-native-capacitor-projects)
   * [`npx cap copy [platform]`](#npx-cap-copy-platform)
   * [`npx cap update [platform]`](#npx-cap-update-platform)
   * [`npx cap sync [platform]`](#npx-cap-sync-platform)
 - [5. Helpers](#5-helpers)
   * [`npx cap doctor [platform]`](#npx-cap-doctor-platform)
-  * [`npx cap plugin:generate`](#npx-cap-plugin-generate)
+  * [`npx cap plugin:generate`](#npx-cap-plugingenerate)
 
 
 ## npx?
