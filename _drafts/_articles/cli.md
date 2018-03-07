@@ -50,7 +50,9 @@ To actually start development of a native app you now have to add the platforms 
 
 > Add a native platform project
 
-Running `npx cap add ios` and `npx cap add android` will create a `ios` or `android` folder that contain normal native platform projects. It also copies over your `www` to the correct path and creates the native bridge file that will be injected into the webview showing your web app that enables the communication between native code and Javascript code.
+Running `npx cap add ios` and `npx cap add android` will create a `ios` or `android` folder that contain ordinary native platform projects - with some Capacitor goodness added in.
+
+It also runs `sync` - details see below - to setup the native project.
 
 ## 3. Develop your app
 
@@ -94,16 +96,9 @@ If you run your build via e.g. `npm run build`, it probably makes to add the `np
 
 > updates the native plugins and dependencies based in package.json
 
-If you also changed something with the native plugins 
+If you also changed something with the native plugins installed via `npm` (Capacitor and Cordova plugins) or updated Capacitor itself, you will have to use `update` to also apply those changes to the native projects. (Capacitor itself calls this ["Periodic Maintenance"](https://capacitor.ionicframework.com/docs/basics/workflow/#4-periodic-maintenance)). The process copies over the plugin files and "installs" them into the native projects so they will automatically be picked up the next time the native app is built.
 
-
-
-https://capacitor.ionicframework.com/docs/getting-started/with-ionic#using-ionic-native
-https://capacitor.ionicframework.com/docs/basics/workflow#4-periodic-maintenance
-https://capacitor.ionicframework.com/docs/ios/updating#updating-capacitor-library
-
-And when you change something about the plugins your app should use (both Capacitor or Cordova) you have to make sure the plugins get updated in the native projects.
-
+Beware: For iOS this process might take quite long as it does a lot of things with Cocoapods for the plugins, which is also why this is a separate command from `copy`.
 
 ### `npx cap sync [platform]`
 
