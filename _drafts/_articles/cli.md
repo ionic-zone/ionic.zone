@@ -44,24 +44,21 @@ If you start without an existing web app project, you can use `npx` to temporari
 
 ## 2. Add native platforms
 
-The next step is then to add the native platforms you want to support in your app:
+To actually start development of a native app you now have to add the platforms you want to support in your app to the project:
 
-### `npx cap add ios`  
-### `npx cap add android`
+### `npx cap add [platform]`
 
 > Add a native platform project
 
-To actually start development of a native app you now have to add the platforms of your choice to the project. Running the above commands will create a `ios` or `android` folder that contains a normal native project. 
-
-It sets up the project for you and also copies over your `www` to the correct path and creates the native bridge file that will be injected into the webview showing your web app that enables the communication between native code and Javascript code.
+Running `npx cap add ios` and `npx cap add android` will create a `ios` or `android` folder that contain normal native platform projects. It also copies over your `www` to the correct path and creates the native bridge file that will be injected into the webview showing your web app that enables the communication between native code and Javascript code.
 
 ## 3. Develop your app
 
-Yeah, there is not really a CLI command for that - you have to do that manually. 
+Yeah, there is not really a CLI command for that - you have to do that manually 😄 
 
-But there are 2 commands that might make it easier:
+But there are 2 commands that might make it easier for you:
 
-### `npx cap open`
+### `npx cap open [platform]`
 
 Opens the project in the native IDE for the chosen platform: Xcode for iOS, Android Studio for Android.
 
@@ -71,11 +68,11 @@ Opens the project in the native IDE for the chosen platform: Xcode for iOS, Andr
 
 If your web app doesn't have its own `serve` or `watch` workflow, Capacitor provides a minimal implementation that runs the current content of `www` in your default browser.
 
-## 4. Update your Capacitor project(s)
+## 4. Update your native Capacitor project(s)
 
 Now that you have your native projects (via `npx cap add`) there are two tasks that you have to run from time to time:
 
-### `npx cap copy`
+### `npx cap copy [platform]`
 
 > copies the web app build into the native app
 
@@ -93,7 +90,7 @@ If you run your build via e.g. `npm run build`, it probably makes to add the `np
 
 ```
 
-### `npx cap update`
+### `npx cap update [platform]`
 
 > updates the native plugins and dependencies based in package.json
 
@@ -108,7 +105,7 @@ https://capacitor.ionicframework.com/docs/ios/updating#updating-capacitor-librar
 And when you change something about the plugins your app should use (both Capacitor or Cordova) you have to make sure the plugins get updated in the native projects.
 
 
-### `npx cap sync`
+### `npx cap sync [platform]`
 
 https://capacitor.ionicframework.com/docs/basics/cordova#installing-cordova-plugins
 
@@ -121,7 +118,7 @@ https://capacitor.ionicframework.com/docs/ios/#creating-ios-app
 
 There are also 2 more commands that might come in handy:
 
-### `npx cap doctor`
+### `npx cap doctor [platform]`
 
  >checks the current setup for common errors
 
