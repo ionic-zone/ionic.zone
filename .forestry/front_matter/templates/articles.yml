@@ -1,8 +1,9 @@
 ---
 pages:
-- _articles/capacitor/native-functionality-and-plugins.md
-- _articles/capacitor/overview.md
 - _articles/capacitor.md
+- _articles/overview.md
+- _articles/native-functionality-and-plugins.md
+- _articles/fastlane/TLDR.md
 - _articles/what-is.md
 - _articles/what-is/ionic-cloud.md
 - _articles/tools.md
@@ -11,7 +12,6 @@ pages:
 - _articles/debug/remote-debug-your-app.md
 - _articles/build/build-via-ionic-or-cordova-or-native-tooling.md
 - _articles/fastlane/setup-ios-certificate-handling.md
-- _articles/fastlane/TLDR.md
 - _articles/fastlane/build-your-project.md
 - _articles/fastlane/build-your-project-with-native-tooling.md
 - _articles/fastlane/build-your-project-with-ionic-plugin.md
