@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "@capacitor/cli: Capacitor CLI"
+title: 'Capacitor CLI: @capacitor/cli'
 date: 2018-03-07 00:00:00 +0000
 last_updated: ''
 ---
@@ -12,7 +12,7 @@ Most of the interaction you will have with [Capacitor](what-is-capacitor.md), th
 
 The `cap` in `npx cap` obviously stands for "Capacitor", which would have been a bit too long to type regularly. 
 
-But did you notice the `npx` in front of it? `npx` is a [relatively new tool](http://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner) from the team behind `npm` that allows you to run npm packages as CLI tools without globally installing them.
+But did you notice the `npx` in front of it? `npx` is a [relatively new "package runner"](http://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner) from the team behind `npm` that allows you to run npm packages as CLI tools without globally installing them.
 
 If you used Cordova or Ionic before, you know that the first step before being able to create a project with them is always to create a global installation of their CLI tool by running `npm install -g cordova` or `npm i -g ionic`. Then `cordova` or `ionic` becomes available globally in your command line.
 
@@ -47,14 +47,16 @@ you can start inside the folder of a web app project, that already includes a `p
 
 ## 2. Add native platforms
 
+The next step is then to add the native platforms you want to support in your app:
+
 ### `npx cap add ios`  
 ### `npx cap add android`
 
-https://capacitor.ionicframework.com/docs/getting-started/with-ionic#add-platforms
+> Add a native platform project
 
-> add a native platform project
+To actually start development of a native app you now have to add the platforms of your choice to the project. Running the above commands will create a `ios` or `android` folder that contains a normal native project. 
 
-To actually start development of a native app you now have to add the platforms of your choice to the project. Running the above commands will create a `ios` or `android` folder that contains a normal native project. It sets up the project for you and also copies over your `www` to the correct path and creates the native bridge file that will be injected into the webview showing your web app that enables the communication between native code and Javascript code.
+It sets up the project for you and also copies over your `www` to the correct path and creates the native bridge file that will be injected into the webview showing your web app that enables the communication between native code and Javascript code.
 
 ## 3. Develop your app
 
@@ -64,39 +66,43 @@ But there are 2 commands that might make it easier:
 
 ### `npx cap open`
 
-https://capacitor.ionicframework.com/docs/basics/workflow#3-open-your-native-ide
-https://capacitor.ionicframework.com/docs/basics/opening-native-projects
+Opens the project in the native IDE for the chosen platform: Xcode for iOS, Android Studio for Android.
 
-> opens the native project workspace (xcode for iOS)
-
-Opens the project in the native IDE for the chosen platform.
-
-### `npx cap serv`
-
-https://capacitor.ionicframework.com/docs/basics/running-your-app#progressive-web-app
+### `npx cap serve`
 
 > Serves a Capacitor Progressive Web App in the browser
 
+If your web app doesn't have its own `serve` or `watch` workflow, Capacitor provides a minimal implementation that runs the current content of `www` in your default browser.
+
 ## 4. Update your Capacitor project(s)
+
+Now that you have your native projects (via `npx cap add`) there are two tasks that you have to run from time to time:
 
 ### `npx cap copy`
 
-https://capacitor.ionicframework.com/docs/getting-started/with-ionic#syncing-your-app-with-capacitor
-https://capacitor.ionicframework.com/docs/basics/workflow#2-copy-your-web-assets
-https://capacitor.ionicframework.com/docs/basics/building-your-app#2-copying-web-code
-
-When you change your app app, you have to copy it over to the native projects:
-
-
 > copies the web app build into the native app
 
-> To copy web assets only, which is faster if you know you don't need to update native dependencies.
-https://capacitor.ionicframework.com/docs/ios/#creating-ios-app
+Each time you create a new build of your web app in `www`, it has to be copied over to the native platforms to be included in the next native build of the app. `cap copy` takes care of that. 
 
-copies over `www` to the native projects so you can rebuild your app with the updated content.
-// also copies over newly installed (cordova) plugins
+If you run your build via e.g. `npm run build`, it probably makes to add the `npx cap copy` command to the end automatically. For an Ionic project this might look like this:
+
+```
+# package.json
+{
+  "scripts": {
+    "build": "ionic-app-scripts build && npx cap copy",
+  },
+}
+
+```
 
 ### `npx cap update`
+
+> updates the native plugins and dependencies based in package.json
+
+If you also changed something with the native plugins 
+
+
 
 https://capacitor.ionicframework.com/docs/getting-started/with-ionic#using-ionic-native
 https://capacitor.ionicframework.com/docs/basics/workflow#4-periodic-maintenance
@@ -104,7 +110,6 @@ https://capacitor.ionicframework.com/docs/ios/updating#updating-capacitor-librar
 
 And when you change something about the plugins your app should use (both Capacitor or Cordova) you have to make sure the plugins get updated in the native projects.
 
-> updates the native plugins and dependencies based in package.json
 
 ### `npx cap sync`
 
