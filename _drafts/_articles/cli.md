@@ -6,7 +6,7 @@ last_updated: ''
 ---
 # Overview of the Capacitor CLI, @capacitor/cli
 
-Most of the interaction you will have with [Capacitor](what-is-capacitor.md), the recently alpha-release Cordova successor by Ionic, will be through it Command Line Interface or CLI: `npx cap`.
+Most of the interactions you will have with [Capacitor](what-is-capacitor.md), the recently alpha-release Cordova successor by Ionic, will be through its Command Line Interface or CLI: `npx cap`.
 
 ## npx?
 
@@ -16,9 +16,9 @@ But did you notice the `npx` in front of it? `npx` is a [relatively new "package
 
 If you used Cordova or Ionic before, you know that the first step before being able to create a project with them is always to create a global installation of their CLI tool by running `npm install -g cordova` or `npm i -g ionic`. Then `cordova` or `ionic` becomes available globally in your command line.
 
-`npx` enables you to a) run a local package from the project you are working on or b) run a package that is not (yet) installed in your project or even outside of a project context alltogether.
+`npx` on the other hand enables you to a) run a _local package_ from the project you are working on or b) run a _package that is not (yet) installed in your project_ or even _outside of a project context_ alltogether.
 
-That is also how the first two important commands differ:
+The first two Capacitor commands use these options:
 
 ## 1. Create a Capacitor project
 
