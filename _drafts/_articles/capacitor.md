@@ -29,7 +29,7 @@ Capacitor is a new way to package web apps made with HTML, CSS and JavaScript in
 
 * [How to use Cordova Plugins with Capacitor projects?]()  
   Cordova has thousands of plugins. Capacitor can use most of them.
-* [How to extend you app with custom native code?]()
+* [How to extend you app with custom native code?]()  
   Extending a Capacitor app with custom native code is easy.
-* [How to write and use a Capacitor plugin?]()
+* [How to write and use a Capacitor plugin?]()  
   Capacitor plugins allow re-use of native code.
