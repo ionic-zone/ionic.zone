@@ -36,7 +36,9 @@ But did you notice the `npx` in front of it? `npx` is a [relatively new "package
 
 If you used Cordova or Ionic before, you know that the first step before being able to create a project with them is always to create a global installation of their CLI tool by running `npm install -g cordova` or `npm i -g ionic`. Then `cordova` or `ionic` becomes available globally in your command line.
 
-`npx` on the other hand enables you to a) run a _local package_ from the project you are working on or b) run a _package that is not (yet) installed in your project_ or even _outside of a project context_ alltogether.
+`npx` on the other hand enables you to a) run a _local package_ from the project you are working on or b) run a _package that is not (yet) installed_ in your project or even _outside of a project context_ alltogether. 
+
+Besides being pretty handy, this also means that each Capacitor project can have its own version of the CLI locally installed in the project. Even if you upgrade one Capacitor project, you can easily still use an older version in another project.
 
 The first two Capacitor commands use these options:
 
