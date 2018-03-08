@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Capacitor
-date: 2018-01-11 00:00:00 +0000
+date: 2018-03-08 16:18:49 +0100
 last_updated: Invalid date
 published: true
 ---
