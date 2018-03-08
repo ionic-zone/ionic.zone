@@ -50,7 +50,7 @@ To [create your Capacitor project](https://capacitor.ionicframework.com/docs/get
 
 ### a) `npx cap init [appName] [appId]`
 
-If you already have a web app with a `package.json` file, for example one built with Ionic, you start by installing the CLI and the Core library via `npm` as usual:
+If you already have a web app with a `package.json` file, for example one built with Ionic, you start by installing the CLI and the Core library locally with `npm`:
 
     npm install @capacitor/cli @capacitor/core
 
@@ -66,19 +66,24 @@ To actually start development of a native app you now have to add the platforms 
 
 ### `npx cap add [platform]`
 
-Running `npx cap add ios` and `npx cap add android` will create a `ios` or `android` folder that contain ordinary native platform projects - with some Capacitor goodness added in.
+Running `npx cap add ios` and `npx cap add android` will create an `ios` and `android` folder that contain ordinary native platform projects - with the native Capacitor libraries already installed.
 
-It also runs `sync` - details see below - to setup the native project.
+It also runs `sync` - details on that [see below](#npx-cap-sync-platform) - to setup the native project.
 
 ## 3. Develop your app
 
-Yeah, there is not really a CLI command for that - you have to do that manually 😄
+There is not really a CLI command for that - you still have to do that manually 😄
 
 But there are 2 commands that might make it easier for you:
 
 ### `npx cap open [platform]`
 
-Opens the project in the native IDE for the chosen platform: Xcode for iOS, Android Studio for Android.
+Opens the project in the native IDE for the chosen platform:
+
+- Xcode for iOS
+- Android Studio for Android.
+
+You can of course also open in manually, but `open` will use the correct path by default and save you a few seconds.
 
 ### `npx cap serve`
 
@@ -125,10 +130,10 @@ This command checks the current project and setup for common errors.
 
 ### `npx cap plugin:generate`
 
-Create a new Capacitor plugin from a template.
+Create a new Capacitor plugin from a minimal template.
 
 ---
 
 And that's it!
 
-As Capacitor doesn't abstract building and packaging your apps (read more about the [differences between Cordova and Capacitor](differences-to-cordova.md)), these are all the commands that currently exist and are needed.
+As Capacitor doesn't abstract building and packaging your apps (read more about the [differences between Cordova and Capacitor](differences-to-cordova.md)), these are all the commands that exist and are needed.
