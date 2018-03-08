@@ -3,6 +3,7 @@ layout: article
 title: 'Capacitor CLI: @capacitor/cli'
 date: 2018-03-07 00:00:00 +0000
 last_updated: ''
+parent: ['Capacitor', '../capacitor']
 ---
 # Overview of the Capacitor CLI, @capacitor/cli
 
@@ -26,6 +27,8 @@ This article describes how it works and lists all its commands and explains what
 - [5. Helpers](#5-helpers)
   * [`npx cap doctor [platform]`](#npx-cap-doctor-platform)
   * [`npx cap plugin:generate`](#npx-cap-plugingenerate)
+
+---
 
 ## npx?
 
