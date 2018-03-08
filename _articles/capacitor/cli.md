@@ -12,19 +12,19 @@ This article describes how it works and lists all its commands and explains what
 
 * [npx?](#npx)
 * [1. Create a Capacitor project](#1-create-a-capacitor-project)
-  * [a) ](#a-npx-cap-init-appname-appid)`[npx cap init \[appName\] \[appId\]](#a-npx-cap-init-appname-appid)`
-  * [b) ](#b-npx-capacitorcli-create-appdir-appname-appid)`[npx @capacitor/cli create \[appDir\] \[appName\] \[appId\]](#b-npx-capacitorcli-create-appdir-appname-appid)`
+  * [a) ](#a-npx-cap-init-appname-appid)`[npx cap init [appName] [appId]](#a-npx-cap-init-appname-appid)`
+  * [b) ](#b-npx-capacitorcli-create-appdir-appname-appid)`[npx @capacitor/cli create [appDir] [appName] [appId]](#b-npx-capacitorcli-create-appdir-appname-appid)`
 * [2. Add native platforms](#2-add-native-platforms)
-  * `[npx cap add \[platform\]](#npx-cap-add-platform)`
+  * `[npx cap add [platform]](#npx-cap-add-platform)`
 * [3. Develop your app](#3-develop-your-app)
-  * `[npx cap open \[platform\]](#npx-cap-open-platform)`
+  * `[npx cap open [platform]](#npx-cap-open-platform)`
   * `[npx cap serve](#npx-cap-serve)`
 * [4. Update your native Capacitor project(s)](#4-update-your-native-capacitor-projects)
-  * `[npx cap copy \[platform\]](#npx-cap-copy-platform)`
-  * `[npx cap update \[platform\]](#npx-cap-update-platform)`
-  * `[npx cap sync \[platform\]](#npx-cap-sync-platform)`
+  * `[npx cap copy [platform]](#npx-cap-copy-platform)`
+  * `[npx cap update [platform]](#npx-cap-update-platform)`
+  * `[npx cap sync [platform]](#npx-cap-sync-platform)`
 * [5. Helpers](#5-helpers)
-  * `[npx cap doctor \[platform\]](#npx-cap-doctor-platform)`
+  * `[npx cap doctor [platform]](#npx-cap-doctor-platform)`
   * `[npx cap plugin:generate](#npx-cap-plugingenerate)`
 
 ## npx?
@@ -45,7 +45,7 @@ The first two Capacitor commands use these options:
 
 To [create your Capacitor project](https://capacitor.ionicframework.com/docs/getting-started/) you have two options:
 
-### a) `npx cap init \[appName\] \[appId\]`
+### a) `npx cap init [appName] [appId]`
 
 If you already have a web app with a `package.json` file, for example one built with Ionic, you start by installing the CLI and the Core library via `npm` as usual:
 
@@ -53,7 +53,7 @@ If you already have a web app with a `package.json` file, for example one built 
 
 Then you can use the `init` command from above to initialize a Capacitor configuration file, `capacitor.config.json`, in your existing project.
 
-### b) `npx @capacitor/cli create \[appDir\] \[appName\] \[appId\]`
+### b) `npx @capacitor/cli create [appDir] [appName] [appId]`
 
 If you start without an existing web app project, you can use `npx` to temporarily download and install `@capacitor/cli` and use its `create` command to generate a whole Capacitor project with a rudimentary web app included (that has `@capacitor/core` installed).
 
@@ -61,7 +61,7 @@ If you start without an existing web app project, you can use `npx` to temporari
 
 To actually start development of a native app you now have to add the platforms you want to support in your app to the project:
 
-### `npx cap add \[platform\]`
+### `npx cap add [platform]`
 
 Running `npx cap add ios` and `npx cap add android` will create a `ios` or `android` folder that contain ordinary native platform projects - with some Capacitor goodness added in.
 
@@ -73,7 +73,7 @@ Yeah, there is not really a CLI command for that - you have to do that manually 
 
 But there are 2 commands that might make it easier for you:
 
-### `npx cap open \[platform\]`
+### `npx cap open [platform]`
 
 Opens the project in the native IDE for the chosen platform: Xcode for iOS, Android Studio for Android.
 
@@ -85,20 +85,22 @@ If your web app doesn't have its own `serve` or `watch` workflow, Capacitor prov
 
 Now that you have your native projects (via `npx cap add`) there are two tasks that you have to use frequently and from time to time respectively:
 
-### `npx cap copy \[platform\]`
+### `npx cap copy [platform]`
 
 Each time you create a new build of your web app in `www`, it has to be copied over to the native platforms to be included in the next native build of the app. `copy` takes care of that.
 
 If you run your build via e.g. `npm run build`, it probably makes to add the `npx cap copy` command to the end automatically. For an Ionic project this might look like this:
 
-    # package.json
-    {
-      "scripts": {
-        "build": "ionic-app-scripts build && npx cap copy",
-      },
-    }
+```json
+# package.json
+{
+  "scripts": {
+    "build": "ionic-app-scripts build && npx cap copy",
+  },
+}
+```
 
-### `npx cap update \[platform\]`
+### `npx cap update [platform]`
 
 If you also installed, updated or changed any native plugins (Capacitor or Cordova) via npm/`package.json` or updated Capacitor itself, you will have to use `update` to also apply those changes to the native projects. (Capacitor itself calls this ["Periodic Maintenance"](https://capacitor.ionicframework.com/docs/basics/workflow/#4-periodic-maintenance)).
 
@@ -106,7 +108,7 @@ The process copies over the plugin JS files and "installs" them into the native 
 
 Beware: For iOS this process might take quite long as it does a lot of things with Cocoapods for the plugins, which is also why this is a separate command from `copy`.
 
-### `npx cap sync \[platform\]`
+### `npx cap sync [platform]`
 
 This convenience command combines `copy` and `update` from above. Use it if you want to make sure all changes are synced to the native projects.
 
@@ -114,7 +116,7 @@ This convenience command combines `copy` and `update` from above. Use it if you 
 
 There are also 2 more commands that might come in handy during development:
 
-### `npx cap doctor \[platform\]`
+### `npx cap doctor [platform]`
 
 This command checks the current project and setup for common errors.
 
