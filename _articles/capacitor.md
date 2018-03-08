@@ -9,9 +9,9 @@ published: true
 
 ![Capacitor Logo](capacitor/images/capacitor-logo.jpg)
 
-Capacitor is a new way to package _web apps_ made with HTML, CSS and JavaScript into _native apps_ that work on Android and iOS. It is pretty similar to Cordova, but also support creating Progressive Web Apps that can use the same functionality in the browser as the native apps.
+Capacitor is a new way to package _web apps_ made with HTML, CSS and JavaScript into _native apps_ that work on Android and iOS. It is pretty similar to [Cordova](https://cordova.apache.org), but also supports creating _Progressive Web Apps_ that can use the same functionality in the browser as the native apps.
 
-It is developed by the people behind Ionic and available as Open Source.
+It is developed by the people behind Ionic and its code is [available as Open Source on GitHub](https://github.com/ionic-team/capacitor).
 
 ## Capacitor Basics
 
