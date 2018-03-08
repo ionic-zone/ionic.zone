@@ -1,9 +1,7 @@
 ---
 pages:
+- _articles/capacitor/cli.md
 - _articles/capacitor.md
-- _articles/cli.md
-- _articles/overview.md
-- _articles/native-functionality-and-plugins.md
 - _articles/fastlane/TLDR.md
 - _articles/what-is.md
 - _articles/what-is/ionic-cloud.md
