@@ -6,6 +6,8 @@ last_updated: ''
 ---
 # Ionic and Fastlane
 
+![Ionic + Fastlane](fastlane/images/ionic_fastlane.png)
+
 This series of articles investigates and explains how to use Fastlane with your Ionic or Cordova projects for automating common tasks that normally are done manually and take tons of time.
 
 ## Introduction, Preparation
