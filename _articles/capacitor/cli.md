@@ -9,6 +9,8 @@ parent: ['Capacitor', '../capacitor']
 
 Most of the interactions you will have with [Capacitor](what-is-capacitor.md) will be through its Command Line Interface or CLI: `npx cap` (or `npx capacitor`).
 
+![Capacitor CLI](images/cli.png)
+
 This article describes how it works and lists all its commands and explains what they do:
 
 - [npx?](#npx)
