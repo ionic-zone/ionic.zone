@@ -10,6 +10,7 @@ Ionic Zone aims to be the #1 source for educational content about [Ionic Framewo
 
 Right now you can "only" find this here:
 
+* [Capacitor](_articles/capacitor.md)
 * [Fastlane and Ionic](_articles/fastlane.md)
 * [A (slighty outdated) Overview of Ionic's Github Repositories](_articles/understand/ionic-github-repositories.md)
 * [Tools](_articles/tools.md)
