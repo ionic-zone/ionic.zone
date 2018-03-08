@@ -17,14 +17,14 @@ Capacitor is a new way to package web apps made with HTML, CSS and JavaScript in
   Capacitor projects are created and managed with its CLI.
 * [How is Capacitor different from Cordova?](capacitor/differences-between-capacitor-and-cordova.md)  
   Capacitor is different in a few very important aspects.
-  
+
 ## A look under the hood
 
 * [How does Capacitor (technically) work?](capacitor/deep-dive-into-capacitor.md)  
   Deep dive into Capacitor from a technical point of view.
 * [What does Capacitor's Core JS library, `@capacitor/core` do?](capacitor/core.md)  
   Using Capacitor functionality in your app.
-  
+
 ## Using Native Code
 
 * [How to use Cordova Plugins with Capacitor projects?]()  
