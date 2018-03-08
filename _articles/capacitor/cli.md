@@ -1,13 +1,13 @@
 ---
 layout: article
 title: 'Capacitor CLI: @capacitor/cli'
-date: 2018-03-07 00:00:00 +0000
+date: 2018-03-08 00:00:00 +0000
 last_updated: ''
 parent: ['Capacitor', '../capacitor']
 ---
 # Overview of the Capacitor CLI, @capacitor/cli
 
-Most of the interactions you will have with [Capacitor](what-is-capacitor.md), the recently alpha-release Cordova successor by Ionic, will be through its Command Line Interface or CLI: `npx cap`.
+Most of the interactions you will have with [Capacitor](what-is-capacitor.md) will be through its Command Line Interface or CLI: `npx cap` (or `npx capacitor`).
 
 This article describes how it works and lists all its commands and explains what they do:
 
@@ -32,7 +32,7 @@ This article describes how it works and lists all its commands and explains what
 
 ## npx?
 
-The `cap` in `npx cap` obviously stands for "Capacitor", which would have been a bit too long to type in regularly.
+The `cap` in `npx cap` obviously stands for "Capacitor" and is an alias for `npx capacitor`, which would have been a bit too long to type in regularly.
 
 But did you notice the `npx` in front of it? `npx` is a [relatively new "package runner"](http://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner) from the team behind `npm` that allows you to run npm packages as CLI tools without globally installing them.
 
