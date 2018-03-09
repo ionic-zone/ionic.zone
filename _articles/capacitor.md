@@ -74,6 +74,8 @@ It is developed by the people behind Ionic and its code is [available as Open So
 
 Other people also have written about Capacitor:
 
+* Ionic themselves:
+  * [Announcing Capacitor 1.0.0 Alpha](https://blog.ionicframework.com/announcing-capacitor-1-0-0-alpha/)
 * [Josh Morony](https://www.joshmorony.com), excellent as always:
   * [An Early Look at Capacitor (A New Native Bridge for Web Apps)](https://www.joshmorony.com/an-early-look-at-capacitor-a-new-native-bridge-for-web-apps/)
   * [Running Custom Native iOS Code in Ionic with Capacitor](https://www.joshmorony.com/running-custom-native-ios-code-in-ionic-with-capacitor/)
