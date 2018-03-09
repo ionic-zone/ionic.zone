@@ -101,7 +101,7 @@ Each time you create a new build of your web app in `www`, it has to be copied o
 
 If you run your build via e.g. `npm run build`, it probably makes to add the `npx cap copy` command to the end automatically. For an Ionic project this might look like this:
 
-```json
+```javascript
 # package.json
 {
   "scripts": {
