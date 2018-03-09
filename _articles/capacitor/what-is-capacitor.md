@@ -17,7 +17,7 @@ Capacitor itself calls apps built with its help "**Native Progressive Web Apps**
 Drawing: web app UI on the left without frame, arrows to devices and browser on the right showing the same UI, more arrows pointing to App Store Icons or laptop
 {:/comment}
 
-It is functionally pretty similar to [Apache Cordova](https://cordova.apache.org) (formerly known as [PhoneGap](https://en.wikipedia.org/wiki/Phonegap)) which can be viewed as a [predecessor to Capacitor but differs in some important areas and technology choices](#consequences-to-apache-cordova).
+It is functionally pretty similar to [Apache Cordova](https://cordova.apache.org) (formerly known as [PhoneGap](https://en.wikipedia.org/wiki/Phonegap)) which can be viewed as a [predecessor to Capacitor but differs in some important areas and technology choices](#consequences-for-apache-cordova).
 
 Capacitor is built in the open [on GitHub as an Open Source project](https://github.com/ionic-team/capacitor) by the team behind [Ionic](https://ionicframework.com), a "top open source framework for building amazing mobile apps", where Capacitor it also intended to be used as a solution to build native applications.
 
@@ -33,11 +33,11 @@ Capacitor is built in the open [on GitHub as an Open Source project](https://git
   * [Cordova Plugins](#cordova-plugins)
 - [Command Line Interface](#command-line-interface)
 - [Coming soon](#coming-soon)
-- [Capacitor's Relationship to Ionic](#capacitor-s-relationship-to-ionic)
+- [Capacitor's Relationship to Ionic](#capacitors-relationship-to-ionic)
 - [Consequences for Apache Cordova](#consequences-for-apache-cordova)
   * [Comparison between Cordova and Capacitor](#comparison-between-cordova-and-capacitor)
 - [Some more details](#some-more-details)
-  * [Native projects are artifacts](#native-projects-are-artifacts)
+  * [Native projects are source artifacts](#native-projects-are-source-artifacts)
   * [Use whatever language you want](#use-whatever-language-you-want)
   * [Monorepo](#monorepo)
 
@@ -161,7 +161,7 @@ While Capacitor already supports many of its planned use cases, in other areas t
 - **Electron Support**  
   Already present in its infant stages in the repository now, Electron will enable Capacitor to build apps for all major desktop operating systems like Windows, macOS, and Linux.
 - **Native UI Shell / Native Shell Add-ons**  
-  The next step for even better apps will be to give developers powerful tools and ways to mix more native UI elements into their apps. A navigation bar built with HTML, JS, and CSS can look pretty much 99% like the real deal, but it will never cover all edge cases and most importantly never feel 100% native. Capacitor can and wants to fix this by popularizing new ways to mix native platform code with a web app, showing content. (See [Basecamp's David Heinemeier Hansson's article "The hybrid sweet spot"](https://signalvnoise.com/posts/3743-hybrid-sweet-spot-native-navigation-web-content) for more information about this idea)
+  The next step for even better apps will be to give developers powerful tools and ways to mix more native UI elements into their apps. A navigation bar built with HTML, JS, and CSS can look pretty much 99% like the real deal, but it will never cover all edge cases and most importantly never feel 100% native. Capacitor can and wants to fix this by popularizing new ways to mix native platform code with a web app, showing content. (See [Basecamp's David Heinemeier Hansson's article about the "hybrid sweet spot"](https://signalvnoise.com/posts/3743-hybrid-sweet-spot-native-navigation-web-content) for more information about this idea)
 - **Ionic Pro support**  
   Ionic is a commercial company and their main offering is a platform to build and manage applications built with Ionic. As Ionic until now uses Cordova under the hood, the whole platform is also built for that. It will take some time to adapt this and the connected code components to Capacitor.
 
@@ -191,7 +191,7 @@ To understand better why Ionic decided to build Capacitor instead of building fu
 
 While not the most important developing facing features, there are some more very interesting details worth to know about Capacitor:
 
-### Native projects are artifacts
+### Native projects are source artifacts
 
 In Capacitor the native projects it creates and you customize are treated as so-called "source artifacts". That means that once a project is created, you keep it an check it into source control. Capacitor will not (or as little as possible) mess with it anymore, so it is a fully independent piece of code.
 
@@ -205,4 +205,4 @@ Capacitor is structured as one big "monorepo" which contains all the parts (`@ca
 
 ---
 
-Did I miss anything? Let me know below in the comments and I will update as fast as possible. Thank you.
+Did I miss anything? Let me know in the comments below and I will update the article as quick as possible. Thank you.
