@@ -7,11 +7,11 @@ parent: ['Capacitor', '../capacitor']
 ---
 # Introduction to Capacitor ⚡️
 
-Capacitor is a way to create cross platform mobile and desktop applications.
+Capacitor is a way to create cross-platform mobile and desktop applications.
 
 It can be used to package **web apps** made with _HTML, CSS and JavaScript_ into **native apps** that work on _Android and iOS_ (and can be uploaded to their respective _app stores_), **desktop applications** via Electron, and also **Progressive Web Apps** that run in _all browsers_ - targeting all relevant platforms with one code base.
 
-Capacitor itself calls apps built with its help "**Native Progressive Web Apps**", meaning that they combines web apps that have characteristics of a Progressive Web App, with native functionality and code.
+Capacitor itself calls apps built with its help "**Native Progressive Web Apps**", meaning that they combine web apps that have characteristics of a Progressive Web App, with native functionality and code.
 
 {::comment}
 Drawing: web app UI on the left without frame, arrows to devices and browser on the right showing the same UI, more arrows pointing to App Store Icons or laptop
@@ -45,7 +45,7 @@ Capacitor is built in the open [on GitHub as an Open Source project](https://git
 
 ## Technical Overview
 
-Capacitor wraps the web app in a so called "WebView" that can display web apps inside the native app. It injects a "bridge" into the app running in the webview, that connects the code of the web app and the code of the native part so these can interact.
+Capacitor wraps the web app in a so-called "WebView" that can display web apps inside the native app. It injects a "bridge" into the app running in the webview, that connects the code of the web app and the code of the native part so these can interact.
 
 This way, functionality normally only available to native code can be used in the web app, and native code can interact with the web app running in the webview as well.
 
@@ -62,7 +62,7 @@ For Progressive Web Apps Capacitor provides fallback implementations to native f
 Drawing: Phone with "Take Photo" screen, Browser windows with modal showing similar UI.
 {:/comment}
 
-Capacitor achieves true cross platform and portable functionality with 100% code sharing by providing a consistent API, `@capacitor/core`, to the web app. Any web app can integrate `@capacitor/core` as an normal `import` or even a "bundled web runtime" called `capacitor.js` that is just included via a `<script>` tag.
+Capacitor achieves true cross-platform and portable functionality with 100% code sharing by providing a consistent API, `@capacitor/core`, to the web app. Any web app can integrate `@capacitor/core` as a normal `import` or even a "bundled web runtime" called `capacitor.js` that is just included via a `<script>` tag.
 
 No matter if the app runs on iOS, Android, in a browser on a mobile device or normal computer - the provider of some functionality is always identical to the web app and all the complexity is taken care of by Capacitor in the background.
 
@@ -85,13 +85,13 @@ _Native Progressive Web Apps_ built with Capacitor can be used on all the releva
 
 Capacitor defines which platform versions are supported when creating the native project:
 
-- For iOS it supports the last two iOS versions, currently iOS 11 and iOS 10. 
+- For iOS, it supports the last two iOS versions, currently iOS 11 and iOS 10. 
 - For Android support starts at API level 21 which corresponds to Android 5.0 (Lollipop) or newer.
-- And on the browser side all modern [browsers that support Web Components](https://caniuse.com/#search=components) (and actually many more via polyfills) will be able to display the web implementations.
+- And on the browser side, all modern [browsers that support Web Components](https://caniuse.com/#search=components) (and actually many more via polyfills) will be able to display the web implementations.
 
 ### Platform extensibility
 
-Capacitor contains a fixed set of platforms that can be added to projects and doesn't provide a system to dynamically load external platforms "definitions". To add an additional platform, Capacitor has to adapted and changed.
+Capacitor contains a fixed set of platforms that can be added to projects and doesn't provide a system to dynamically load external platforms "definitions". To add an additional platform, Capacitor has to be adapted and changed.
 
 ## Supported native functionality
 
@@ -122,7 +122,7 @@ Icons for all native APIs?
 
 This list is currently still highly in flux as new APIs and plugins are added [according to user feedback](https://github.com/ionic-team/capacitor/issues) all the time. Missing anything? Go [create an issue on GitHub](https://github.com/ionic-team/capacitor/issues/new).
 
-There are also multiple way to extend that functionality yourself: You can add _custom native code_ to the native projects or install reusable _Capacitor plugins_ or even existing _Cordova plugins_ with `npm`.
+There are also multiple ways to extend that functionality yourself: You can add _custom native code_ to the native projects or install reusable _Capacitor plugins_ or even existing _Cordova plugins_ with `npm`.
 
 ### Custom Native Code
 
@@ -138,7 +138,7 @@ The quickest way to add native code to your app is to write "local plugins" that
 Plugin Icon with Capacitor logo in app
 {:/comment}
 
-Capacitor also has a way to package these native modifications into [reusable Capacitor plugins](https://capacitor.ionicframework.com/docs/plugins/). Those can be published as npm packages, so other people can easily download and install them into their own projects. Of course they can also provide their own "web fallbacks" so the plugins work in the browser in PWAs as well.
+Capacitor also has a way to package these native modifications into [reusable Capacitor plugins](https://capacitor.ionicframework.com/docs/plugins/). Those can be published as npm packages, so other people can easily download and install them into their own projects. Of course, they can also provide their own "web fallbacks" so the plugins work in the browser in PWAs as well.
 
 ### Cordova Plugins
 
@@ -159,9 +159,9 @@ I also wrote a much more detailed [Overview of the Capacitor CLI, @capacitor/cli
 While Capacitor already supports many of its planned use cases, in other areas there exist only plans and not much to look at yet:
 
 - **Electron Support**  
-  Already present in its infant stages in the repository now, Electron will enable Capacitor to build apps for all major desktop operating systems like Windows, macOS and Linux.
+  Already present in its infant stages in the repository now, Electron will enable Capacitor to build apps for all major desktop operating systems like Windows, macOS, and Linux.
 - **Native UI Shell / Native Shell Add-ons**  
-  The next step for even better apps will be to give developers powerful tools and ways to mix more native UI elements into their apps. A navigation bar built with HTML, JS and CSS can look pretty much 99% like the real deal, but it will never cover all edge cases and most importantly never feel 100% native. Capacitor can and wants to fix this by popularizing new ways to mix native platform code with a web app, showing content. (See [Basecamp's David Heinemeier Hansson's article "The hybrid sweet spot"](https://signalvnoise.com/posts/3743-hybrid-sweet-spot-native-navigation-web-content) for more information about this idea)
+  The next step for even better apps will be to give developers powerful tools and ways to mix more native UI elements into their apps. A navigation bar built with HTML, JS, and CSS can look pretty much 99% like the real deal, but it will never cover all edge cases and most importantly never feel 100% native. Capacitor can and wants to fix this by popularizing new ways to mix native platform code with a web app, showing content. (See [Basecamp's David Heinemeier Hansson's article "The hybrid sweet spot"](https://signalvnoise.com/posts/3743-hybrid-sweet-spot-native-navigation-web-content) for more information about this idea)
 - **Ionic Pro support**  
   Ionic is a commercial company and their main offering is a platform to build and manage applications built with Ionic. As Ionic until now uses Cordova under the hood, the whole platform is also built for that. It will take some time to adapt this and the connected code components to Capacitor.
 
@@ -175,7 +175,7 @@ Ionic will probably add Capacitor to Ionic's CLI as the default tooling for buil
 
 Ionic Framework is one of the, or _the_, most popular "user(s)" of Apache Cordova. Each developer packaging their Ionic app as a native app installs Cordova via `npm install -g cordova` and uses it to build the native iOS and Android apps with `ionic cordova build ios|android`.
 
-But Cordova was started almost 10 years ago, was still called Phonegap back then, and a lot has changed in the mean time:
+But Cordova was started almost 10 years ago, was still called Phonegap back then, and a lot has changed in the meantime:
 
 It became clear which native platforms are here to stay (not Palm webOS, tizen, FireOS, Blackberry, Firefox OS or Windows Phone - which Cordova all supported at their time), what native functionality all the remaining operating systems offer their users and which of these the users actually want to use. It also became apparent which problems the choices made by the early Cordova developers were causing for developers today.
 
@@ -193,7 +193,7 @@ While not the most important developing facing features, there are some more ver
 
 ### Native projects are artifacts
 
-In Capacitor the native projects it creates and you customize are treated as so called "source artifacts". That means that once a project is created, you keep it an check it into source control. Capacitor will not (or as little as possible) mess with it any more, so it is a fully independent piece of code.
+In Capacitor the native projects it creates and you customize are treated as so-called "source artifacts". That means that once a project is created, you keep it an check it into source control. Capacitor will not (or as little as possible) mess with it anymore, so it is a fully independent piece of code.
 
 ### Use whatever language you want
 
@@ -201,7 +201,7 @@ Capacitor is built with Swift on iOS by default, but Obj-C can still be used for
 
 ### Monorepo
 
-Capacitor is structured as one big "monorepo" which contains all the parts (`@capacitor/cli`, `@capacitor/core`, the native libraries for iOS and Android, a development project, the plugin and platform templates, even the website and docs) versus one repository for each component or part of the whole solution, as many other highly complex softwares like Cordova are organized.
+Capacitor is structured as one big "monorepo" which contains all the parts (`@capacitor/cli`, `@capacitor/core`, the native libraries for iOS and Android, a development project, the plugin and platform templates, even the website and docs) versus one repository for each component or part of the whole solution, as many other highly complex libraries like Cordova are organized.
 
 ---
 
