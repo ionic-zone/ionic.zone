@@ -69,3 +69,12 @@ It is developed by the people behind Ionic and its code is [available as Open So
   Capacitor plugins allow re-use of native code.
 
 </div>
+
+## Elsewhere
+
+Other people also have written about Capacitor:
+
+* [Josh Morony](https://www.joshmorony.com), excellent as always:
+  * [An Early Look at Capacitor (A New Native Bridge for Web Apps)](https://www.joshmorony.com/an-early-look-at-capacitor-a-new-native-bridge-for-web-apps/)
+  * [Running Custom Native iOS Code in Ionic with Capacitor](https://www.joshmorony.com/running-custom-native-ios-code-in-ionic-with-capacitor/)
+  * [Publishing a Custom iOS Capacitor Plugin on NPM](https://www.joshmorony.com/publishing-a-custom-ios-capacitor-plugin-on-npm/)
