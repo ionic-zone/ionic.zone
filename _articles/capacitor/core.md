@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'What does Capacitor's Core JS library, `@capacitor/core` do?'
+title: 'What does Capacitor\'s Core JS library, `@capacitor/core` do?'
 date: 2018-03-08 00:00:00 +0000
 last_updated: ''
 parent: ['Capacitor', '../capacitor']
