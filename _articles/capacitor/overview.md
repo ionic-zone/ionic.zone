@@ -150,6 +150,8 @@ As Apache Cordova has a [flourishing plugin ecosystem](http://cordova.apache.org
 
 ## Command Line Interface
 
+![Capacitor CLI](images/cli.png)
+
 Working with Capacitor is mainly done via its Command Line Interface, or CLI, called `@capacitor/cli` and executed via `npx cap`. It is used to `create` or `init` projects, `add` the native platforms and `copy` the web app or `update` plugin code to the native project. It is a local CLI bundled with each project, so different CLI versions in different projects are possible.
 
 I also wrote a much more detailed [Overview of the Capacitor CLI, @capacitor/cli](cli.md).
@@ -173,7 +175,9 @@ Ionic will probably add Capacitor to Ionic's CLI as the default tooling for buil
 
 ## Consequences for Apache Cordova
 
-Ionic Framework is one of the, or _the_, most popular "user(s)" of Apache Cordova. Each developer packaging their Ionic app as a native app installs Cordova via `npm install -g cordova` and uses it to build the native iOS and Android apps with `ionic cordova build ios|android`.
+Ionic Framework is one of the, or _the_, most popular "user(s)" of Apache Cordova. Each developer packaging their Ionic app as a native app installs Cordova via `npm install -g cordova` and uses it to build the native iOS and Android apps with `ionic cordova build ios|android` - so the download numbers of Ionic and Cordova are tightly coupled, and Ionic contributes quite a lot to them.
+
+[![Capacitor CLI](images/overview/npm_downloads_cordova_ionic.png)](https://npm-stat.com/charts.html?package=cordova&package=ionic&from=2015-03-09&to=2018-02-28)
 
 But Cordova was started almost 10 years ago, was still called Phonegap back then, and a lot has changed in the meantime:
 
@@ -184,6 +188,10 @@ The biggest change only happened in the last few months when mobile and desktop 
 That being said, Apache Cordova of course will not go away - in general and also in Ionic CLI. Capacitor might become the "Successor to Cordova", or it might just become an alternative for slightly different use cases.
 
 ### Comparison between Cordova and Capacitor
+
+{::comment}
+Reuse "Capacitor vs. Cordova" graphic from linked article
+{:/comment}
 
 To understand better why Ionic decided to build Capacitor instead of building further on Cordova, it makes sense to take a deeper look at: [The differences between Capacitor and Cordova](differences-between-capacitor-and-cordova.md). (To summarize: No global CLI, built-in PWA and web support, but also technical details like the non-existence of a `deviceready` event the app has to wait for.)
 
@@ -196,6 +204,10 @@ While not the most important developing facing features, there are some more ver
 In Capacitor the native projects it creates and you customize are treated as so-called "source artifacts". That means that once a project is created, you keep it an check it into source control. Capacitor will not (or as little as possible) mess with it anymore, so it is a fully independent piece of code.
 
 ### Use whatever language you want
+
+{::comment}
+Logos Swift, Obj-C, Java, Kotlin
+{:/comment}
 
 Capacitor is built with Swift on iOS by default, but Obj-C can still be used for plugins and custom native code if you want to. Android is all written in Java, but Kotlin is also supported if that is more your style.
 
