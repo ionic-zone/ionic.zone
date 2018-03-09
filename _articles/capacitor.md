@@ -59,6 +59,11 @@ It is developed by the people behind Ionic and its code is [available as Open So
 * [What does Capacitor's Core JS library, `@capacitor/core` do?](capacitor/core.md)  
   Using Capacitor functionality in your app.
 
+## Using Capacitor
+
+* [How to update Capacitor projects?]()
+  Keeping your projects up to date is important - and simple.
+
 ## Using Native Code
 
 * [How to use Cordova Plugins with Capacitor projects?]()  
