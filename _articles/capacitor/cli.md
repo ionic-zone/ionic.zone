@@ -138,4 +138,4 @@ Create a new Capacitor plugin from a minimal template.
 
 And that's it!
 
-As Capacitor doesn't abstract building and packaging your apps (read more about the [differences between Cordova and Capacitor](differences-to-cordova.md)), these are all the commands that exist and are needed.
+As Capacitor doesn't abstract building and packaging your apps (read more about the [differences between Cordova and Capacitor](differences-between-capacitor-and-cordova.md)), these are all the commands that exist and are needed.
