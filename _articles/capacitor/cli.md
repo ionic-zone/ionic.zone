@@ -7,7 +7,7 @@ parent: ['Capacitor', '../capacitor']
 ---
 # Overview of the Capacitor CLI, @capacitor/cli
 
-Most of the interactions you will have with [Capacitor](what-is-capacitor.md) will be through its Command Line Interface or CLI: `npx cap` (or `npx capacitor`).
+Most of the interactions you will have with [Capacitor](overview.md) will be through its Command Line Interface or CLI: `npx cap` (or `npx capacitor`).
 
 ![Capacitor CLI](images/cli.png)
 

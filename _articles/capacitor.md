@@ -15,7 +15,7 @@ It is developed by the people behind Ionic and its code is [available as Open So
 
 ## Capacitor Basics
 
-* [What is Capacitor?](capacitor/what-is-capacitor.md)  
+* [What is Capacitor?](capacitor/overview.md)  
   Introduction to Capacitor and its features.
 * [How to use Capacitor's CLI, `@capacitor/cli`?](capacitor/cli.md)  
   Capacitor projects are created and managed with its CLI.
