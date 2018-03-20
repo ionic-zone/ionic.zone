@@ -139,7 +139,7 @@ layout: page
 
 * How to upgrade to a new Ionic v2 version
 * How to update Ionic in an existing project?
-* How to upgrade Cordova
+* [How to upgrade Cordova](_articles/cordova/update.md)
 * How to Upgrade from Ionic 2 to Ionic 3?
 * How to Upgrade from Ionic Native 2 to Ionic Native 3?
 * How to upgrade an old Ionic 2 project to the current version?

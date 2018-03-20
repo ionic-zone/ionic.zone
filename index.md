@@ -12,6 +12,7 @@ Right now you can "only" find this here:
 
 * [Capacitor](_articles/capacitor.md)
 * [Fastlane and Ionic](_articles/fastlane.md)
+* [Cordova](_articles/cordova.md)
 * [A (slighty outdated) Overview of Ionic's Github Repositories](_articles/understand/ionic-github-repositories.md)
 * [Tools](_articles/tools.md)
 
