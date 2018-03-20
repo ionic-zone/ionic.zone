@@ -9,6 +9,15 @@ parent: ['Cordova', '../cordova']
 
 This article explains how to update Cordova CLI, Cordova Platforms and Cordova Platforms in your project.
 
+---
+
+- [Why should I update Cordova?](#why-should-i-update-cordova)
+- [Update Cordova CLI, `cordova`](#update-cordova-cli-cordova)
+- [Update Cordova Platforms](#update-cordova-platforms)
+- [Update Cordova Plugins](#update-cordova-plugins)
+
+---
+
 ## Why should I update Cordova?
 
 If your project is not on the newest version of Cordova CLI, platforms or plugins there is a pretty good chance your setup will not work with current mobile platform tools like Xcode for iOS or Android Studio, Gradle or Android SDK for Android.
@@ -16,16 +25,6 @@ If your project is not on the newest version of Cordova CLI, platforms or plugin
 Any errors or problem you are getting might be from your app - or just because you are using an outdated Cordova setup. Updating everything to the most recent stable versions excludes this as a source for errors and makes debugging much easier.
 
 If you don't have any problems right now, you can still invest the time now to update Cordova to make sure it doesn't break when you are under pressure to get an update rolled out.
-
----
-
-What we refer to as "Cordova" are actually 3 different parts that can be updated independently:
-
-- [Update Cordova CLI, `cordova`](#update-cordova-cli-cordova)
-- [Update Cordova Platforms](#update-cordova-platforms)
-- [Update Cordova Plugins](#update-cordova-plugins)
-
----
 
 ## Update Cordova CLI, `cordova`
 
