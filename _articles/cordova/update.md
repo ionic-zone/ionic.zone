@@ -76,7 +76,7 @@ cordova platform add android@7.1.0
 
 Rerun `cordova platform list` to check that the new version was successfully installed.
 
-## Cordova Plugins
+## Update Cordova Plugins
 
 Run `cordova plugin list` to get a list of the currently installed plugins in your project:
 
