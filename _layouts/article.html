@@ -8,6 +8,12 @@ layout: default
       « <a href="{{ page.parent[1] }}">{{ page.parent[0] }}</a>
     </p>
   {% endif %}
+  <ul class="dates">
+    First published: <span title="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %Y" }}</span>
+    {% if page.last_updated and page.last_updated != '' and page.last_updated != page.date and page.last_updated != 'Invalid date' %}
+      &nbsp; &middot; &nbsp; Last updated: <span title="{{ page.last_updated | date: "%Y-%m-%d" }}">{{ page.last_updated | date: "%B %Y" }}</span>
+    {% endif %}
+  </ul>
   {{ content }}
   {% if page.parent %}
     <hr>
@@ -15,6 +21,12 @@ layout: default
       « <a href="{{ page.parent[1] }}">{{ page.parent[0] }}</a>
     </p>
   {% endif %}
+  <ul class="dates">
+    First published: <span title="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %Y" }}</span>
+    {% if page.last_updated and page.last_updated != '' and page.last_updated != page.date and page.last_updated != 'Invalid date' %}
+      &nbsp; &middot; &nbsp; Last updated: <span title="{{ page.last_updated | date: "%Y-%m-%d" }}">{{ page.last_updated | date: "%B %Y" }}</span>
+    {% endif %}
+  </ul>
 </div>
 
 <div id="comments">
