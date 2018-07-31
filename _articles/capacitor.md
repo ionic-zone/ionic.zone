@@ -19,6 +19,10 @@ It is developed by the people behind Ionic and its code is [available as Open So
   Introduction to Capacitor and its features.
 * [How to use Capacitor's CLI, `@capacitor/cli`?](capacitor/cli.md)  
   Capacitor projects are created and managed with its CLI.
+* [How is Capacitor different from Cordova?](capacitor/differences-between-capacitor-and-cordova.md)  
+  Capacitor is different than Cordova in some very important aspects.
+* [Why should Capacitor exist?](capacitor/why-capacitor-exists.md)  
+  Cordova is here and does its job. Why do we need Capacitor?
 
 {::nomarkdown}
 <div id="update-box">
@@ -48,9 +52,6 @@ It is developed by the people behind Ionic and its code is [available as Open So
 {:/nomarkdown}
 
 <div id="future-content">
-
-* [How is Capacitor different from Cordova?](capacitor/differences-between-capacitor-and-cordova.md)  
-  Capacitor is different in a few very important aspects.
 
 ## A look under the hood
 

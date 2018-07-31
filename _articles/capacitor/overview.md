@@ -122,9 +122,13 @@ Icons for all native APIs?
 
 This list is currently still highly in flux as new APIs and plugins are added [according to user feedback](https://github.com/ionic-team/capacitor/issues) all the time. Missing anything? Go [create an issue on GitHub](https://github.com/ionic-team/capacitor/issues/new).
 
+### Configure native functionality
+
+### Extend native functionality
+
 There are also multiple ways to extend that functionality yourself: You can add _custom native code_ to the native projects or install reusable _Capacitor plugins_ or even existing _Cordova plugins_ with `npm`.
 
-### Custom Native Code
+#### Custom Native Code
 
 {::comment}
 Icon that shows normal code in app
@@ -132,7 +136,7 @@ Icon that shows normal code in app
 
 The quickest way to add native code to your app is to write "local plugins" that are included in your native project. For both [Android](https://capacitor.ionicframework.com/docs/android/custom-code#webview-accessible-native-code) and [iOS](https://capacitor.ionicframework.com/docs/ios/custom-code/#webview-accessible-native-code) it is as simple as adding 2 files to your project to make native code accessible to the webview, which then can simply be called from the web app.
 
-### Capacitor Plugins
+#### Capacitor Plugins
 
 {::comment}
 Plugin Icon with Capacitor logo in app
@@ -140,7 +144,7 @@ Plugin Icon with Capacitor logo in app
 
 Capacitor also has a way to package these native modifications into [reusable Capacitor plugins](https://capacitor.ionicframework.com/docs/plugins/). Those can be published as npm packages, so other people can easily download and install them into their own projects. Of course, they can also provide their own "web fallbacks" so the plugins work in the browser in PWAs as well.
 
-### Cordova Plugins
+#### Cordova Plugins
 
 {::comment}
 Plugin Icon with Pluggy logo in app
