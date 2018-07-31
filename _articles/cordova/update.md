@@ -7,7 +7,7 @@ parent: ['Cordova', '../cordova']
 ---
 # How to update Cordova?
 
-This article explains how to update Cordova CLI, Cordova Platforms and Cordova Platforms in your project.
+This article explains how to update Cordova CLI, Cordova Platforms and Cordova Plugins in your project.
 
 ---
 
