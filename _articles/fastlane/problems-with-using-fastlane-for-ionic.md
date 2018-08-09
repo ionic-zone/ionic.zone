@@ -13,11 +13,21 @@ You now know [what Fastlane offers](introduction-to-fastlane.md). So how about I
 
 Well, it won't work out of the box. Here are some of the reasons:
 
-* Fastlane expects projects to be iOS _or_ Android. Ionic/Cordova projects can be both, which makes the first difficulty. Fortunately, fastlane uses different file and folder structures for iOS and Android so the same setup can actually be used for both platforms at the same time.
+### Android or iOS
 
-* It also normally wants to be installed into the native projects, and as these are generated with Ionic/Cordova projects (`/platforms/ios` and `/platforms/android`), handled as build artifacts and not checked into `git`, the `fastlane` installation and configuration would get lost with each new checkout of the project. Fortunately we can work around this by supplying explicit paths to our native projects in `/platforms` and install Fastlane in our normal project folder that contains our `www` folder and `config.xml`.
+Fastlane expects projects to be iOS _or_ Android. Ionic/Cordova projects can be both, which is the first problem you encounter.
 
-* The commands you execute via the `ionic` CLI are also unique for Ionic (`ionic cordova build`, `ionic cordova prepare` etc.) [same if you are using the `cordova` CLI directly for `cordova build`, `cordova prepare` etc], and so are of course not taken into consideration in all documentation of Fastlane (where everything is done with Xcode for iOS or Gradle for Android) and the published tutorials around the web.
+Fortunately, fastlane uses different file and folder structures for iOS and Android so the same setup can actually be used for both platforms at the same time.
+
+### Cordova native projects are generated
+
+Fastlane also normally wants to be installed into the native projects. But as these are a) generated with Ionic/Cordova projects (`/platforms/ios` and `/platforms/android`), b) handled as build artifacts and c) usually not checked into `git`, your `fastlane` installation and configuration would get lost with each new checkout of the project.  
+
+Fortunately we can work around this by supplying explicit paths to our native projects in `/platforms` and install Fastlane in our normal project folder that contains our `www` folder and `config.xml`.
+
+### Unique Ionic/Cordova CLI commands
+
+The commands you execute via the `ionic` CLI are also unique for Ionic (`ionic cordova build`, `ionic cordova prepare` etc.) [same if you are using the `cordova` CLI directly for `cordova build`, `cordova prepare` etc], and so are of course not taken into consideration in all documentation of Fastlane (where everything is done with Xcode for iOS or Gradle for Android) and the published tutorials around the web.
 
 {::comment}
 (In the process you will also discover several other stumbling blocks.)
