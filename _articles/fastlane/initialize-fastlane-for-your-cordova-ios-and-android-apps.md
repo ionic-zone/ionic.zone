@@ -11,31 +11,11 @@ Now that [`fastlane` is installed](install-fastlane.md) you can initialize it in
 
 ## Initialize with `fastlane init`
 
-Initialization of the actual Fastlane installation in your project happens by running `fastlane init` on the command line. Be aware that this will trigger some errors as we are doing this in a non-standard way. We will start with iOS:
+Initialization of the actual Fastlane installation in your project happens by running `fastlane init` on the command line. Normally this recognizes the project type and then offers a wizard like experience to set up your `fastlane` folder. Unfortunately Ionic and Cordova projects are not recognized yet, which means we have to setup semi manually:
 
-### iOS
+Run `fastlane init` in your project folder (where your `config.xml` and `/platforms` directory exist). As it doesn't recognize the project type, it will ask if you would like to "manually setup a fastlane config in the current directory instead?", which you confirm with `y`.
 
-Run `fastlane init` in your project folder (where your `config.xml` and `/platforms` directory exist). As we don't run this in a default iOS project as Fastlane expects, it can't automatically detect the platform and will ask you if this is actually an iOS project, which you confirm with `y`. 
-
-![`fastlane init`](/assets/fastlane/fastlane-init-1.png)
-
-It also can't automatically find the "project file", so enter `platforms/ios/FastlaneIonic.xcodeproj` (Replace "FastlaneIonic" with the actual file name that depends on the `name` you set in your `config.xml` - best check for the file name in the file system).
-
-![`fastlane init`](/assets/fastlane/fastlane-init-2.png)
-
-Then it asks for your Apple ID that will be used to log in to iTunes Connect and the associated password, which it will store in your system's keychain via [fastlane's credential manager](https://github.com/fastlane/fastlane/tree/master/credentials_manager). (Entering this will (of course) trigger your two-factor-authentication that you also have to enter on the command line)
-
-![`fastlane init`](/assets/fastlane/fastlane-init-3.png)
-
-{::comment}
-TODO Redo screenshot with two factor
-{:/comment}
-
-Because of an [incompatibility of Fastlane with Cordova iOS projects](https://github.com/fastlane/fastlane/issues/10202) it currently can't automatically get your app identifier (called `bundle_id` in iOS land) and you have to input it manually: `zone.ionic.fastlane` for this example.
-
-If the login is successful it will ask if you would "like to create your app on iTunes Connect and the Developer Portal?". For now decline this with `n` (as we will do this later when we [Create the app remotely](create-your-remote-app-with-fastlane.md)). The optional scheme input can be skipped by hitting <kbd>Enter</kbd> - and that's it.
-
-![`fastlane init`](/assets/fastlane/fastlane-init-4.png)
+![`fastlane init`](/assets/fastlane/fastlane-init.png)
 
 If you check your project's Git working copy it now includes the following files and folders:
 
@@ -46,7 +26,11 @@ fastlane/
 └── actions/
 ```
 
-`Fastfile` is a generic (iOS only) example of possible lanes, but `Appfile` already contains your actual app information:
+`Fastfile` is a generic example of how a lane could look like, and `Appfile` is currently empty.
+
+TODO add demo lanes
+
+TODO collect information and add to Appfile:
 
 ```
 app_identifier "zone.ionic.fastlane" # The bundle identifier of your app
