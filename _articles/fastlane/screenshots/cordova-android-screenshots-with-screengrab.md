@@ -7,7 +7,7 @@ parent: ['Ionic + Fastlane', '../fastlane']
 ---
 # Fastlane + Ionic: Android Screenshots with `screengrab`
 
-For Android, you can use `fastlane screengrab` to create the screenshots. It uses "UI Automator" and "Espresso" tests (or only "Espresso" for older versions) to drive the interactions in your app.
+For Android, you can use `fastlane screengrab` to create screenshots. It uses "UI Automator" and "Espresso" tests (or only "Espresso" for older versions) to drive the interactions in your app.
 
 ## Installation and preparation
 
@@ -22,7 +22,7 @@ For Android, you can use `fastlane screengrab` to create the screenshots. It use
 
 - Run that lane:
   `bundle exec fastlane android screenshots`
-- Error messages:
+- Possible error messages:
 
 a)
 
@@ -49,11 +49,11 @@ c)
 
 Fix by adding to your path `export PATH="$PATH:/Users/sujan/Library/Android/sdk/build-tools/26.0.1/"`
 
-- Choose the one any only selectable APK as app and test
+- `bundle exec fastlane android screenshots`: Choose the one and only selectable APK as app and test (`ionic cordova build android` has to have been run before so an APK actually exists)
   - If you have the app installed already, you might have to uninstall it first to get rid of another error
 
 
-- Add permissions to `src/debug/AndroidManifest.xml` (create the folder): https://docs.fastlane.tools/getting-started/android/screenshots/#configuring-your-manifest-permissions
+- Add permissions to `app/src/debug/AndroidManifest.xml` (create the folder and file): https://docs.fastlane.tools/getting-started/android/screenshots/#configuring-your-manifest-permissions
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -76,8 +76,15 @@ This will be merged with your default `AndroidManifest.xml` created by Cordova f
 
 ```
 app_apk_path 'platforms/android/build/outputs/apk/android-debug.apk'
-tests_apk_path 'platforms/android/build/outputs/apk/android-debug-androidTest.apk'
+tests_apk_path 'platforms/android/build/outputs/apk/android-debug-androidTest.apk' TODO This can't exist here yet as there is not `androidTest` target yet afaik ( => run `gradlew assembleDebug assembleAndroidTest` to generate the file)
 ```
+
+TODO fix paths for cordova-android 7+:
+```
+app_apk_path('platforms/android/app/build/outputs/apk/debug/app-debug.apk')
+tests_apk_path('platforms/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk')
+```
+
 
 - Now only one error is left:
 
@@ -87,15 +94,23 @@ That means we are now actually going to create some tests as the environment is 
 
 ## Create the test that takes screenshots
 
+In Android Studio:
+
 - Run -> "Record Espresso Test". This creates a [basic JUnit 4 test class](https://developer.android.com/training/testing/start/index.html#junit), adds in some Espresso (UI Test) stuff and takes care of the imports (via messing with your build.gradle)
   - Manually add assertion for Webview that won't work, but adds a nice delay thingie
 - Diamond Operator: https://stackoverflow.com/a/29432474/252627 Fix by making it explicit.
 - Add `Screengrab.screenshot("0_app-launch");` to test to trigger screenshot generation
-- Add `build-extras.gradle` with content
+- Add `app/build-extras.gradle` with content
 
 ```
 dependencies {
 	compile 'tools.fastlane:screengrab:1.0.0'
+}
+```
+TODO or actually:
+```
+dependencies {
+	androidTestCompile 'tools.fastlane:screengrab:1.0.0'
 }
 ```
 
