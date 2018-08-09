@@ -50,11 +50,11 @@ Automatically build and upload your app for testing via different beta distribut
 
 Automated screenshot creation in all required formats and languages.
 
-- [Take screenshots of your Ionic app (iOS and Android) with Fastlane](fastlane/take-screenshots-of-your-ionic-app-ios-ad-android-with-fastlane)
-   * [iOS Screenshots with `snapshot`](fastlane/ios-screenshots-with-snapshot)
-     * [UI Tests for your Cordova iOS app ](fastlane/uitest-for-cordova-apps)
-   * [Android Screenshots with `screengrab`](fastlane/android-screenshots-with-screengrab)
-     * [Instrumented (Espresso or UI Automator) tests for your Cordova Android app](fastlane/instrumented-espresso-or-ui-automator-tests-for-android-cordova-apps)
+- [Take screenshots of your Ionic app (iOS and Android) with Fastlane](fastlane/take-screenshots-of-your-cordova-app-with-fastlane)
+  - [iOS Screenshots with `snapshot`](fastlane/screenshots/cordova-ios-screenshots-with-snapshot)
+    - [UI Tests for your Cordova iOS app](fastlane/uitest-for-cordova-apps)
+  - [Android Screenshots with `screengrab`](fastlane/screenshots/cordova-android-screenshots-with-screengrab)
+    - [Instrumented (Espresso or UI Automator) tests for your Cordova Android app](fastlane/instrumented-espresso-or-ui-automator-tests-for-android-cordova-apps)
 
 <div id="future-content">
 
