@@ -2,7 +2,7 @@
 title: Should I build my project via Ionic, Cordova or native tooling (Android Studio,
   Xcode)?
 date: 2017-10-09 18:00:00 Z
-position: 7
+position: 8
 last_updated: ''
 ---
 
