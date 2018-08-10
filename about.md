@@ -1,5 +1,6 @@
 ---
 title: About ionic.zone
+position: 2
 layout: page
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Home
+position: 1
 layout: default
 ---
 
