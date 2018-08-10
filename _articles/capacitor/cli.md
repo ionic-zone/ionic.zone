@@ -15,8 +15,8 @@ This article describes how it works and lists all its commands and explains what
 
 - [npx?](#npx)
 - [1. Create a Capacitor project](#1-create-a-capacitor-project)
-  * [a) `npx cap init [appName] [appId]`](#a-npx-cap-init-appname-appid)
-  * [b) `npx @capacitor/cli create [appDir] [appName] [appId]`](#b-npx-capacitorcli-create-appdir-appname-appid)
+  * [a) `npx cap init` or `npx cap init [appName] [appId]`](#a-npy-cap-init-or-npx-cap-init-appname-appid)
+  * [b) `npx @capacitor/cli create` or `npx @capacitor/cli create [appDir] [appName] [appId]`](#b-npy-capacitorcli-create-or-npx-capacitorcli-create-appdir-appname-appid)
 - [2. Add native platforms](#2-add-native-platforms)
   * [`npx cap add [platform]`](#npx-cap-add-platform)
 - [3. Develop your app](#3-develop-your-app)
@@ -50,7 +50,7 @@ The first two Capacitor commands use these options:
 
 To [create your Capacitor project](https://capacitor.ionicframework.com/docs/getting-started/) you have two options:
 
-### a) `npx cap init [appName] [appId]`
+### a) `npx cap init` or `npx cap init [appName] [appId]`
 
 If you already have a web app with a `package.json` file, for example one built with Ionic, you start by installing the CLI and the Core library locally with `npm`:
 
@@ -58,7 +58,7 @@ If you already have a web app with a `package.json` file, for example one built 
 
 Then you can use the `init` command from above to initialize a Capacitor configuration file, `capacitor.config.json`, in your existing project.
 
-### b) `npx @capacitor/cli create [appDir] [appName] [appId]`
+### b) `npx @capacitor/cli create` or `npx @capacitor/cli create [appDir] [appName] [appId]`
 
 If you start without an existing web app project, you can use `npx` to temporarily download and install `@capacitor/cli` and use its `create` command to generate a whole Capacitor project with a rudimentary web app included (that has `@capacitor/core` installed).
 
