@@ -3,7 +3,7 @@ title: 'Cordova: Execution failed for task '':processDebugManifest''. Manifest m
   failed : Attribute X is also present at Y'
 date: 2017-06-17 16:13:38.402000000 Z
 published: false
-position: 2
+position: 3
 ---
 
 # Cordova: Execution failed for task ':processDebugManifest'. Manifest merger failed : Attribute X is also present at Y
