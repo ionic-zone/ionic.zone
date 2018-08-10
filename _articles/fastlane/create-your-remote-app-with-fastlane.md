@@ -1,10 +1,12 @@
 ---
 title: 'Ionic + Fastlane: Create your apps on the stores with `produce`'
-published: true
-date: 2017-08-30 18:00:00 +0000
+date: 2017-08-30 18:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Create your remote app
 
 Before you [installed `fastlane`](install-fastlane.md) and [created a local `Appfile` and `Fastfile`](initialize-fastlane-for-your-cordova-ios-and-android-apps.md). The next step is to create the remote apps that will be used to upload metadata and app binaries into later:

@@ -1,10 +1,12 @@
 ---
 title: IonicReleases
-date: 2017-09-21 14:00:00 +0000
-published: true
+date: 2017-09-21 14:00:00 Z
 last_updated: ''
-parent: ['Tools', '../tools']
+parent:
+- Tools
+- "../tools"
 ---
+
 # @IonicReleases - An Ionic Github Releases Twitter bot
 
 Ionic development is distributed to lots of [libraries](TODO) and [repositories](../understand/ionic-github-repositories.md). It also tends to move very fast at times, with simultaneous releases of different parts. This can make it quite challenging to know what is going on and to find about about new releases or bugfixes in a reasonable time.

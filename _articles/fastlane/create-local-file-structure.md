@@ -1,10 +1,12 @@
 ---
 title: 'Ionic + Fastlane: Create local metadata file structure'
-published: true
-date: 2017-08-29 16:00:00 +0000
+date: 2017-08-29 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Create local metadata file structure
 
 After you [installed](install-fastlane.md) and [initialized `fastlane`](initialize-fastlane-for-your-cordova-ios-and-android-apps.md) you [created your apps in the stores](create-your-remote-app-with-fastlane.md) which we can now use to create a local file structure representing the necessary metadata.

@@ -1,10 +1,12 @@
 ---
 title: 'Ionic + Fastlane: Add metadata and upload to stores'
-published: true
-date: 2017-08-29 16:00:00 +0000
+date: 2017-08-29 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Add metadata and upload to stores
 
 You currently have lots of empty files in your `fastlane/metadata` folder from when you [created the local metadata file structure](create-local-file-structure.md) (after you previously [installed](install-fastlane.md) and [initialized `fastlane`](initialize-fastlane-for-your-cordova-ios-and-android-apps.md) and [created your apps in the stores](create-your-remote-app-with-fastlane.md)).

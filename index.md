@@ -1,7 +1,6 @@
 ---
 title: Home
 layout: default
-published: true
 ---
 
 # Welcome to ionic.zone!

@@ -1,10 +1,12 @@
 ---
 title: Initialize Fastlane for your Cordova iOS and Android apps
-published: true
-date: 2017-08-15 21:00:00 +0000
+date: 2017-08-15 21:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Initialize Fastlane for your (Cordova) iOS and Android apps
 
 Now that [`fastlane` is installed](install-fastlane.md) you can initialize it into your Ionic project:

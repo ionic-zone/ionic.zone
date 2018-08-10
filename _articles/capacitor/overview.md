@@ -1,10 +1,13 @@
 ---
+title: What is Capacitor?
+date: 2018-03-09 00:00:00 Z
 layout: article
-title: 'What is Capacitor?'
-date: 2018-03-09 00:00:00 +0000
 last_updated: ''
-parent: ['Capacitor', '../capacitor']
+parent:
+- Capacitor
+- "../capacitor"
 ---
+
 # Introduction to Capacitor ⚡️
 
 Capacitor is a way to create cross-platform mobile and desktop applications.

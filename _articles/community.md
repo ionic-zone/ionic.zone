@@ -1,9 +1,9 @@
 ---
 title: Ionic Community
-date: 2017-08-15 16:00:00 +0000
-published: true
+date: 2017-08-15 16:00:00 Z
 last_updated: ''
 ---
+
 # Notable members of the Ionic Community
 
 There are many people in the Ionic community that share their experience and knowledge by creating blog posts, tutorials, articles, Youtube videos, or even books or courses that can help other Ionic users.

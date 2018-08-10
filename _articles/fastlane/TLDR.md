@@ -1,10 +1,12 @@
 ---
 title: TLDR, Fastlane + Ionic
-date: 2017-09-07 16:00:00 +0000
-published: true
+date: 2017-09-07 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # TLDR: Fastlane + Ionic
 {:.no_toc}
 

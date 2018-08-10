@@ -1,9 +1,9 @@
 ---
 title: Ionic and Fastlane
-date: 2017-08-15 16:00:00 +0000
-published: true
+date: 2017-08-15 16:00:00 Z
 last_updated: ''
 ---
+
 # Ionic and Fastlane
 
 ![Ionic + Fastlane](fastlane/images/ionic_fastlane.png)

@@ -1,10 +1,13 @@
 ---
+title: How to update Cordova CLI, Platforms and Plugins
+date: 2018-03-20 00:00:00 Z
 layout: article
-title: 'How to update Cordova CLI, Platforms and Plugins'
-date: 2018-03-20 00:00:00 +0000
 last_updated: ''
-parent: ['Cordova', '../cordova']
+parent:
+- Cordova
+- "../cordova"
 ---
+
 # How to update Cordova?
 
 This article explains how to update Cordova CLI, Cordova Platforms and Cordova Plugins in your project.

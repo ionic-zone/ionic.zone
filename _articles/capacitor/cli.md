@@ -1,10 +1,13 @@
 ---
-layout: article
 title: 'Capacitor CLI: @capacitor/cli'
-date: 2018-03-08 00:00:00 +0000
+date: 2018-03-08 00:00:00 Z
+layout: article
 last_updated: ''
-parent: ['Capacitor', '../capacitor']
+parent:
+- Capacitor
+- "../capacitor"
 ---
+
 # Overview of the Capacitor CLI, @capacitor/cli
 
 Most of the interactions you will have with [Capacitor](overview.md) will be through its Command Line Interface or CLI: `npx cap` (or `npx capacitor`).

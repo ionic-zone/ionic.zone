@@ -1,9 +1,10 @@
 ---
-title: 'Should I build my project via Ionic, Cordova or native tooling (Android Studio, Xcode)?'
-published: true
-date: 2017-10-09 18:00:00 +0000
+title: Should I build my project via Ionic, Cordova or native tooling (Android Studio,
+  Xcode)?
+date: 2017-10-09 18:00:00 Z
 last_updated: ''
 ---
+
 # Should I build my project via Ionic CLI, Cordova CLI or native tooling like Android Studio or Xcode?
 
 When you are done developing locally and testing and debugging your app via `ionic serve` it is time to build your app as a native app that can be deployed to simulators, emulators or devices.

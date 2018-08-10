@@ -1,9 +1,9 @@
 ---
 title: Tools
-date: 2017-09-21 14:00:00 +0000
-published: true
-last_updated: 2018-01-08 16:00:00 +0100
+date: 2017-09-21 14:00:00 Z
+last_updated: 2018-01-08 15:00:00 Z
 ---
+
 # Tools
 
 While working on Ionic.Zone [I](../about.md) created several tools related to Ionic.

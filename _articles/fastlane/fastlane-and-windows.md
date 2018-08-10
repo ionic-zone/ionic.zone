@@ -1,10 +1,12 @@
 ---
 title: Fastlane and Windows
-published: true
-date: 2017-08-29 16:00:00 +0000
+date: 2017-08-29 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Fastlane and Windows
 
 Unfortunately Fastlane doesn't work on Windows yet. 

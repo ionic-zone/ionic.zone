@@ -1,51 +1,43 @@
 ---
-
-# Setup
-title:               ionic.zone
-tagline:             'a site about all things Ionic'
-description:         ''
-url:                 https://ionic.zone
-baseurl:             ''
-paginate:            5
-timezone:            UTC
-permalink:           /:path
-highlighter:         rouge
-markdown:            kramdown
-kramdown:
-  parse_block_html: true
-
-
-# About/contact
-author:
-  name:              Jan Piotrowski
-  url:               https://janpiotrowski.de
-  email:             ionicdotzone@gmail.com
-github:
-  repo:              https://github.com/ionic-zone/ionic.zone
-
-# Collections
+title: ionic.zone
+timezone: UTC
 collections:
   articles:
     title: Articles
     output: true
-    permalink: /:path
-
-# Defaults
+    permalink: "/:path"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      path: ""
-      type: articles
-    values:
-      layout: article
-
-# Custom vars
-version:             0.0.1
-analytics_id:        UA-106337676-1
-
-# Gems configuration
+- scope:
+    path: ''
+    type: articles
+  values:
+    layout: article
+tagline: a site about all things Ionic
+description: ''
+url: https://ionic.zone
+baseurl: ''
+paginate: 5
+permalink: "/:path"
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+author:
+  name: Jan Piotrowski
+  url: https://janpiotrowski.de
+  email: ionicdotzone@gmail.com
+github:
+  repo: https://github.com/ionic-zone/ionic.zone
+version: 0.0.1
+analytics_id: UA-106337676-1
 relative_links:
   enabled: true
   collections: true
-
 plugins:
-  - jekyll-relative-links
+- jekyll-relative-links

@@ -1,10 +1,10 @@
 ---
-layout: article
 title: Cordova
-date: 2018-03-20 16:42:00 +0100
-last_updated: 2018-03-20 16:42:00 +0100
-published: true
+date: 2018-03-20 15:42:00 Z
+layout: article
+last_updated: 2018-03-20 15:42:00 Z
 ---
+
 # Apache Cordova
 
 ![Cordova Logo](cordova/images/cordova_logo.png)

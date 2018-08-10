@@ -1,10 +1,13 @@
 ---
+title: How is Capacitor different from Cordova?
+date: 2018-03-08 00:00:00 Z
 layout: article
-title: 'How is Capacitor different from Cordova?'
-date: 2018-03-08 00:00:00 +0000
 last_updated: ''
-parent: ['Capacitor', '../capacitor']
+parent:
+- Capacitor
+- "../capacitor"
 ---
+
 # How is Capacitor different from Cordova?
 
 Yep, got me again here - this article is still a draft on my hard drive and not published yet. See below to get an update when I am finished and publish it:

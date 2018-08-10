@@ -1,10 +1,12 @@
 ---
 title: 'Ionic + Fastlane: Build your Ionic app with Fastlane'
-published: true
-date: 2017-08-29 16:00:00 +0000
+date: 2017-08-29 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Build your Ionic or Cordova app with Fastlane
 
 Now that you have Fastlane [correctly configured for both iOS and Android](initialize-fastlane-for-your-cordova-ios-and-android-apps.md), [created remote apps](create-your-remote-app-with-fastlane.md) and [added some first metadata](add-metadata-and-upload.md) it is a good time to actually do something with your Ionic or Cordova project: build it. For this you will leverage and edit the `Fastfile` for the first time and create new lanes in it. Exciting!

@@ -1,10 +1,12 @@
 ---
 title: Possible problems using Fastlane for Ionic Cordova projects
-published: true
-date: 2017-08-29 16:00:00 +0000
+date: 2017-08-29 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Possible problems using Fastlane for Ionic Cordova projects
 
 You now know [what Fastlane offers](introduction-to-fastlane.md). So how about Ionic support with its hybrid apps based on Cordova? 

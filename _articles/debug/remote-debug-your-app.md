@@ -1,8 +1,8 @@
 ---
-date: '2017-12-13T19:22:38.402+00:00'
 title: Remote Debug your Ionic App
-published: true
+date: 2017-12-13 19:22:38.402000000 Z
 ---
+
 # Remote Debugging Ionic apps
 {:.no_toc}
 

@@ -1,10 +1,12 @@
 ---
 title: Put your Cordova /platforms directory under version control
-published: true
-date: 2017-08-29 16:00:00 +0000
+date: 2017-08-29 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Put your Cordova `/platforms` directory under version control
 
 {::comment}TODO Refactor to general article and not in fastlane context!{:/comment}

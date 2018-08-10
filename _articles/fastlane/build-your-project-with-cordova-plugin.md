@@ -1,10 +1,13 @@
 ---
-title: 'Ionic + Fastlane: Build your Ionic or Cordova app with the Fastlane Cordova plugin'
-published: true
-date: 2017-08-29 16:00:00 +0000
+title: 'Ionic + Fastlane: Build your Ionic or Cordova app with the Fastlane Cordova
+  plugin'
+date: 2017-08-29 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Build your Ionic or Cordova app with the `cordova` Fastlane plugin
 {:.no_toc}
 

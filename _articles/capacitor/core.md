@@ -1,10 +1,13 @@
 ---
+title: What does Capacitor´s Core JS library, `@capacitor/core` do?
+date: 2018-03-08 00:00:00 Z
 layout: article
-title: 'What does Capacitor´s Core JS library, `@capacitor/core` do?'
-date: 2018-03-08 00:00:00 +0000
 last_updated: ''
-parent: ['Capacitor', '../capacitor']
+parent:
+- Capacitor
+- "../capacitor"
 ---
+
 # How @capacitor/core works
 
 Yep, got me again here - this article is still a draft on my hard drive and not published yet. See below to get an update when I am finished and publish it:

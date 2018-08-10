@@ -1,10 +1,12 @@
 ---
 title: Introduction to Fastlane
-published: true
-date: 2017-08-29 16:00:00 +0000
+date: 2017-08-29 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Introduction to Fastlane
 
 [Fastlane](https://fastlane.tools/) describes itself as 

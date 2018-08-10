@@ -1,10 +1,10 @@
 ---
-layout: article
 title: Capacitor
-date: 2018-03-08 16:18:49 +0100
+date: 2018-03-08 15:18:49 Z
+layout: article
 last_updated: Invalid date
-published: true
 ---
+
 # Capacitor
 
 ![Capacitor Logo](capacitor/images/capacitor-logo.jpg)

@@ -1,10 +1,12 @@
 ---
 title: 'Fastlane: Setup iOS certificate handling for your Cordova app'
-date: 2017-09-27 16:00:00 +0000
-published: true
+date: 2017-09-27 16:00:00 Z
 last_updated: ''
-parent: ['Ionic + Fastlane', '../fastlane']
+parent:
+- Ionic + Fastlane
+- "../fastlane"
 ---
+
 # Setup iOS certificate handling for your Cordova app with Fastlane
 {:.no_toc}
 

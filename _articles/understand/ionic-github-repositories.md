@@ -1,9 +1,9 @@
 ---
 title: An Overview of Ionic's Github Repositories
-date: '2017-05-12T17:15:00.000+00:00'
+date: 2017-05-12 17:15:00 Z
 last_updated: '2017-06-17T17:24:41.317Z'
-published: true
 ---
+
 # An Overview of Ionic's Github Repositories
 {:.no_toc}
 

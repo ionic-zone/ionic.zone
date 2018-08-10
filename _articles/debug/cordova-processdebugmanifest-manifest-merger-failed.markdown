@@ -1,8 +1,7 @@
 ---
-date: '2017-06-17T16:13:38.402+00:00'
-title: >-
-  Cordova: Execution failed for task ':processDebugManifest'. Manifest merger
-  failed : Attribute X is also present at Y
+title: 'Cordova: Execution failed for task '':processDebugManifest''. Manifest merger
+  failed : Attribute X is also present at Y'
+date: 2017-06-17 16:13:38.402000000 Z
 published: false
 ---
 
