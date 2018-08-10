@@ -1,6 +1,7 @@
 ---
 title: Capacitor
 date: 2018-03-08 15:18:49 Z
+position: 9
 layout: article
 last_updated: Invalid date
 ---

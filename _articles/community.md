@@ -1,6 +1,7 @@
 ---
 title: Ionic Community
 date: 2017-08-15 16:00:00 Z
+position: 6
 last_updated: ''
 ---
 

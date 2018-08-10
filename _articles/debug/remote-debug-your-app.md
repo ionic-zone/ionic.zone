@@ -1,6 +1,7 @@
 ---
 title: Remote Debug your Ionic App
 date: 2017-12-13 19:22:38.402000000 Z
+position: 8
 ---
 
 # Remote Debugging Ionic apps
