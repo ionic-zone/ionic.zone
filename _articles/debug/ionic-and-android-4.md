@@ -5,7 +5,7 @@ published: true
 ---
 # Why current Ionic apps don't work with Android 4.x any more - and suggested solutions
 
-You are on this page because you have problems with your Ionic app on Android 4.x and are getting this error:
+You are on this page because you have problems with your Ionic app on Android 4.x (probably Android 4.4, KitKat) and are getting this error:
 
 ![Android 4.4, Application Error: Couldn’t connect to the server. (http://localhost:8080/)](images/android-4-application-error-localhost-8080.png){:style="float:right"}
 
@@ -37,13 +37,13 @@ And that is the problem: `cordova-plugin-ionic-webview`, which is part of any ne
 
 1. **Find out if you can avoid supporting Android 4.x devices**
 
-   Android 4.x was released in TODO and makes Android apps much harder to develop and support. Check the [general market numbers](http://mobiledraft.com/numbers/) or usage numbers of your own apps already in the Play Console if you might be able to drop support for Android 4.x. That would solve the problem.
+   Android 4.4 (KitKat) was released in October 31, 2013 and its continued use makes Android apps much harder to develop and support. Check the [general market numbers](http://mobiledraft.com/numbers/) and especially usage numbers of _your own apps_ already in the Play Console if you might be able to drop support for Android 4.x. That would solve the problem.
 
 1. **Downgrade the webview**
 
    `cordova-plugin-ionic-webview` used to work on Android 4.x just fine. So one option is to downgrade the plugin in your app to the last version that supported Android 4.x:
 
-   ```
+   ```shell
    npm install cordova-plugin-ionic-webview@1.2.1
    ```
 
