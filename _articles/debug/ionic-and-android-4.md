@@ -40,7 +40,7 @@ And that is the problem: `cordova-plugin-ionic-webview`, which is part of any ne
    Android 4.4 (KitKat) was released in October 31, 2013 and its continued use makes Android apps much harder to develop and support. Check the [general market numbers](http://mobiledraft.com/numbers/) and especially usage numbers of _your own apps_ already in the Play Console if you might be able to drop support for Android 4.x. That would solve the problem.
 
 1. **Downgrade the webview**
-{: #downgrade}
+   {: #downgrade}
 
    `cordova-plugin-ionic-webview` used to work on Android 4.x just fine. So one option is to downgrade the plugin in your app to the last version that supported Android 4.x:
 
