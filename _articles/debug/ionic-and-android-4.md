@@ -31,28 +31,28 @@ And that is the problem: `cordova-plugin-ionic-webview`, which is part of any ne
 
 ## Solutions
 
-### 1. Get the problem heard
+### 0. Get the problem heard
 
 Before you do anything else, check the open [Pull Requests of `cordova-plugin-ionic-webview`](https://github.com/ionic-team/cordova-plugin-ionic-webview/pulls) and thumbs-up any PR that adds support for older Android versions like [e.g. this one](https://github.com/ionic-team/cordova-plugin-ionic-webview/pull/144). You might also want to [create an issue](https://github.com/ionic-team/cordova-plugin-ionic-webview/issues) or vote and comment on existing issues about the problem.
 
-### 2. Find out if you can avoid supporting Android 4.x devices
+### 1. Find out if you can avoid supporting Android 4.x devices
 
 Android 4.4 (KitKat) was released in October 31, 2013 and its continued use makes Android apps much harder to develop and support. Check the [general market numbers](http://mobiledraft.com/numbers/) and especially usage numbers of _your own apps_ already in the Play Console if you might be able to drop support for Android 4.x. That would solve the problem.
 
-### 3. Downgrade the webview
+### 2. Downgrade the webview
 {: #downgrade}
 
-`cordova-plugin-ionic-webview` used to work on Android 4.x just fine. So one option is to downgrade the plugin in your app to the last version that supported Android 4.x:
+`cordova-plugin-ionic-webview` used to work on Android 4.x just fine before `2.x` was released. Naturally one option is to downgrade the plugin in your app to the last version that supported Android 4.x:
 
 ```shell
 npm install cordova-plugin-ionic-webview@1.2.1
 ```
 
-Please note that of course you are then not getting any of the new features of `cordova-plugin-ionic-webview@2.x`, which includes any bug fixes or performance improvements (see a [list of changes in 2.x](https://github.com/ionic-team/cordova-plugin-ionic-webview/blob/master/CHANGELOG.md))
+Please note that of course then you are not getting any of the new features of `cordova-plugin-ionic-webview@2.x`, which includes any bug fixes or performance improvements (see a [list of changes in 2.x](https://github.com/ionic-team/cordova-plugin-ionic-webview/blob/master/CHANGELOG.md))
 
 Be also away that if you are using [Ionic Native's Ionic Webview](https://beta.ionicframework.com/docs/native/ionic-webview) wrapper, you have to uninstall it as it only works with `cordova-plugin-ionic-webview` >= 2.x as well.
 
-### 4. Use a different webview altogether
+### 3. Use a different webview altogether
 
    If you are not comfortable with using `cordova-plugin-ionic-webview@1.2.1`, you might look into using another webview. Although I strongly do not recommend that, here are some options:
 
