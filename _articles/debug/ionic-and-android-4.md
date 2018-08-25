@@ -1,6 +1,6 @@
 ---
 date: '2018-08-25T12:00:00.000+00:00'
-title: "Application Error Couldn’t connect to the server. (http://localhost:8080/)" with Ionic and Android 4.x + solutions
+title: '"Application Error - Couldn’t connect to the server. (http://localhost:8080/)" with Ionic and Android 4.x + solutions'
 published: true
 ---
 # Why current Ionic apps don't work with Android 4.x any more - and suggested solutions
@@ -12,9 +12,9 @@ You are on this page because you have problems with your Ionic app on Android 4.
 > (http://localhost:8080/)  
 > [ OK ]
 
-![Android 4.4, Application Error: Couldn’t connect to the server. (http://localhost:8080/) ](images/android-4-application-error-localhost-8080.png)
+![Android 4.4, Application Error: Couldn’t connect to the server. (http://localhost:8080/) ](images/android-4-application-error-localhost-8080.png){:style="float:right"}
 
-## Problem
+## Problem{:style="clear:right"}
 
 Back in October 2017 [Ionic introduced `cordova-plugin-ionic-webview`](https://blog.ionicframework.com/wkwebview-for-all-a-new-webview-for-ionic/) to support WKWebView in iOS apps (instead of the traditional but deprecated UIWebView) and since then added it to new Ionic apps by default. Back then this only applied to iOS.
 
