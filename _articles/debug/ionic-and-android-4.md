@@ -36,6 +36,8 @@ Unfortunately this change also included this bit in the documentation:
 
 And that is the problem: `cordova-plugin-ionic-webview`, which is part of any newly created or updated Ionic app, just doesn't support Android earlier than 5.0 any more, which of course means your app will not work on Android 4.x.
 
+To confirm that you are running a 2.x version of the plugin, use the command `ionic cordova plugins`.
+
 ## Solutions
 
 ### 0. Get the problem heard
