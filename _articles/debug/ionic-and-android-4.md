@@ -24,7 +24,7 @@ But [on July 23rd 2018](https://github.com/ionic-team/cordova-plugin-ionic-webvi
 Unfortunately this change also included this bit in the documentation:
 
 > **Requirements**
-> ...
+> - [...]
 > - Android: Android 5.0+ and cordova-android 6.4+
 
 And that is the problem: `cordova-plugin-ionic-webview`, which is part of any newly created or updated Ionic app, just doesn't support Android earlier than 5.0 any more, which of course means your app will not work on Android 4.x.
