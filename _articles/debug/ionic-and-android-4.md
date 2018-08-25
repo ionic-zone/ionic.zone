@@ -14,6 +14,13 @@ You are on this page because you have problems with your Ionic app on Android 4.
 > (http://localhost:8080/)  
 > [ OK ]
 
+or 
+
+> **Application Error**  
+> net::ERR_CONNECTION_REFUSED  
+> (http://localhost:8080/)  
+> [ OK ]
+
 ## Problem
 {: style="clear:right"}
 
