@@ -1,9 +1,9 @@
 ---
-date: '2018-08-25T14:00:00.000+00:00'
-title: Why current Ionic apps don't work with Android 4.x any more
+date: '2018-08-25T12:00:00.000+00:00'
+title: "Application Error Couldn’t connect to the server. (http://localhost:8080/)" with Ionic and Android 4.x + solutions
 published: true
 ---
-# Why current Ionic apps don't work with Android 4.x any more
+# Why current Ionic apps don't work with Android 4.x any more - and suggested solutions
 
 You are on this page because you have problems with your Ionic app on Android 4.x and are getting this error:
 
