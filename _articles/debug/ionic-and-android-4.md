@@ -52,7 +52,17 @@ Android 4.4 (KitKat) was released in October 31, 2013 and its continued use make
 `cordova-plugin-ionic-webview` used to work on Android 4.x just fine before `2.x` was released. Naturally one option is to downgrade the plugin in your app to the last version that supported Android 4.x:
 
 ```shell
-npm install cordova-plugin-ionic-webview@1.2.1
+ionic cordova plugin add cordova-plugin-ionic-webview@1.2.1
+```
+
+Depending on how your app is built, you might have to execute this in the context of some other commands to make sure it is applied:
+
+```shell
+ionic cordova plugin rm cordova-plugin-ionic-webview
+ionic cordova plugin add cordova-plugin-ionic-webview@1.2.1
+ionic cordova platforms remove android
+rm -rf plugins
+ionic cordova build android
 ```
 
 Please note that of course then you are not getting any of the new features of `cordova-plugin-ionic-webview@2.x`, which includes any bug fixes or performance improvements (see a [list of changes in 2.x](https://github.com/ionic-team/cordova-plugin-ionic-webview/blob/master/CHANGELOG.md))
