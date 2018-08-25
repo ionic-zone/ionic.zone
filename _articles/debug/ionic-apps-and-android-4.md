@@ -1,5 +1,5 @@
 ---
-date: '2018-08-25 14:00:00'
+date: '2018-08-25T14:00:00.000+00:00'
 title: Why current Ionic apps don't work with Android 4.x any more
 published: true
 ---
