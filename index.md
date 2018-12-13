@@ -10,6 +10,7 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
 
 ## Topics
 
+{::nomarkdown}
 <style>
 .grid-container {
   display: grid;
@@ -36,13 +37,12 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
 }
 </style>
 
-{::nomarkdown}
 <div class="grid-container">
 
   <a href="content">
     <div>
       <h2>Ionic</h2>
-      <img src="assets/images/index/ionic_logo.png" alt="Ionic Logo" title="Ionic Framework">
+      <img src="assets/images/index/ionic_logo.png" alt="Ionic Logo" title="Ionic Framework"><br />
       Developing apps with Ionic Framework
     </div>
   </a>
@@ -50,7 +50,7 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
   <a href="fastlane">
     <div>
       <h2>Fastlane and Ionic</h2>
-      <img src="assets/images/index/ionic_fastlane.png" alt="Ionic + Fastlane Logos" title="Ionic + Fastlane">
+      <img src="assets/images/index/ionic_fastlane.png" alt="Ionic + Fastlane Logos" title="Ionic + Fastlane"><br />
       Automating Ionic with Fastlane
     </div>
   </a>
@@ -58,14 +58,14 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
   <a href="cordova">
     <div>
       <h2>Cordova</h2>
-      <img src="assets/images/index/cordova_logo.png" alt="Apache Cordova Logo" title="Cordova">
+      <img src="assets/images/index/cordova_logo.png" alt="Apache Cordova Logo" title="Cordova"><br />
       The native parts for Ionic apps
     </div>
 
   <a href="capacitor">
     <div>
       <h2>Capacitor</h2>
-      <img src="assets/images/index/capacitor_logo.png" alt="Capacitor Logo" title="Capacitor">
+      <img src="assets/images/index/capacitor_logo.png" alt="Capacitor Logo" title="Capacitor"><br />
       The new native engine for Ionic
     </div>
   </a>
