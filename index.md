@@ -6,17 +6,86 @@ published: true
 
 # Welcome to ionic.zone!
 
-Ionic Zone aims to be the #1 source for educational content about [Ionic Framework](http://ionicframework.com/) and related technologies. This means original content about every topic a new or experienced Ionic developer could need, but also curating what great content is out there by [other authors](_articles/community.md).
+Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [Ionic Framework](http://ionicframework.com/) and related technologies. This includes original content about any topic a new or experienced Ionic developer might be interested in, but also curation of great content that is already out there by [other authors](_articles/community.md). ([About Ionic Zone](about))
 
-Right now you can "only" find this here:
+## Topics
 
-* [Capacitor](_articles/capacitor.md)
-* [Fastlane and Ionic](_articles/fastlane.md)
-* [Cordova](_articles/cordova.md)
-* [A (slighty outdated) Overview of Ionic's Github Repositories](_articles/understand/ionic-github-repositories.md)
-* [Tools](_articles/tools.md)
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 2fr));
+  grid-gap: 10px;
+  margin-bottom:30px;
+}
+.grid-container div {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+.grid-container div h2 {
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  font-size:1rem;
+  display:none;
+}
+.grid-container div img {
+  margin:0;
+}
+</style>
 
-But this will grow over time. Check out our [planned or possible content](content.md).
+{::nomarkdown}
+<div class="grid-container">
+
+  <a href="content">
+    <div>
+      <h2>Ionic</h2>
+      <img src="assets/images/index/ionic_logo.png" alt="Ionic">
+      Developing apps with Ionic Framework
+    </div>
+  </a>
+
+  <a href="fastlane">
+    <div>
+      <h2>Fastlane and Ionic</h2>
+      <img src="assets/images/index/ionic_fastlane.png">
+      Automating Ionic with Fastlane
+    </div>
+  </a>
+
+  <a href="cordova">
+    <div>
+      <h2>Cordova</h2>
+      <img src="assets/images/index/cordova_logo.png">
+      The native parts for Ionic apps
+    </div>
+
+  <a href="capacitor">
+    <div>
+      <h2>Capacitor</h2>
+      <img src="assets/images/index/capacitor_logo.png">
+      The new native engine for Ionic
+    </div>
+  </a>
+
+  <a href="tools">
+    <div>
+      <h2>Tools</h2>
+      Little helpers for Ionic Developers
+    </div>
+  </a>
+
+  <a href="community">
+    <div>
+      <h2>[Ionic Community](_articles/community.md)</h2>
+      Who else is teaching about Ionic?
+    </div>
+  </a>
+
+</div>
+{:/nomarkdown}
+
+To get an idea about future content, check out the [planned or possible content](content.md).
 
 {::nomarkdown}
 <div id="update-box">
