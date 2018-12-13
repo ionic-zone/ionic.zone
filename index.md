@@ -6,7 +6,7 @@ published: true
 
 # Welcome to ionic.zone!
 
-Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [Ionic Framework](http://ionicframework.com/) and related technologies. This includes original content about any topic a new or experienced Ionic developer might be interested in, but also curation of great content that is already out there by [other authors](_articles/community.md). ([About Ionic Zone](about))
+Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [Ionic Framework](http://ionicframework.com/) and related technologies. ([About Ionic Zone](about)) This includes original content about any topic a new or experienced Ionic developer might be interested in, but also curation of great content that is already out there by [other authors](_articles/community.md).
 
 ## Topics
 
@@ -21,6 +21,7 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
+  text-align: center;
 }
 .grid-container div h2 {
   font-family: "Noto Sans", Helvetica, Arial, sans-serif;
@@ -31,6 +32,7 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
 }
 .grid-container div img {
   margin:0;
+  display:inline;
 }
 </style>
 
@@ -40,7 +42,7 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
   <a href="content">
     <div>
       <h2>Ionic</h2>
-      <img src="assets/images/index/ionic_logo.png" alt="Ionic">
+      <img src="assets/images/index/ionic_logo.png" alt="Ionic Logo" title="Ionic Framework">
       Developing apps with Ionic Framework
     </div>
   </a>
@@ -48,7 +50,7 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
   <a href="fastlane">
     <div>
       <h2>Fastlane and Ionic</h2>
-      <img src="assets/images/index/ionic_fastlane.png">
+      <img src="assets/images/index/ionic_fastlane.png" alt="Ionic + Fastlane Logos" title="Ionic + Fastlane">
       Automating Ionic with Fastlane
     </div>
   </a>
@@ -56,14 +58,14 @@ Ionic Zone is [my](https://janpiotrowski.de) collection of all articles about [I
   <a href="cordova">
     <div>
       <h2>Cordova</h2>
-      <img src="assets/images/index/cordova_logo.png">
+      <img src="assets/images/index/cordova_logo.png" alt="Apache Cordova Logo" title="Cordova">
       The native parts for Ionic apps
     </div>
 
   <a href="capacitor">
     <div>
       <h2>Capacitor</h2>
-      <img src="assets/images/index/capacitor_logo.png">
+      <img src="assets/images/index/capacitor_logo.png" alt="Capacitor Logo" title="Capacitor">
       The new native engine for Ionic
     </div>
   </a>

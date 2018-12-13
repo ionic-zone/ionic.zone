@@ -6,7 +6,7 @@ tagline:             'a site about all things Ionic'
 description:         ''
 url:                 https://ionic.zone
 baseurl:             ''
-paginate:            5
+#paginate:            5
 timezone:            UTC
 permalink:           /:path
 highlighter:         rouge
@@ -16,6 +16,7 @@ kramdown:
 
 
 # About/contact
+repository:          ionic-zone/ionic.zone
 author:
   name:              Jan Piotrowski
   url:               https://janpiotrowski.de
