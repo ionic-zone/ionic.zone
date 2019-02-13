@@ -75,6 +75,18 @@
   <!-- End Facebook Pixel Code -->
   {% endif %}
 
+  {% if site.google_ad_id %}
+  <!-- Global site tag (gtag.js) - Google Ads: {{ site.google_ad_id }} -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-{{ site.google_ad_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-{{ site.google_ad_id }}');
+  </script>
+  {% endif %}
+
+
   <!-- quicklink -->
   <script src="{{ site.baseurl }}/public/js/quicklink.umd.js"></script>
   <script>

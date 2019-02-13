@@ -43,6 +43,7 @@ defaults:
 version:             0.0.1
 google_analytics_id: UA-106337676-1
 facebook_pixel_id:   1983167655312308
+google_ad_id:        1013846055
 
 # Gems configuration
 relative_links:
