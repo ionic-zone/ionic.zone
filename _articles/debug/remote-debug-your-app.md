@@ -1,5 +1,6 @@
 ---
 date: '2017-12-13T19:22:38.402+00:00'
+last_updated: '2019-05-11T15:40.123+00:00'
 title: Remote Debug your Ionic App
 published: true
 ---
@@ -138,3 +139,26 @@ TODO
 
 VS Code has a dedicated plugin for debugging apps built with Cordova. The [plugin](https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools) creates bridge between the device and the debugger and allows you to set break points in your editor directly.
 {:/comment}
+
+## Windows
+
+### Windows WebView Debugging with Edge DevTools (Windows only)
+
+Microsoft Edge DevTools Preview
+https://www.microsoft.com/store/productId/9MZBFRMZ0MNJ
+https://blogs.windows.com/msedgedev/2018/04/25/introducing-the-microsoft-edge-devtools-preview-app/#VajuBU4DChALsiCf.97
+
+#### Preparation
+
+- OS Build 16299.579 of Windows 10 or later
+- Install Edge DevTools Preview
+- Enable development mode (source device? target device?)
+
+#### Debugging
+
+- Start Microsoft Edge DevTools Preview
+- Select Debug Target
+  [Screenshot]
+- DevTools open
+  [Screenshot]
+- Panels similar to what is included in Edge DevTools: https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide
